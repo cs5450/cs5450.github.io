@@ -6,7 +6,7 @@ nav: index
 
 ## USC CS Markdown Webpage Template
 
-Welcome! 
+Welcome! hi
 
 This is a website built with [Jekyll](http://jekyllrb.com/), which compiles Markdown-written documents into webpages, like what you're seeing right now. It's designed to be robus and flexible, allowing the teaching staff to easily create and maintain a website with minimal setup.
 

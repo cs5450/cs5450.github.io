@@ -15,7 +15,7 @@ For detailed information on late submission policies, grace periods, and similar
 
 Each student will receive a private code repository on the course's [GitHub Organization](https://github.com/usc-csci104-summer2015) to use it for the development and submission of all assignments. You will be using the [git](http://git-scm.com/) source code management tool to maintain your homework code. 
 
-###HW Schedule
+###HW Schedule 
 
 |                      HW                          |           Topic                             |                Due Date                 |
 | :----------------------------------------------: | :------------------------------------------ | :-------------------------------------: |

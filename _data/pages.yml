@@ -5,8 +5,10 @@ syllabus: 'Syllabus'
 assignments:
   label: 'Assignments'
   link: 'assignments'
+labs: 'Labs'
+grading: 'Grading'
 tools: 'Tools and Links'
 piazza:
   label: 'Piazza section'
-  link: '{{site.data.main.piazza}}'
+  link: 'https://piazza.com/class/i9urv4waghu59u'
   external: true

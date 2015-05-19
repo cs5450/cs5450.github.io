@@ -8,14 +8,16 @@ Additional information will be posted here throughout the course as needed.
 
 ###Installing the Course Virtual Machine
 
-	- [Click here for a separate page with instructions to install the course VM.]({{ site.url }}/installing-course-vm.html) Note that this includes downloading a 2.5 GB virtual image that may take several hours; try to download it overnight.
+ - [Click here for a separate page with instructions to install the course VM.]({{ site.url }}/installing-course-vm.html) Note that this includes downloading a 2.5 GB virtual image that may take several hours; try to download it overnight.
 
 ###Background Lectures
-	-Mark Redekopp put together [several lectures](http://ee.usc.edu/~redekopp/csmodules.html) recapping material that you should have learned in CSCI 103. These may be particularly helpful if you are a transfer student and your intro class was not as comprehensive as CSCI 103.
+
+ - Mark Redekopp put together [several lectures](http://ee.usc.edu/~redekopp/csmodules.html) recapping material that you should have learned in CSCI 103. These may be particularly helpful if you are a transfer student and your intro class was not as comprehensive as CSCI 103.
 
 ###Sample Exams
-	- [Sample Midterm](http://bits.usc.edu/files/cs104/midterm.pdf) (no solutions)
-	- [Sample Final](http://bits.usc.edu/files/cs104/final.pdf) (no solutions)
+
+ - [Sample Midterm](http://bits.usc.edu/files/cs104/midterm.pdf) (no solutions)
+ - [Sample Final](http://bits.usc.edu/files/cs104/final.pdf) (no solutions)
 
 <h3 id="toc_4">Linux/Unix Reference</h3>
 <ul>
@@ -58,7 +60,8 @@ We strongly advise you against using gedit, notepad, or other primitive editors
 </ul>
 
 ### Git
-	- [Git Resources]({{ site.url }}/git-resources.html)
+
+ - [Git Resources]({{ site.url }}/git-resources.html)
 
 <h3 id="toc_12">Tutoring</h3>
 <ul>

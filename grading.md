@@ -46,11 +46,7 @@ To use a late day you <strong>MUST follow</strong> the submission policy outline
 
 We will grade your assignments using gcc/g++ at the command line in the virtual machine we provide for the course. You are free to use other compilers or IDEs to develop your code, but in the end, it has to work with g++ in the virtual machine. You probably want to test that it does before submitting.
 
-[comment]
 
-The programming portion of each homework needs to be approved by a TA or sherpa in lab, either in its final or a near-final form. Typically, you will do this by explaining your solution for a few minutes in lab the week following the due date. However, if you had a close-to-finished version during the previous week (and it is clear from the code that it hasn't changed much), then discussing your code in the previous lab's week satisfies this requirement, and you can also explain it the second week after the due date. You have 14 days from the homework due date to obtain the lab check. If you do not obtain the lab check from a TA or sherpa, then your homework will be graded as 0, even if you solved all questions. If the TA and sherpa were busy during your lab, you can get your homework checked off during an office hour. Please note that during office hours, the priority is with students who need help with their assignments.
-
-[/comment]
 <h3 id="toc_4">Grading Disputes</h3>
 We will work hard to post HW scores and feedback within 2 weeks of the homework's due date. Exams will typically be graded within at most a few days of the exam date.
 

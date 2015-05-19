@@ -27,6 +27,7 @@ You are <strong>required</strong> to attend the lecture section that you are off
 </table>
 <h3>Exams</h3>
 <strong>Midterm</strong>: TBA (Quiz Section)
+<p>
 <strong>Final Exam</strong>: TBA
 <h3>Labs</h3>
 <table>

@@ -1,10 +1,11 @@
 index: 'Home'
-install: 'Installation'
+people: 'People/Office Hours'
+syllabus: 'Syllabus'
 assignments:
   label: 'Assignments'
   link: 'assignments'
-people: 'People/Office Hours'
-ptz:
-  label: 'Some Really Cool External Website'
-  link: 'http://peetahzee.com'
+tools: 'Tools and Links'
+piazza:
+  label: 'Piazza section'
+  link: 'https://piazza.com/class/i9urv4waghu59u'
   external: true

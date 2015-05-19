@@ -55,7 +55,7 @@ See [Sections page]({{site.url}}/sections.html)
 
  - [All content & info]( {{ site.url }} )
  - [Blackboard](https://blackboard.usc.edu/) - For posting grades
- - [CSCI 104 GitHub Organization]( {{ site.data.main.github }}
+ - [CSCI 104 GitHub Organization]( {{ site.data.main.github }})
  - [Piazza]( {{ site.data.main.piazza }} )
 
 ###Grading

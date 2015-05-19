@@ -7,5 +7,5 @@ assignments:
 tools: 'Tools and Links'
 piazza:
   label: 'Piazza section'
-  link: {{site.data.main.piazza}}
+  link: site.data.main.piazza
   external: true

@@ -1,5 +1,6 @@
 index: 'Home'
 people: 'People/Office Hours'
+sections: 'Sections'
 syllabus: 'Syllabus'
 assignments:
   label: 'Assignments'

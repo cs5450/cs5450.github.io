@@ -3,6 +3,7 @@ install: 'Installation'
 assignments:
   label: 'Assignments'
   link: 'assignments'
+people: 'People/Office Hours'
 ptz:
   label: 'Some Really Cool External Website'
   link: 'http://peetahzee.com'

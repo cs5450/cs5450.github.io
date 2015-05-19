@@ -47,21 +47,21 @@ nav: syllabus
 <li>CSCI 170 &ndash; Discrete Methods in Computer Science</li>
 </ul>
 
-<h3 id="toc_5">Lecture / Labs</h3>
+###Lecture / Labs
 
-<p>See <a href="http://bits.usc.edu/cs104/sections/" title="Sections">Sections</a></p>
+See [Sections page]({{site.url}}/sections.html)
 
-<h3 id="toc_6">Course Websites</h3>
+###Course Websites
 
-<ul>
-<li><a href="http://bits.usc.edu/cs104"><strong>bits.usc.edu/cs104</strong></a> - All content and information</li>
-<li><a href="https://blackboard.usc.edu/"><strong>Blackboard</strong></a> - For posting grades</li>
-<li>CSCI 104 <a href="https://github.com/usc-csci104-spring2015"><strong>GitHub Organization</strong></a></li>
-<li><a href="https://piazza.com/usc/spring2015/csci104/"><strong>Piazza</strong></a></li>
-</ul>
+ - [All content & info]( {{ site.url }} )
+ - [Blackboard](https://blackboard.usc.edu/) - For posting grades
+ - [CSCI 104 GitHub Organization]( {{ site.data.main.github }}
+ - [Piazza]( {{ site.data.main.piazza }} )
 
-<h3 id="toc_7">Grading</h3>
-For grading policies see our <a href="http://bits.usc.edu/cs104/grading/" title="Grading">Grading Page</a>.
+###Grading
+
+For grading policies see our [grading page]( {{site.url}}/grading.html )
+
 <h3 id="toc_8">Textbook</h3>
 
 <p>Data Abstraction &amp; Problem Solving with C++, 6th Ed. Carrano &amp; Henry, Pearson, 2013 (ISBN 978-0132923729)</p>

@@ -203,8 +203,8 @@ An English-language sentence contains a subject and a verb. The subject may be p
 All sentences start with `The` and the adjective and adverb are optional.  Subject and verb are required.  If the following options were provided for each part of the sentence...
 
 ```
-big  _(adjective)_
-boy girl  *(subject)*
+big  __ (adjective) __
+boy girl  _ (subject) _
 ran swam *(verb)*
 quickly  *(adverb)*
 ```

@@ -17,7 +17,7 @@ nav: assignments
 
 ###Skeleton Code
 
-On many occasions we will want to distribute skeleton code, tests, and other pertinent files. To do this we have made a separate repository, [`homework-resources`]({site.data.main.github} ), under our class GitHub site.  You should clone this repository to your laptop and do a `git pull` regularly to check for updates.  
+On many occasions we will want to distribute skeleton code, tests, and other pertinent files. To do this we have made a separate repository, [`homework-resources`]({{site.data.main.github}} ), under our class GitHub site.  You should clone this repository to your laptop and do a `git pull` regularly to check for updates.  
 
 ```
 $ git clone git@github.com:usc-csci104-spring2015/homework-resources

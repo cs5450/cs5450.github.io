@@ -8,7 +8,3 @@ assignments:
 labs: 'Labs'
 grading: 'Grading'
 tools: 'Tools and Links'
-piazza:
-  label: 'Piazza section'
-  link: 'https://piazza.com/class/i9urv4waghu59u'
-  external: true

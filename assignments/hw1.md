@@ -3,6 +3,8 @@ layout: default
 title: Homework 1
 nav: assignments
 ---
+## HW1
+
 + Due: Fri. May 29, 2015, 11:59pm (PST)
 + Directory name in your github repository for this homework (case sensitive): `hw1`
    - Once you have cloned your `hw_usc-username` repo, create this `hw1` folder underneath it (i.e. `hw_usc-username/hw1`)

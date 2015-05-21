@@ -2,6 +2,7 @@ index: 'Home'
 people: 'People/Office Hours'
 sections: 'Sections'
 syllabus: 'Syllabus'
+schedule: 'Lecture Schedule'
 assignments:
   label: 'Assignments'
   link: 'assignments'

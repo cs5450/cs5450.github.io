@@ -10,7 +10,7 @@ nav: labs
 <h3 id="toc_1">Disclaimer</h3>
 The instructions and discussion in this lab are for the git <strong>command line</strong> interface. GitHub and other software vendors have GUI-based applications to interact with repository. These tools are not will not be supported in this class.
 <h3 id="toc_2">1. Install Course VM</h3>
-Download and Install the Course Virtual Machine. <a title="Installing The Course VM" href="http://bits.usc.edu/cs104_su15/tools-and-links/installing-course-vm/">Instructions are available on this page</a>.
+Download and Install the Course Virtual Machine. <a title="Installing The Course VM" href="http://bits.usc.edu/cs104_su15/installing-course-vm.html">Instructions are available on this page</a>.
 <h3>2. Create a Github account</h3>
 We will be using git extensively this semester in labs and in programming assignments. Github is a development ecosystem based around git. In CS 104, we will be using Github to host our git repositories and we will take advantage of other GitHub features such as the <a href="https://github.com/features/projects/issues">issue tracker</a> and <a href="https://github.com/features/projects/wikis">wiki</a>.
 
@@ -133,11 +133,11 @@ Use the following options:
 	<li><strong>[x]</strong> Initialize this repository with a README</li>
 	<li>Add a <code>.gitignore</code> file for <strong>C++</strong>.</li>
 </ul>
-<img src="http://www-scf.usc.edu/~csci104/labs/img/github_create-repo.png" alt="Create a New Repository in GitHub" />
+<img src="http://bits.usc.edu/cs104_su15/labs/img/github_create-repo.png" alt="Create a New Repository in GitHub" />
 <h4 id="toc_18">Clone Your Repository</h4>
 At this stage, we created a place to host our code called a code <em>repository</em>. We now need to make a local version of the repository to work with it. The is called <em>cloning</em> the repository. To do that, you need to get the cloning URL by visiting the page of the repository you just created in GitHub and look for the <strong>SSH clone URL</strong>.
 
-<img src="http://www-scf.usc.edu/~csci104/labs/img/github_clone-ssh.png" alt="Clone SSH" />
+<img src="http://bits.usc.edu/cs104_su15/labs/img/github_clone-ssh.png" alt="Clone SSH" />
 
 Using that URL, you can clone the repo using the following commands in the Terminal or GitBash if you were on Windows.
 <div class="highlight">
@@ -265,7 +265,7 @@ git push
 </div>
 Now, check the commits section of your code repository by clicking on the <em>commits</em> links in your repository's page
 
-<img src="http://www-scf.usc.edu/~csci104/labs/img/github_link-commits.png" alt="GitHub Commits Page link" />
+<img src="http://bits.usc.edu/cs104_su15/labs/img/github_link-commits.png" alt="GitHub Commits Page link" />
 <h4 id="toc_22">Keeping Your Repo Up to Date</h4>
 Since git uses the distributed model, you can have multiple copies of the repository on multiple machines. This makes it important to make sure your local version is up to date. Here is a practical example of what could happen.
 <ol>

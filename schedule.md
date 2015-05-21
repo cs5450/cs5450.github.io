@@ -8,9 +8,6 @@ nav: lectures
 
 It is recommended that students take careful notes in class, which might be based on the <a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">course notes</a>. 
 
-###Lecture Schedule
-
-
 <h3 id="toc_2">Lecture Schedule (may be updated as needed)</h3>
 Chapter numbers under "Topic" refer to the textbook, while the chapter numbers under "Notes" refer to the posted lecture notes.
 <table>

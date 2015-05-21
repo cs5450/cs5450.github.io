@@ -422,7 +422,7 @@ git log -p -1
 <h3 id="toc_25">6. Give Us Your GitHub Account</h3>
 In this course, we will give your own private repository for your homework and projects. To do that, we need to know your GitHub Account.
 
-Please fill the <a href="https://docs.google.com/forms/d/11JHO7PIBuddJZ6Gm_NVvf7U13-p4mtLwT0uBw7A2Dew/viewform">CSCI 104 – GitHub Account Registration</a>.
+Please fill the <a href="https://docs.google.com/a/usc.edu/forms/d/1Ah_fcENw-zFJhBWwx_a3eL4FfgkXmvFIH1NLBXrXykY/viewform">CSCI 104 – GitHub Account Registration</a>.
 
 Note: You need your <a href="http://google.usc.edu/">Google Apps</a> for USC account enabled to use the survey.
 <h3 id="toc_26">Git Resources</h3>

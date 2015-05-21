@@ -1,4 +1,17 @@
 <div id="sidebar">
+	{% if site.data.main.github or site.data.main.piazza %}	
+	<div id="quicklinks">
+			<ul>
+				{% if site.data.main.github %}
+					<li><a href="{{site.data.main.github}}"><img src="{{site.url}}/style/github.png" /></a></li>
+				{% endif %}
+				{% if site.data.main.piazza %}
+					<li><a href="{{site.data.main.piazza}}"><img src="{{site.url}}/style/piazza.png" /></a></li>
+				{% endif %}
+			</ul>
+			<div class="clear"></div>
+	</div>
+	{% endif %}
 	<nav><ul>
 		{% for p in site.data.pages %}
 			{% if p[1].external %}
@@ -14,9 +27,7 @@
 					<li>{{p[1]}}</li>
 				</a>
 			{% endif %}
-			
 		{% endfor %}
-		
 	</ul></nav>
 </div>
 
@@ -25,8 +36,6 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-43261206-2', 'usc.edu');
   ga('send', 'pageview');
-
 </script>

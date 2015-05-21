@@ -73,7 +73,7 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 <td align="left">Sorting Algorithms (Chapter 19) and Searching (Chapters 17)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 17, 19</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L12_Sorting.pdf">Sorting PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L13_Search.pdf">PDF</a></td>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L13_Search.pdf">Search PDF</a></td>
 </tr>
 <tr>
 <td align="center"><strong>9</strong></td>

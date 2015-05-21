@@ -203,7 +203,7 @@ An English-language sentence contains a subject and a verb. The subject may be p
 All sentences start with `The` and the adjective and adverb are optional.  Subject and verb are required.  If the following options were provided for each part of the sentence...
 
 ```
-big  *(adjective)*
+big  _(adjective)_
 boy girl  *(subject)*
 ran swam *(verb)*
 quickly  *(adverb)*
@@ -248,7 +248,7 @@ Once you have read in the words, write a recursive function to generate all the 
 void generateSentences(vector<vector<string> >& words, 
                        ofstream& ofile);
 
-                       // recursive helper function
+// recursive helper function
 void genHelper(vector<vector<string> >& words,
 	       ofstream& ofile,
 	       int currentOption,
@@ -301,6 +301,6 @@ Be sure to add, commit, and push your code in your `hw1` directory to your `hw_u
 1. Go to your home directory: `$ cd ~`
 1. Create a `verify` directory: `$ mkdir verify`
 1. Go into that directory: `$ cd verify`
-1. Clone your hw_username repo: `$ git clone git@github.com:usc-csci104-spring2015/hw_username.git`
+1. Clone your hw_username repo: `$ git clone git@github.com:usc-csci104-summer2015/hw_usc-username.git`
 1. Go into your hw4 folder `$ cd hw_username/hw1`
 1. Recompile and rerun your programs and tests to ensure that what you submitted works.

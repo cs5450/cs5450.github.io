@@ -41,8 +41,8 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Nisar Ahmed<!--quarter--></td>
 <td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/nisar.jpg" alt="" width="90" height="81" /></td>
 <td><a href="mailto:nisarahm@usc.edu">nisarahm@</a></td>
-<td> Th: 3 - 5 pm(only for Grading issues)</td>
-<td>EEB 524</td>
+<td> Th: 9 - 11 am </td>
+<td>SAL 125</td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +60,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Conor Gorman</td>
 <td><img class="alignnone wp-image-1701" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/cgorman.jpg" alt="" width="85" height="106" /></td>
 <td><a href="mailto:cgorman@usc.edu">cgorman@</a></td>
-<td>TBA</td>
+<td>Mon: 12 - 2 pm, Wed: 12 - 3pm</td>
 <td>SAL 125</td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Merrick Bautista</td>
 <td><img class="alignnone wp-image-1720 size-full" src="" alt="" width="85" height="85" /></td>
 <td><a href="mailto:mlbautis@usc.edu">mlbautis@</a></td>
-<td>TBA</td>
+<td>Mon: 5 - 7 pm</td>
 <td>SAL 125</td>
 </tr>
 </tbody>

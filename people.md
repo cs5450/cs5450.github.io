@@ -22,8 +22,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Mark Redekopp</td>
 <td><img class=" size-full wp-image-279 alignnone" src="http://cs103.usc.edu/wordpress/wp-content/uploads/sites/12/2014/08/ark.jpg" alt=",ark" width="85" height="90" /></td>
 <td>redekopp@usc.edu</td>
-<td>T/Th: 10-12
-Fri: 1:30-3:00</td>
+<td>T/Th: 10:39-12:30</td>
 <td>EEB 222</td>
 </tr>
 </tbody>

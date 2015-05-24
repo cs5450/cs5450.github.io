@@ -41,7 +41,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Nisar Ahmed<!--quarter--></td>
 <td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/nisar.jpg" alt="" width="90" height="81" /></td>
 <td><a href="mailto:nisarahm@usc.edu">nisarahm@</a></td>
-<td> Th: 9 - 11 am </td>
+<td> Th: 9 - 11 am </td>
 <td>SAL 125</td>
 </tr>
 </tbody>

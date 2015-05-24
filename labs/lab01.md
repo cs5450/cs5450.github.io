@@ -11,14 +11,16 @@ nav: labs
 The instructions and discussion in this lab are for the git <strong>command line</strong> interface. GitHub and other software vendors have GUI-based applications to interact with repository. These tools are not will not be supported in this class.
 <h3 id="toc_2">1. Install Course VM</h3>
 Download and Install the Course Virtual Machine. <a title="Installing The Course VM" href="http://bits.usc.edu/cs104_su15/installing-course-vm.html">Instructions are available on this page</a>.
-<h3>2. Create a Github account</h3>
-We will be using git extensively this semester in labs and in programming assignments. Github is a development ecosystem based around git. In CS 104, we will be using Github to host our git repositories and we will take advantage of other GitHub features such as the <a href="https://github.com/features/projects/issues">issue tracker</a> and <a href="https://github.com/features/projects/wikis">wiki</a>.
 
-If you already have a Github account and you wish to use it for this course, you can skip to next section.
+<h3>2. Create a Github account</h3>
+If you have not created a Github account yet, follow the instructions given in this section. If you already have a Github account and you wish to use it for this course, you can skip to next section.
+
+We will be using git extensively this semester in labs and in programming assignments. Github is a development ecosystem based around git. In CS 104, we will be using Github to host our git repositories and we will take advantage of other GitHub features such as the <a href="https://github.com/features/projects/issues">issue tracker</a> and <a href="https://github.com/features/projects/wikis">wiki</a>.
 
 We start by visiting Github's sign-up page. You are free to choose your username and email. It does not necessarily need to match your USCNet account. Your email, however, needs the email you used in your git configuration.
 <blockquote><a href="https://github.com/signup/free">https://github.com/signup/free</a></blockquote>
 You will be sent an email to verify your email address. Do that before proceeding.
+
 <h3 id="toc_7">2. Git Configuration – SSH Keys</h3>
 One of the main features of using a distributed version control system such as git, is having a complete backup of your code and its history. Git uses the <a href="http://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a> protocol (SSH) when contacting remote servers. To facilitate this communication, you need to generate a pair of encryption keys: one public and the other private.
 
@@ -54,9 +56,9 @@ You only need to do this configuration once and we will be setting-up the follow
 	<li>Git message colors (make it pretty-er)</li>
 	<li>Properly handle <a href="http://en.wikipedia.org/wiki/Newline#Common_problems">new lines</a></li>
 </ul>
-Configuration is performed manually through the command line. To start the configuration you would need to launch Terminal
+Configuration is performed manually through the command line. To start the configuration you would need to launch Terminal.
 <h5 id="toc_9">Your Personal Information</h5>
-Please use your actual first and last name when configuring your git <code>user.name</code>. For your email, you should use the email address you want to appear in the <a href="https://github.com/jquery/jquery/commits">git commit log</a>. You should not feel obligated to use your <code>usc.edu</code> account here unless you want to. Configure your information as follows:
+Please use your actual first and last name when configuring your git <code>user.name</code>. For your email, you should use the email address you want to appear in the <a href="https://github.com/jquery/jquery/commits">git commit log</a>. You should not feel obligated to use your <code>usc.edu</code> account here unless you want to. Configure your information as follows (replacing "Tommy Trojan" with your full name and "ttrojan" with your email id):
 <div class="highlight">
 <pre><span class="c"># Set your name and email</span>
 git config --global user.name <span class="s2">"Tommy Trojan"</span>
@@ -65,7 +67,7 @@ git config --global user.email <span class="s2">"ttrojan@usc.edu"</span>
 </div>
 <strong>Note:</strong> One of the cool features of the GitHub UI is linking your contributions to your <a href="https://github.com/blog/1360-introducing-contributions">GitHub profile</a>. For that to work, you <em><strong>MUST</strong></em> register and verify your git <code>user.email</code> in the <a href="https://github.com/settings/emails">GitHub Email Settings</a>. (Hint: you can have multiple emails registered with GitHub and you could control which ones are public and/or private).
 <h5 id="toc_10">Git CLI Interface</h5>
-By default, git does not color its output. Pretty printing git messages makes it easy read the output and take proper actions. You can enable colors for interactive use of git by:
+By default, git does not color its output. Pretty printing git messages makes it easy to read the output and take proper actions. You can enable colors for interactive use of git by:
 <div class="highlight">
 <pre><span class="c"># Let's get pretty colored output!</span>
 git config --global color.ui auto
@@ -95,6 +97,7 @@ Operating Systems implement <a href="http://en.wikipedia.org/wiki/Newline#Common
 git config --global core.autocrlf input</pre>
 </div>
 <h5 id="toc_13">Check Your Work</h5>
+Verify your settings by using following command:
 <div class="highlight">
 <pre><span class="c"># List local git configuration options</span>
 git config --list
@@ -122,20 +125,13 @@ In your <a href="https://github.com/settings/ssh">SSH Key Settings</a>:
 <strong>[Optional]</strong> You can add more emails to your GitHub account using the <a href="https://github.com/settings/emails">Email Settings</a> page.
 
 <strong>[Optional]</strong> Set your notification preferences on the <a href="https://github.com/settings/notifications">Notification Settings</a> page.
-<h3 id="toc_17">5. The Hello World Repository</h3>
-Now, let's create our own repositry and using git to keep track of our code. Start by creating a public repository called HelloWorld using GitHub:
-<blockquote><a href="https://github.com/new">https://github.com/new</a></blockquote>
-Use the following options:
-<ul>
-	<li>Repositroy Name: <strong>HelloWorld</strong></li>
-	<li>Description: <strong>CSCI 104 - Lab01 Sample Repository</strong></li>
-	<li>This should be a <strong>public</strong> repository</li>
-	<li><strong>[x]</strong> Initialize this repository with a README</li>
-	<li>Add a <code>.gitignore</code> file for <strong>C++</strong>.</li>
-</ul>
-<img src="http://bits.usc.edu/cs104_su15/labs/img/github_create-repo.png" alt="Create a New Repository in GitHub" />
+<h3 id="toc_17">5. Creating Sample Directory</h3>
+We have created a private repository named "hw_ttrojan" for you (you'll see your USC ID instead of ttrojan). Using GitHub, create a folder named "Sample" inside this repository. First, go to the your hw_ttrojan repository and click the "+" (plus) sign and type "Sample/README.md" in the text field that appears. This will create a "README" file inside the "Sample" directory. Readme files are important as these give description of what is containted in the directory. Type a simple description of the sample directory under the "< > Edit new file" tab. 
+
+<img src="http://bits.usc.edu/cs104_su15/labs/img/github_create-sample.png" alt="Create a Directory in GitHub Repository" />
+
 <h4 id="toc_18">Clone Your Repository</h4>
-At this stage, we created a place to host our code called a code <em>repository</em>. We now need to make a local version of the repository to work with it. The is called <em>cloning</em> the repository. To do that, you need to get the cloning URL by visiting the page of the repository you just created in GitHub and look for the <strong>SSH clone URL</strong>.
+At this stage, we have created a place to host our code. We now need to make a local version of the repository to work with it. The is called <em>cloning</em> the repository. To do that, you need to get the cloning URL by visiting the page of the repository you just created in GitHub and look for the <strong>SSH clone URL</strong>.
 
 <img src="http://bits.usc.edu/cs104_su15/labs/img/github_clone-ssh.png" alt="Clone SSH" />
 
@@ -144,9 +140,9 @@ Using that URL, you can clone the repo using the following commands in the Termi
 <pre><span class="c"># Change directory to your home directory</span>
 <span class="nb">cd</span>
 <span class="c"># Clone the repository</span>
-git clone git@github.com:ttrojan/HelloWorld.git
+git clone git@github.com:usc-csci104-summer2015/hw_ttrojan.git
 <span class="c"># Start working on the repository</span>
-<span class="nb">cd </span>HelloWorld
+<span class="nb">cd </span>hw_ttrojan/Sample
 </pre>
 </div>
 <h4 id="toc_19">HelloWorld.cpp</h4>
@@ -207,7 +203,7 @@ Changes to be committed:
         new file:   HelloWorld.cpp
 </pre>
 </div>
-This tells us that we just added a new file called <code>HelloWorld.cpp</code> and we are ready to commit. Technically, we moved this new file from being<em>untracked</em> to be <em>staged</em> for commit. You can continue working on other files and you can <em>stage</em> them too. Once you feel that you are ready to committed, i.e. be part of the repository history, you use the following command:
+This tells us that we just added a new file called <code>HelloWorld.cpp</code> and we are ready to commit. Technically, we moved this new file from being <em>untracked</em> to be <em>staged</em> for commit. You can continue working on other files and you can <em>stage</em> them too. Once you feel that you are ready to commit, i.e. be part of the repository history, you use the following command:
 <div class="highlight">
 <pre><span class="c"># Commit with a message</span>
 git commit -m <span class="s2">"My first HelloWorld using git"</span>
@@ -265,7 +261,6 @@ git push
 </div>
 Now, check the commits section of your code repository by clicking on the <em>commits</em> links in your repository's page
 
-<img src="http://bits.usc.edu/cs104_su15/labs/img/github_link-commits.png" alt="GitHub Commits Page link" />
 <h4 id="toc_22">Keeping Your Repo Up to Date</h4>
 Since git uses the distributed model, you can have multiple copies of the repository on multiple machines. This makes it important to make sure your local version is up to date. Here is a practical example of what could happen.
 <ol>
@@ -313,7 +308,7 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-)
 </pre>
 </div>
-Here, git is telling you: + It is updating from <a href="mailto:git@github.com">git@github.com</a>:ttrojan/HelloWorld.git + It updated <em>master</em> + The update was from commit <code>df7cd3f</code> to commit <code>1ffe7e8</code> + Only one file was updated: - File name is: <code>HelloWorld.cpp</code> - There was one line <em>inserted</em> - There was one line <em>deleted</em>
+Here, git is telling you: + It is updating from <code>git@github.com:usc-csci104-summer2015/hw_ttrojan.git</code> + It updated <em>master</em> + The update was from commit <code>df7cd3f</code> to commit <code>1ffe7e8</code> + Only one file was updated: - File name is: <code>HelloWorld.cpp</code> - There was one line <em>inserted</em> - There was one line <em>deleted</em>
 
 If you want to see in detail what the changes in the <em>last</em> commit were, you issue this command:
 <div class="highlight">
@@ -344,12 +339,7 @@ Date:   Tue Jan 14 18:53:08 2014 -0800
 <h4 id="toc_23">Ignoring Files</h4>
 Code repositories are intended for just that, code. When working on a programming project, you may get a number of different files such as: object files, executables, log files and sometimes compiled header or library files. It is <strong>important</strong> to keep your repository clean of such unecessery files.
 
-git uses a file named <code>.gitignore</code> to list all files or file extensions that git should not track or report when you do a <code>git status</code>. Your repository now has a list that was auto generated by GitHub. You can see that list by typing the following command from within your repository:
-<div class="highlight">
-<pre><span class="c"># List the contents of .gitignore</span>
-cat .gitignore
-</pre>
-</div>
+git uses a file named <code>.gitignore</code> to list all files or file extensions that git should not track or report when you do a <code>git status</code>. 
 Let's compile our <code>HelloWorld.cpp</code> to get the executable <code>helloworld</code>:
 <div class="highlight">
 <pre><span class="c"># Compile HelloWorld.cpp</span>
@@ -369,30 +359,9 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 </pre>
 </div>
-Since <code>helloworld</code> is an executable, we don't want to add it to the repository and we definitly don't want <code>git status</code> to keep bugging us about it. So, append <code>.gitignore</code> to have <code>helloworld</code>.
+Since <code>helloworld</code> is an executable, we don't want to add it to the repository and we definitly don't want <code>git status</code> to keep bugging us about it. So, create a new file by clicking + symbol in the <code>hw_ttrojan</code> repository. As soon as you type the file name <code>.gitignore</code>, GitHub will prompt you with the message <code>Want to use a .gitignore template ?</code>. At this point, click the button <code>Choose .gitignore</code> next to this message and select <code>C++</code> from the drop down menu.	GitHub will automatically populate many different file extensions which will be ignored by git. Now edit this file by adding <code>helloworld</code> at the end of it. In the terminal, do a <code>git pull</code> so that your local repository is updated with <code>.gitignore</code>. Issue a <code>git status</code> and you will notice that git no longer prompts for the <code>helloworld</code>.
 
-Now, do a <code>git status</code> and examine the output:
-<div class="highlight">
-<pre>On branch master
-Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
 
-        modified:   .gitignore
-
-no changes added to commit (use "git add" and/or "git commit -a")
-</pre>
-</div>
-As you can see, we are no longer prompted for <code>helloworld</code>, however, we now need to commit our changes to .gitignore.
-<div class="highlight">
-<pre><span class="c"># Add .gitignore after modifying it</span>
-git add .gitignore
-<span class="c"># Commit the changes</span>
-git commit -m <span class="s2">"added helloworld to the list of ignored files"</span>
-<span class="c"># Pushing the changes to the server</span>
-git push
-</pre>
-</div>
 <h4 id="toc_24">Let's Git Going</h4>
 To summarize, we learned the following git commands:
 <div class="highlight">
@@ -419,10 +388,6 @@ git log --pretty<span class="o">=</span>oneline
 git log -p -1
 </pre>
 </div>
-<h3 id="toc_25">6. Give Us Your GitHub Account</h3>
-In this course, we will give your own private repository for your homework and projects. To do that, we need to know your GitHub Account.
-
-Please fill the <a href="https://docs.google.com/a/usc.edu/forms/d/1Ah_fcENw-zFJhBWwx_a3eL4FfgkXmvFIH1NLBXrXykY/viewform">CSCI 104 – GitHub Account Registration</a>.
 
 Note: You need your <a href="http://google.usc.edu/">Google Apps</a> for USC account enabled to use the survey.
 <h3 id="toc_26">Git Resources</h3>

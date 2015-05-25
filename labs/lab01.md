@@ -167,9 +167,9 @@ Your branch is up-to-date with 'origin/master'.
 
 Untracked files:
   (use "git add &lt;file&gt;..." to include in what will be committed)
-
-        HelloWorld.cpp
-
+  
+  HelloWorld.cpp
+  
 nothing added to commit but untracked files present (use "git add" to track)
 </pre>
 </div>
@@ -200,7 +200,8 @@ Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD &lt;file&gt;..." to unstage)
 
-        new file:   HelloWorld.cpp
+	new file:   HelloWorld.cpp
+	
 </pre>
 </div>
 This tells us that we just added a new file called <code>HelloWorld.cpp</code> and we are ready to commit. Technically, we moved this new file from being <em>untracked</em> to be <em>staged</em> for commit. You can continue working on other files and you can <em>stage</em> them too. Once you feel that you are ready to commit, i.e. be part of the repository history, you use the following command:
@@ -223,13 +224,13 @@ Which will give us the following message
 Author: Tommy Trojan &lt;ttrojan@usc.edu&gt;
 Date:   Tue Jan 14 17:42:52 2014 -0800
 
-    My first HelloWorld using git
+	My first HelloWorld using git
 
 commit 6d9fe80012ff9bf5b43120a87dc61bf196fec313
 Author: Tommy Trojan &lt;ttrojan@usc.edu&gt;
 Date:   Tue Jan 14 15:57:08 2014 -0800
 
-    Initial commit
+	Initial commit
 </pre>
 </div>
 The commit history of this repository shows that we have two commits in reverse chronological order. For each commit, you see the commit id (which is a SHA1 checksum), the author, the time the commit was made and the commit message.
@@ -321,7 +322,7 @@ To see
 Author: Tommy Trojan &lt;ttrojan@usc.edu&gt;
 Date:   Tue Jan 14 18:53:08 2014 -0800
 
-    School pride
+	School pride
 
 <span class="gh">diff --git a/HelloWorld.cpp b/HelloWorld.cpp</span>
 <span class="gh">index 55818b8..b9a284d 100644</span>
@@ -354,8 +355,8 @@ Now, if we do a <code>git status</code>, we will get the following output:
 Untracked files:
   (use "git add &lt;file&gt;..." to include in what will be committed)
 
-        helloworld
-
+	helloworld
+	
 nothing added to commit but untracked files present (use "git add" to track)
 </pre>
 </div>
@@ -389,6 +390,5 @@ git log -p -1
 </pre>
 </div>
 
-Note: You need your <a href="http://google.usc.edu/">Google Apps</a> for USC account enabled to use the survey.
 <h3 id="toc_26">Git Resources</h3>
 For more on git and how to use it, see the <a href="http://bits.usc.edu/cs104_su15/git-resources.html">Git Resources</a> page.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Labs
+nav: labs
+---
+
 <h2> Debugging </h2>
 What is Debugging? Debugging is the process by which programmers attempt to find and remove bugs and errors.  Anytime the code does something you don't want and you attempt to fix it, you are debugging.
 

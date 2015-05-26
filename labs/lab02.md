@@ -10,9 +10,9 @@ What is Debugging? Debugging is the process by which programmers attempt to find
 What is GDB? GDB stands for <em>GNU Debugger. </em>This is a tool to help you <em>find your issues. </em>GDB won't solve them for you, but it does a good job in helping you find issues in your code by letting you trace and retrace.
 <h3 id="toc_2">1. Clone the Labs Repository</h3>
 Remember how in the last lab we cloned a repository to bring it down to our local machines? We'll do the same here so that you can get Lab 2 on your computer. Open the terminal, find a location you want to place this course's 'Labs/' folder, and run the following commands:
-<pre>git clone git@github.com:usc-csci104-spring2015/labs.git
+<pre>git clone git@github.com:usc-csci104-summer2015/labs.git 
 cd labs/lab2/</pre>
-You should have three files, sample.cpp, lab02.cpp, and Readme.md.
+In the lab2 directory, you should have three files, sample.cpp, lab02.cpp, and Readme.md.
 <h3></h3>
 <h3>2. Compile and Run</h3>
 GDB should already be installed on the Course Virtual Machine (VM). To use GDB, we must have an executable with it.  We'll be using sample.cpp. First compile and run:
@@ -60,7 +60,7 @@ If we were tracing our steps through a large program, we may need GDB to help us
 This should have returned:
 <pre>#0 TheTruth () at sample.cpp:11
 #1 0x000000000040094b in main () at sample.cpp:24</pre>
-#0 tells us which function we are currently in.  We reached #0 from #1 (and if there was a larger backtrace, #1 would have been reached from #2, #2 from #3, and so on).
+`#0` tells us which function we are currently in.  We reached `#0` from `#1` (and if there was a larger backtrace, `#1` would have been reached from `#2`, `#2` from `#3`, and so on).
 
 We can also view the current state of our variables by using the <em><strong>print </strong></em>command.  Let's try printing the new variable located in 'TheTruth()'.
 <pre>print buffer</pre>

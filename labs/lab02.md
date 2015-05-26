@@ -59,7 +59,8 @@ If we were tracing our steps through a large program, we may need GDB to help us
 <pre>bt</pre>
 This should have returned:
 <pre>#0 TheTruth () at sample.cpp:11
-#1 0x000000000040094b in main () at sample.cpp:24</pre>
+	 #1 0x000000000040094b in main () at sample.cpp:24 </pre>
+
 `#0` tells us which function we are currently in.  We reached `#0` from `#1` (and if there was a larger backtrace, `#1` would have been reached from `#2`, `#2` from `#3`, and so on).
 
 We can also view the current state of our variables by using the <em><strong>print </strong></em>command.  Let's try printing the new variable located in 'TheTruth()'.

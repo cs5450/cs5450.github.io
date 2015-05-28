@@ -279,18 +279,17 @@ Use your linked list implementation from Problem 3 to create a Stack data struct
 You should think **carefully** about efficiency.  **All operations (other than possibly the destructor) should run in (amortized) O(1).**  Failure to meet this requirement may result in the loss of half of the available points on this problem.
 
 ###Problem 6 (Dirty Laundry, 15%)
-
-Consider a gym with white and black towels which patrons discard into a can and employees come and collect some number of towels to wash from the top of the pile.  Given a file whose contents record the sequence in which towels are discarded along with when and how many towels the employee picks up to wash, please output the sequence of towels the employee picks up to wash each time he visits the can [Note: discards and employee pick ups can come in any order and/or sequence].
+Consider a gym with white and black towels which patrons discard into a can and employees come and collect some number of towels to wash from the top of the pile.  Given a file whose contents record the sequence in which towels are discarded along with when and how many towels the employee picks up to wash, please output the sequence of towels the employee picks up to wash each time he visits the can (Note: discards and employee pick ups can come in any order and/or sequence).
 
 The file consists of integers separated by spaces.  0 = Black towel, -1 = white towel, and any positive number bigger than 0 represents the employee collecting that many towels from the top of the pile.  If there are less towels than the employee tries to pick up, he will just get those towels that are present.
 
-Sample file contents (e.g. `laundry.in`) [there will be no format errors in this file so don’t worry about that]:
+Sample file contents (e.g. `laundry.in`). There will be no format errors in this file so don’t worry about that.
 
 ```
 0  0  0  -1  2  -1  2
 ```
 
-Output file contents (e.g. `laundry.out`): (one line per employee pick of towels)
+Output file contents (e.g. `laundry.out`).  One line per employee pick of towels.
 
 ```
 white black

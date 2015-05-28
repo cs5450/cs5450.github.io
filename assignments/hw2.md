@@ -299,7 +299,7 @@ white black
 
 We will run your program as:
 
-`./laundry laundry.in laundry.out`
+`./laundry laundry.in laundry.out` 
 
 and examine the contents of `laundry.out` to check your work.
 

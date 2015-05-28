@@ -56,7 +56,7 @@ What is the late submission policy?
 
 1. One hour late submission is acceptable for each assignment.
 1. Each assignment can be submitted up to three days late for 50% credit.
-1. Each student has 4 grace days of which only 2 can be used per HW
+1. Each student has 4 late days of which only 2 can be used per HW
 1. Students need to get an approval before submitting an assignment late.
 
 ####Part(d): 

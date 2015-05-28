@@ -61,21 +61,28 @@ For special questions, you can contact your instructor. However, we encourage y
 <td><img class="alignnone wp-image-1701" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/cgorman.jpg" alt="" width="85" height="106" /></td>
 <td><a href="mailto:cgorman@usc.edu">cgorman@</a></td>
 <td>Mon: 12 - 2 pm, Wed: 12 - 3pm</td>
-<td>SAL 125</td>
-</tr>
-<tr>
-<td>Rebecca Hao</td>
-<td><img class="alignnone wp-image-1694" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/rebecca.jpg" alt="" width="85" height="90" /></td>
-<td><a href="mailto:rhao@usc.edu">rhao@</a></td>
-<td>TBA</td>
-<td>SAL 125</td>
+<td>WPH Basement</td>
 </tr>
 <tr>
 <td>Merrick Bautista</td>
 <td><img class="alignnone wp-image-1720 size-full" src="" alt="" width="85" height="85" /></td>
 <td><a href="mailto:mlbautis@usc.edu">mlbautis@</a></td>
 <td>Mon: 5 - 7 pm</td>
-<td>SAL 125</td>
+<td>WPH Basement</td>
+</tr>
+<tr>
+<td>Amy DiGiovanni</td>
+<td><img class="alignnone wp-image-1694" src="http://bits.usc.edu/cs104_su15/img/digiov.jpg" alt="" width="85" height="90" /></td>
+<td><a href="mailto:jmdigiov@usc.edu">jmdigiov@</a></td>
+<td>W: 3-5</td>
+<td>WPH Basement</td>
+</tr>
+<tr>
+<td>Aaron Cheney</td>
+<td><img class="alignnone wp-image-1694" src="" alt="" width="85" height="90" /></td>
+<td><a href="mailto:acheney@usc.edu">acheney@</a></td>
+<td>TBA</td>
+<td>WPH Basement</td>
 </tr>
 </tbody>
 </table>

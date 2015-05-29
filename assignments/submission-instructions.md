@@ -63,7 +63,7 @@ Our reference grading environment is the Virtual Machine we provided for the cou
 **After completing** your [late] assignment, the following steps _must_ be followed to signal your intention of making a late submission. Emails to Professors, TAs or CPs are not considered as a notice for late submissions. Failure to follow these instructions will result in grading your repository as it was by the official deadline:
 
   1. Push your code to your GitHub repository
-  1. Submit a [Late Submission Request Form](http://bit.ly/cs104late)
+  1. Submit a [Late Submission Request Form](http://bit.ly/cs104_summer15Late)
     - Include the [SHA Hash](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html#_integrity) of the commit to be graded. You can get the SHA from your repository's commit page as shown in the following screenshot:
 
 ![SHA of latest commit]({{ site.url }}/git/img/github_commit-sha.png)

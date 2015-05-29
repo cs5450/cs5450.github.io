@@ -32,7 +32,7 @@ Each student will receive a private code repository on the course's [GitHub Orga
 In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/assignments/submission-instructions.html)
 
 ### Homework Policies
-For each assignment, a precise time will be specified (usually at 11:59.59pm) on the due date. Submission must be made correctly via your githum account. Each student has 4 grace days they can use over the course of the semester. **A maximum of 2 grace days can be used on a single assignment.** Once you have used your grace days, any late submission will not be accepted and graded as a 0.
+For each assignment, a precise time will be specified (usually at 11:59.59pm) on the due date. Submission must be made correctly via your github account. Each student has 4 grace days they can use over the course of the semester. **A maximum of 2 grace days can be used on a single assignment.** Once you have used your grace days, any late submission will not be accepted and graded as a 0.
 
 To use a late day you **MUST follow** the submission policy outlined in our late submission instructions to alert the course staff to fetch your late submission.
 

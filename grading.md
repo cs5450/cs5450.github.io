@@ -42,7 +42,7 @@ The final grading scale will be based on class performance and we will <strong>N
 <h3 id="toc_3">Homework Grade Policies</h3>
 For each assignment, a precise time will be specified (usually at 11:59.59pm) on the due date. Submission must be made correctly via your githum account. Each student has 4 grace days they can use over the course of the semester. <strong>A maximum of 2 grace days can be used on a single assignment</strong>. Once you have used your grace days, any late submission will not be accepted and graded as a 0.
 
-To use a late day you <strong>MUST follow</strong> the submission policy outlined in our <a title="Submission Instructions" href="http://bits.usc.edu/cs104/assignments/submission-instructions/">late submission instructions</a> to alert the course staff to fetch your late submission.
+To use a late day you <strong>MUST follow</strong> the submission policy outlined in our <a title="Submission Instructions" href="http://bits.usc.edu/cs104_su15/assignments/submission-instructions.html/">late submission instructions</a> to alert the course staff to fetch your late submission.
 
 We will grade your assignments using gcc/g++ at the command line in the virtual machine we provide for the course. You are free to use other compilers or IDEs to develop your code, but in the end, it has to work with g++ in the virtual machine. You probably want to test that it does before submitting.
 

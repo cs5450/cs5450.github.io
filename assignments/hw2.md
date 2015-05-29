@@ -273,12 +273,12 @@ class AListInt
 
 When you have completed `alistint.h` and `alistint.cpp`, write a test program similar to what you did for the previous problem.  Be sure you test the case where the list is resized. 
 
-###Problem 5 (Stacks, 10%)
-Use your linked list implementation from Problem 3 to create a Stack data structure for variables of type int.  Download and use the provided [stackint.h](https://github.com/usc-csci104-summer2015/homework-resources/blob/master/hw2/stackint.h) as is (do NOT change it).  Notice the stack has a linked-list as a data member.  This is called **composition**, where we compose/build one class from another, already available class.  Essentially the member functions of the `StackInt` class that you write should really just be wrappers around calls to the underlying linked list.
+###Problem 7 (Stacks, 10%)
+Use your linked list implementation from Problem 5 to create a Stack data structure for variables of type int.  Download and use the provided [stackint.h](https://github.com/usc-csci104-summer2015/homework-resources/blob/master/hw2/stackint.h) as is (do NOT change it).  Notice the stack has a linked-list as a data member.  This is called **composition**, where we compose/build one class from another, already available class.  Essentially the member functions of the `StackInt` class that you write should really just be wrappers around calls to the underlying linked list.
 
 You should think **carefully** about efficiency.  **All operations (other than possibly the destructor) should run in (amortized) O(1)**  Failure to meet this requirement may result in the loss of half of the available points on this problem.
 
-###Problem 6 (Dirty Laundry, 15%)
+###Problem 8 (Dirty Laundry, 15%)
 Consider a gym with white and black towels which patrons discard into a can and employees come and collect some number of towels to wash from the top of the pile. Given a file whose contents record the sequence in which towels are discarded along with when and how many towels the employee picks up to wash, please output the sequence of towels the employee picks up to wash each time he visits the can (Note: towel discards and employee pick ups can come in any order).
 
 The input file consists of integers separated by spaces.  `0` = black towel, `-1` = white towel, and any positive number bigger than 0 represents the employee collecting that many towels from the top of the pile.  If there are less towels than the employee tries to pick up, he will just get the available towels.
@@ -289,7 +289,7 @@ Sample file contents (e.g. `laundry.in`). There will be no format errors in this
 0  0  0  -1  2  -1  2
 ```
 
-Output file contents (e.g. `laundry.out`).  One line per employee pick of towels.
+Output file contents (e.g. `laundry.out`).  There should be one line per employee pickup of towels.
 
 ```
 white black 

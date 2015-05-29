@@ -6,7 +6,7 @@ nav: people
 
 ## People and Office Hours
 
-For special questions, you can contact your instructor. However, we encourage you to use <a href="https://piazza.com/class/i45v51lhnxr2k9">the course Piazza page</a> so that other students can also benefit from these questions or answer them.
+For special questions, you can contact your instructor. However, we encourage you to use <a href="https://piazza.com/class/i9urv4waghu59u">the course Piazza page</a> so that other students can also benefit from these questions or answer them.
 
 <h3>Instructors</h3>
 <table>
@@ -42,7 +42,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/nisar.jpg" alt="" width="90" height="81" /></td>
 <td><a href="mailto:nisarahm@usc.edu">nisarahm@</a></td>
 <td> Th: 9 - 11 am </td>
-<td>SAL 125</td>
+<td>WPH Basement</td>
 </tr>
 </tbody>
 </table>

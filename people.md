@@ -60,7 +60,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Conor Gorman</td>
 <td><img class="alignnone wp-image-1701" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/cgorman.jpg" alt="" width="85" height="106" /></td>
 <td><a href="mailto:cgorman@usc.edu">cgorman@</a></td>
-<td>Mon: 12 - 2 pm, Wed: 12 - 3pm</td>
+<td>Mon: 2 - 5 pm, Th: 2 - 4 pm</td>
 <td>WPH Basement</td>
 </tr>
 <tr>

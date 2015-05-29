@@ -292,7 +292,7 @@ Sample file contents (e.g. `laundry.in`). There will be no format errors in this
 Output file contents (e.g. `laundry.out`).  One line per employee pick of towels.
 
 ```
-white black
+white black 
 white black
 ```
 

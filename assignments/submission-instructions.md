@@ -66,7 +66,7 @@ Our reference grading environment is the Virtual Machine we provided for the cou
   1. Submit a [Late Submission Request Form](http://bit.ly/cs104_summer15Late)
     - Include the [SHA Hash](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html#_integrity) of the commit to be graded. You can get the SHA from your repository's commit page as shown in the following screenshot:
 
-![SHA of latest commit]({{site.url}}/git/img/github_commit-sha.png)
+![SHA of latest commit](http://bits.usc.edu/cs104_su15/assignments/img/github_commit-sha.png)
 
 
 

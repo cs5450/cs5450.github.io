@@ -65,7 +65,7 @@ For special questions, you can contact your instructor. However, we encourage y
 </tr>
 <tr>
 <td>Merrick Bautista</td>
-<td><img class="alignnone wp-image-1720 size-full" src="" alt="" width="85" height="85" /></td>
+<td><img class="alignnone wp-image-1720 size-full" src="http://bits.usc.edu/cs104_su15/img/bautista.png" alt="" width="85" height="85" /></td>
 <td><a href="mailto:mlbautis@usc.edu">mlbautis@</a></td>
 <td>Mon: 5 - 7 pm</td>
 <td>WPH Basement</td>

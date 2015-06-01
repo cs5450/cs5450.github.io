@@ -79,7 +79,7 @@ For special questions, you can contact your instructor. However, we encourage y
 </tr>
 <tr>
 <td>Aaron Cheney</td>
-<td><img class="alignnone wp-image-1694" src="" alt="" width="85" height="90" /></td>
+<td><img class="alignnone wp-image-1694" src="http://bits.usc.edu/cs104_su15/img/acheney.jpg" alt="" width="85" height="90" /></td>
 <td><a href="mailto:acheney@usc.edu">acheney@</a></td>
 <td>TBA</td>
 <td>WPH Basement</td>

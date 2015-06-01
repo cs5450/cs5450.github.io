@@ -15,8 +15,7 @@ This schedule may be changed somewhat over the course of the semester. The lab n
 | **Week #**                                | **Topic**                               |
 | :---------------------------------------: | :-----------------------------------:   |
 | **[Lab 01]({{site.url}}/labs/lab01.html)/[Lab 02]({{site.url}}/labs/lab02.html)** | Git Tutorial; Course VM / GDB Debugging |
-| **[Lab 03]({{site.url}}/labs/lab03.html)** | Makefiles / Unit Testing & Google Test  |
-| **[Lab 04]({{site.url}}/labs/lab04.html)** | Copy Constructors and Operator Overloading / Inheritance & Polymorphism |
+| **[Lab 03]({{site.url}}/labs/lab03.html)/[Lab 04]({{site.url}}/labs/lab04.html)** | Makefiles, Unit Testing & Google Test / Copy Constructors and Operator Overloading / Inheritance & Polymorphism |
 | **[Lab 05]({{site.url}}/labs/lab05.html)** | Qt Basics                             |
 | **[Lab 06]({{site.url}}/labs/lab06.html)** | Templates and Exceptions              |
 | **[Lab 07]({{site.url}}/labs/lab07.html)** | Backtracking Search                   |

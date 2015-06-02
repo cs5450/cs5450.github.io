@@ -14,7 +14,7 @@ steps. Using a `makefile`, we can configure a program to compile simply by
 typing the `make` command into terminal. This lab will teach you how to write a 
 basic makefile to be used in assignments from here on out. 
 
-## 1 - Using `make`
+## 1 - Using make
 
 When you type `make` into terminal, it will automatically look for a file named 
 `makefile` for instructions. Let's start with a makefile for a single cpp file.

@@ -4,7 +4,7 @@ title: Labs
 nav: labs
 ---
 
-# Lab 3 - Makefiles
+### Lab 3 - Makefiles
 
 [Intro Music](https://www.youtube.com/watch?v=JuYeHPFR3f0)
 

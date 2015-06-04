@@ -23,7 +23,7 @@ Carefully review Operator Overloading, Copy Constructors, and C++ STL (Interlude
 ###Problem 2 (Copy Constructors and Assignment Operators, 20%)
 Modify your `LListInt` class from HW2 to a `LListStr` class that stores strings rather than integers.  Copy your `LListInt` class (.h and .cpp files) from your `hw2` folder to your `hw3` folder and rename the files to indicate you are storing strings.  In addition, add the following `public` member functions:
 
-```
+``` c++
   /**
    * Adds an item to the back of the list in O(1) time
    */
@@ -60,7 +60,7 @@ Think carefully if you need to add a copy constructor and assignment operator.  
 #### Iteration Ability Implementation (10%)
 Add a simple iteration capability to your set class to iterate over the internally stored data.  You should do this by implementing two functions:  `first` and `next`.  `first` should return a pointer to the 1st data item in the set (the pointer should be constant since you shouldn't be able to change the data with that pointer) and do any setup to allow future calls to `next` to return pointers to each subsequent data item in the set.  If the set is empty, `first` should return NULL.  As `next` is called it should return pointers to the 2nd, 3rd, etc. items in the set in sequence.  When `next` is called and no more items are left to iterate over, return NULL.
 
-```
+``` c++
   /**
    * Return a pointer to the first item
    *  and support future calls to next()
@@ -82,7 +82,7 @@ Hint:  Use the functionality of the list and some private data member in your se
 #### Union, Intersection, and Operator Overloading (15%)
 Now add member functions to compute the set union and intersection along with appropriate operator overloads ( `|` = union and `&` = intersection ).  These operations should result in a new (though not dynamically allocated) set being returned.  You should be able to invoke these operations either with their function call or the operators as shown below:
 
-```
+``` c++
 SetInt s1, s2, s3;
 // operations to insert values to s1 and s2
 
@@ -142,6 +142,7 @@ We will run your program as:
 `./majors majors1.in majors1.cmd majors1.out`
 
 Sample output file produced by your program (majors1.out)
+
 ```
 CECS
 Mark W. Redekopp

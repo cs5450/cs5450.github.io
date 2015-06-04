@@ -1,9 +1,14 @@
+---
+layout: default
+title: HW3
+nav: assignments
+---
 
-  + Due: Feb. 13, 2015, 11:59pm (PST)  
+  + Due: See Assignments page  
   + Directory name for this homework (case sensitive): `hw3`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
-    - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, and 4.  See instructions in each problem for specific rules.
+    - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, 4, and 5.  See instructions in each problem for specific rules.
 	
 ###Skeleton Code
 Some skeleton code has been provided for you in the `hw3` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.

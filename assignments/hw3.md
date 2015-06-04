@@ -163,7 +163,7 @@ Steven B. Sample
 EE BUAD
 Max Nikias
 Steven B. Sample
-
+<p>
 ```
 
 ####Additional Notes and Requirements

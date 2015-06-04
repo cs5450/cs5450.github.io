@@ -111,6 +111,7 @@ Thus your program should read in the data from the input file and store it in a 
 Below is an example of the input files and output file produced by your program.  **We have added the sample input file and command file to the `homework-resources/hw3` repository.**
 
 Sample input file (majors1.in)
+
 ```
 Mark W. Redekopp , CECS
 Mark W. Redekopp , EE
@@ -129,6 +130,7 @@ David Pritchard, CANST CSci
 ```
 
 Sample command file (majors1.cmd)
+
 ```
 CECS 
 EE

@@ -6,7 +6,7 @@
     - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, and 4.  See instructions in each problem for specific rules.
 	
 ###Skeleton Code
-Some skeleton code has been provided for you for problem 3 and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-spring2015/homework-resources ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.
+Some skeleton code has been provided for you in the `hw3` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.
 
 ```
 $ git clone git@github.com:usc-csci104-spring2015/homework-resources
@@ -101,7 +101,7 @@ We will provide you an input file with a student's name followed by a comma (tho
 
 We will then provide a command file where each line contains 1 or more majors and we want to know what students have declared that major, double major, triple major, etc.  
 
-Thus your program should read in the data from the input file and store it in a **map** (you should use the C++ STL map class) to allow for efficient computation of what students have declared a given major to produce the answer to the queries from the command file.  Consider what you would use as the key and what you should use as the value in your map.  Recall, the key represents the information you have and the value represents the information you want.  For double or triple majors consider how your set operations (intersection or union) might be useful to you (thus, you should use your `SetStr` class in this problem). 
+Thus your program should read in the data from the input file and store it in a **map** (you should use the C++ STL map class) to allow for efficient computation of what students have declared a given major to produce the answer to the queries from the command file.  Consider what you would use as the key and what you should use as the value in your map.  Recall, the key represents the information you have and the value represents the information you want to access.  For double or triple majors consider how your set operations (intersection or union) might be useful to you (thus, you should use your `SetStr` class in this problem). 
 
 Below is an example of the input files and output file produced by your program.  **We have added the sample input file and command file to the `homework-resources/hw3` repository.**
 
@@ -167,6 +167,7 @@ Steven B. Sample
  - The majors should be treated as case-insensitive.  Thus, `Buad` represents the same major `BUAD` or `buad`.  
  - The output file should reprint the majors being queried on one line followed by the students who match the query on the subsequent lines (one per line).  Leave a blank line after the last student's name.
  - The filenames should be taken from the command line in the order shown above (input file, command file, output file).
+ - You must use a **map** to store your information and use your `SetStr` class where appropriate
  - **Hint:** To help with the above requirements, the `cctype` library has functions such as `ispunct()`, `isspace()`, `tolower()`, `toupper()`, etc.
  
 Add a rule `majors` to your `Makefile` to compile all the needed code.  We should be able to compile your program by simply typing `make majors`.  We will then run your program at the command line.

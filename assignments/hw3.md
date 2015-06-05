@@ -1,12 +1,17 @@
+---
+layout: default
+title: HW3
+nav: assignments
+---
 
-  + Due: Feb. 13, 2015, 11:59pm (PST)  
+  + Due: See Assignments page  
   + Directory name for this homework (case sensitive): `hw3`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
-    - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, and 4.  See instructions in each problem for specific rules.
+    - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, 4, and 5.  See instructions in each problem for specific rules.
 	
 ###Skeleton Code
-Some skeleton code has been provided for you for problem 3 and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-spring2015/homework-resources ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.
+Some skeleton code has been provided for you in the `hw3` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.
 
 ```
 $ git clone git@github.com:usc-csci104-spring2015/homework-resources
@@ -16,34 +21,34 @@ $ git clone git@github.com:usc-csci104-spring2015/homework-resources
 Carefully review Operator Overloading, Copy Constructors, and C++ STL (Interludes 5 and 7 and Appendix I)
 
 ###Problem 2 (Copy Constructors and Assignment Operators, 20%)
-Copy your `LListDbl` class (.h and .cpp files) from your `hw2` folder to your `hw3` folder.  Modify the linked list to now store integers rather than doubles.  In addition, add the following `public` member functions:
+Modify your `LListInt` class from HW2 to a `LListStr` class that stores strings rather than integers.  Copy your `LListInt` class (.h and .cpp files) from your `hw2` folder to your `hw3` folder and rename the files to indicate you are storing strings.  In addition, add the following `public` member functions:
 
-```
+``` c++
   /**
    * Adds an item to the back of the list in O(1) time
    */
-  void push_back(const int& val);
+  void push_back(const string& val);
   
   /**
    * Copy constructor
    */
-  LListInt(const LListInt& other);
+  LListStr(const LListStr& other);
 
   /**
    * Assignment Operator
    */
-  LListInt& operator=(const LListInt& other);
+  LListStr& operator=(const LListStr& other);
 ```
 
-You should write a test program (using your knowledge of unit-testing) that ensures each of these functions work and also use `valgrind` to check that there are no memory leaks.  Add a rule `copytest` to your `Makefile` to compile all the needed code and your test program.  We should be able to compile your program by simply typing `make copytest`.
+You should write a Google Test-based unit test program (using your knowledge of unit-testing) that ensures each of these functions work and also use `valgrind` to check that there are no memory leaks.  Add a rule `copytest` to your `Makefile` to compile all the needed code and your test program.  We should be able to compile your program by simply typing `make copytest`.
 
-### Problem 3 (Sets and Operator Overloading, 40%)
+### Problem 3 (Sets and Operator Overloading, 35%)
 
 #### Overview 
-Write a set class that can store integers.  We have provided a `setint.h` that you should use in the `homework-resources` repository.  If you update (git pull) on that repo which you should already have, you should find a `hw3` folder with the header file in it.  Copy it into your own hw_username/hw3 folder.  
+Write a set class that can store integers.  We have provided a `setstr.h` that you should use in the `homework-resources` repository.  If you update (git pull) on that repo which you should already have, you should find a `hw3` folder with the header file in it.  Copy it into your own hw_username/hw3 folder.  
 
 #### Basic Implementation (10%)
-To implement the set, make its primary data member your `LListInt` class that you completed in the previous problem (be sure to add necessary #include statements as well). Many `set` functions can be easily implemented by simply utilizing the list functionality you wrote in `LListInt` (i.e. calling member functions of the list data member).  But recall a set cannot contain duplicate data values.
+To implement the set, make its primary data member your `LListStr` class that you completed in the previous problem (be sure to add necessary #include statements as well). Many `set` functions can be easily implemented by simply utilizing the list functionality you wrote in `LListInt` (i.e. calling member functions of the list data member).  But recall a set cannot contain duplicate data values.
 
 Start by implementing the basic functionality of `empty`, `size`, `insert`, `remove`, and `exists`.  Adhere to a few notes:
 
@@ -52,22 +57,22 @@ Start by implementing the basic functionality of `empty`, `size`, `insert`, `rem
 
 Think carefully if you need to add a copy constructor and assignment operator.  Remember the rule of 3 [if you need your destructor to actually deallocate memory, then you likely also need a copy constructor and assignment operator].  If you believe your class should have an explicit copy constructor and assignment operator, add it now.
 
-#### Iteration Ability Implementation (15%)
+#### Iteration Ability Implementation (10%)
 Add a simple iteration capability to your set class to iterate over the internally stored data.  You should do this by implementing two functions:  `first` and `next`.  `first` should return a pointer to the 1st data item in the set (the pointer should be constant since you shouldn't be able to change the data with that pointer) and do any setup to allow future calls to `next` to return pointers to each subsequent data item in the set.  If the set is empty, `first` should return NULL.  As `next` is called it should return pointers to the 2nd, 3rd, etc. items in the set in sequence.  When `next` is called and no more items are left to iterate over, return NULL.
 
-```
+``` c++
   /**
    * Return a pointer to the first item
    *  and support future calls to next()
    */
-  int const* first();
+  string const* first();
 
   /**
    * Return a pointer to the next item
    *  after the previous call to next
    *  and NULL if you reach the end
    */
-  int const* next();
+  string const* next();
 ```
 
 Hint:  Use the functionality of the list and some private data member in your set class to track where you are in the "iteration" process.
@@ -77,7 +82,7 @@ Hint:  Use the functionality of the list and some private data member in your se
 #### Union, Intersection, and Operator Overloading (15%)
 Now add member functions to compute the set union and intersection along with appropriate operator overloads ( `|` = union and `&` = intersection ).  These operations should result in a new (though not dynamically allocated) set being returned.  You should be able to invoke these operations either with their function call or the operators as shown below:
 
-```
+``` c++
 SetInt s1, s2, s3;
 // operations to insert values to s1 and s2
 
@@ -90,71 +95,98 @@ s3 = s1.setIntersection(s2);
 s3 = s1 & s2;  
 ```
 
-Write some test code (using good unit testing principles) to ensure your `SetInt` functionality is working.  Add a rule `settest` to your `Makefile` to compile all the needed code and your test program.  We should be able to compile your program by simply typing `make settest`.
-
-###Problem 4 (STL Maps, 40%)
-Write a program to read in student names and their majors and then allows queries as to how many students are declared as certain major, the names of students with a certain major, or the names of students with a certain double-major combination.
-
-TBA
+###Problem 4 (Unit Testing, 15%)
+Use Google Test to write unit tests for your Set member functions: `insert`, `remove`, `exists`, `setIntersection`, and `setUnion`.  Add a rule `settest` to your `Makefile` to compile all the needed code and your test program.  We should be able to compile your program by simply typing `make settest`.  We will then run it with the command `./settest`.  
 
 
+###Problem 5 (STL Maps, 30%)
+Write a program to read in student names and their major(s) and then allows queries as to which students have declared a certain major or double major.  
 
-Write a program to read in all the words of a text file that is logically broken into "pages" via a special string `<pagebreak>` and then compute an index that associates each word in the text file (other than `<pagebreak>`) with the page numbers it appears on.  So for example, if the input file provided was:
+We will provide you an input file with a student's name followed by a comma (though there may be whitespace like ' ' or '\t') and then the 1 or more majors that they have declared.  Each student record will appear on a single line.  A blank line should just be skipped.
 
-Sample `pages.txt` input file
-```
-The quick brown fox jumped over the moon. <pagebreak> Calvin said, 
-"I love the 104 class I'm taking."
-<pagebreak>
-Bye
-```
+We will then provide a command file where each line contains 1 or more majors and we want to know what students have declared that major, double major, triple major, etc.  
 
-should result in an internal memory index being built that contains:
+Thus your program should read in the data from the input file and store it in a **map** (you should use the C++ STL map class) to allow for efficient computation of what students have declared a given major to produce the answer to the queries from the command file.  Consider what you would use as the key and what you should use as the value in your map.  Recall, the key represents the information you have and the value represents the information you want to access.  For double or triple majors consider how your set operations (intersection or union) might be useful to you (thus, you should use your `SetStr` class in this problem). 
+
+Below is an example of the input files and output file produced by your program.  **We have added the sample input file and command file to the `homework-resources/hw3` repository.**
+
+Sample input file (majors1.in)
 
 ```
-the => {1,2}
-quick => {1}
-brown => {1}
-fox => {1}
-jumped => {1}
-over => {1}
-moon => {1}
-calvin => {2}
-said => {2}
-104 => {2}
-love => {2}
-class => {2}
-taking => {2}
-bye => {3}
+Mark W. Redekopp , CECS
+Mark W. Redekopp , EE
+Connor Gorman, CSCI
+Merrick Bautista	, Cecs
+Merrick Bautista,BISC
+David Kempe, CSCI
+Student Athlete, comm
+Aaron Cote, CSCI HRTHS
+Max Nikias, Buad EE BUAD FNDR
+Steven B. Sample, BUAD EE
+CS Minorville, BUAD
+Mike Zyda, CSGM
+Joe Genius, PHCS
+David Pritchard, CANST CSci
 ```
 
-Notice a few things:
-
-1. Anytime you extract a string that equals `<pagebreak>` you should increment the page number on which we assume the following words are written.  **Start page numbering at 1, not 0.** 
-1. If a word appears on a page multiple times, that page number should still only appear once for that word
-1. Punctuation at the beginning or end of a word should be discarded
-1. The index should be case-insensitive (i.e. The, the, and THE are all the same word) and should be converted to all lowercase.
-1. Valid words must contain 2 or more letters.
-1. Words with punctuation in the middle of the word should be ignored (e.g. I'm) with the exception of the hyphen, `-`, which should cause the word to be split into multiple words.  For example, `first-class` should be split into `first` and `class` while `devil-may-care` should be split into `devil`, `may`, and `care`.
-
-You must use the C++ `map` class to store and build the index.  You may not use any other STL classes like `set`, `vector`, `list`, or `deque` but should instead use classes that you've written in this or previous assignments.
-
-Your program will receive as command-line input the filename of the "pages text", an output filename to create, and then any number of other words which should be searched for once the index is built.  In the example above an execution of your program such as:
-
-`$ ./pgindex pages.txt output.txt The Fox onion 104`
-
-should result in the contents of `output.txt` shown below:
+Sample command file (majors1.cmd)
 
 ```
-1 2
-1
-None
-2
+CECS 
+EE
+ISE
+Buad
+EE BUAD
 ```
 
-Here each search term on the command line results in the pages where that term appears being listed on a single line separated by spaces.  If a search term does not appear in the input file output `None` on the corresponding line.  Search terms should also be dealt with in a case-insensitive manner so that they can match your index.
+We will run your program as:
+ 
+`./majors majors1.in majors1.cmd majors1.out`
 
-Hint: The `cctype` library has functions such as `ispunct()`, `tolower()`, etc.
+Sample output file produced by your program (majors1.out)
 
-Add a rule `pgindex` to your `Makefile` to compile all the needed code.  We should be able to compile your program by simply typing `make pgindex`.
+```
+CECS
+Mark W. Redekopp
+Merrick Bautista
 
+EE
+Mark W. Redekopp
+Max Nikias
+Steven B. Sample
+
+ISE
+
+BUAD
+CS Minorville
+Max Nikias
+Steven B. Sample
+
+EE BUAD
+Max Nikias
+Steven B. Sample
+ 
+```
+
+####Additional Notes and Requirements
+
+ - A student might be listed on multiple lines to indicate his/her multiple majors or majors might be all on a single line with the student's name (see the input file for examples).
+ - Remember a comma will separate a student name from their majors but there may be whitespace (spaces or tabs) between the student name and comma and the comma and the major(s). For example, in the input file there is a [TAB] ('\t') after the first line with Merrick's name.    
+ - The majors should be treated as case-insensitive.  Thus, `Buad` represents the same major `BUAD` or `buad`.  
+ - The output file should reprint the majors being queried on one line followed by the students who match the query on the subsequent lines (one per line).  Leave a blank line after the last student's name.
+ - The filenames should be taken from the command line in the order shown above (input file, command file, output file).
+ - You must use a **map** to store your information and use your `SetStr` class where appropriate
+ - **Hint:** To help with the above requirements, the `cctype` library has functions such as `ispunct()`, `isspace()`, `tolower()`, `toupper()`, etc.
+ 
+Add a rule `majors` to your `Makefile` to compile all the needed code.  We should be able to compile your program by simply typing `make majors`.  We will then run your program at the command line.
+
+### Commit then Re-clone your Repository
+
+Be sure to add, commit, and push your code in your `hw3` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):
+
+1. Go to your home directory: `$ cd ~`
+1. Create a `verify` directory: `$ mkdir verify`
+1. Go into that directory: `$ cd verify`
+1. Clone your hw_username repo: `$ git clone git@github.com:usc-csci104-summer2015/hw_usc-username.git`
+1. Go into your hw2 folder `$ cd hw_username/hw3`
+1. Recompile and rerun your programs and tests to ensure that what you submitted works.

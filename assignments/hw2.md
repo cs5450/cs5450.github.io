@@ -307,7 +307,7 @@ Use your Stack class to help solve this problem.  **Your solution should run in 
 
 ### Commit then Re-clone your Repository
 
-Be sure to add, commit, and push your code in your `hw1` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):
+Be sure to add, commit, and push your code in your `hw2` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):
 
 1. Go to your home directory: `$ cd ~`
 1. Create a `verify` directory: `$ mkdir verify`

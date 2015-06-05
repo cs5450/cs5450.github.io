@@ -4,6 +4,8 @@ title: Labs
 nav: labs
 ---
 
+### Lab 5 – Copy Constructors, Operator Overloading, STL Maps
+
 What is a Copy Constructor?  A class constructor that is used for creating a new object as a copy of an existing object.  For example, a function declaration of a copy constructor may look like this:
 
 ```

@@ -31,7 +31,7 @@ AGENDA:
  - Create a Plus Operator
 
  
-#### Part 0 - Introduction
+### Part 0 - Introduction
 
 Part 0 explains how to use an STL Map.  No code is required, but you will likely reference this section during your lab.  You can also use this part of the lab as a reference for later homeworks.
 
@@ -63,7 +63,7 @@ for(it = myMap.begin(); it != myMap.end(); ++it)
 
 Two basic methods exist for insertion.  There is  insert() , which will only add the specified element if the key does not already exist.  If the key does exist, it does nothing.
 
-The second is using the operator overloaded  [] to index into the map.  Programmers must specify a key as an "index", and then assign a value.  Unlike insert() , using [] will overwrite the value if the key exists.  Examples are below:
+The second is using the operator overloaded  [ ] to index into the map.  Programmers must specify a key as an "index", and then assign a value.  Unlike insert() , using [ ] will overwrite the value if the key exists.  Examples are below:
 
 ```
 myMap.insert(std::make_pair("Key", "Value"));    // Because each element in a map is a pair, one must insert a pair
@@ -79,7 +79,7 @@ To find an element, one can use the  find()  function.  This returns an iterator
 std::map<std::string, std::string>::iterator it = myMap.find("Key");
 
 ```
-One can also use the operator  [] to retrieve the element if the key exists.  For example:
+One can also use the operator  [ ] to retrieve the element if the key exists.  For example:
 
 ```
 std::string var = myMap["Key"];
@@ -104,7 +104,7 @@ myMap.erase ("Key");   // This first searches for an object containing "Key", th
 To remove all elements, use the  clear() function.
 
  
-#### Part 1 - Walkthrough
+### Part 1 - Walkthrough
 
 Let's first begin by quickly identifying what we're dealing with in this lab.  A modern fast food restaurant wants to up its game and have its ordering system completely automated, becoming the fastest fast food restaurant around.  Despite their future thinking, they're not that great with code and want to have everything be as simple as possible.  Our job is to create an Order class that handles the adding of multiple Order objects and the copying of one Order to another.
 
@@ -162,7 +162,7 @@ Let's quickly analyze this.   The code dynamically allocates a new map.  It then
 Now running the program with  make and  `./bin/lab5` should allow all menu options to be entered without seg-faulting (though this program is still far from finished).
 
  
-#### Part 2 - Overloading
+### Part 2 - Overloading
 
 In this part of the lab, you will be doing the leg-work.  There are three functions to complete:
 

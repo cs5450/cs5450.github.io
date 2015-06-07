@@ -45,7 +45,7 @@ You should write a Google Test-based unit test program (using your knowledge of 
 ### Problem 3 (Sets and Operator Overloading, 35%)
 
 #### Overview 
-Write a set class that can store integers.  We have provided a `setstr.h` that you should use in the `homework-resources` repository.  If you update (git pull) on that repo which you should already have, you should find a `hw3` folder with the header file in it.  Copy it into your own hw_username/hw3 folder.  
+Write a set class that can store strings.  We have provided a `setstr.h` that you should use in the `homework-resources` repository.  If you update (git pull) on that repo which you should already have, you should find a `hw3` folder with the header file in it.  Copy it into your own hw_username/hw3 folder.  
 
 #### Basic Implementation (10%)
 To implement the set, make its primary data member your `LListStr` class that you completed in the previous problem (be sure to add necessary #include statements as well). Many `set` functions can be easily implemented by simply utilizing the list functionality you wrote in `LListInt` (i.e. calling member functions of the list data member).  But recall a set cannot contain duplicate data values.

@@ -374,27 +374,36 @@ Provide your user a menu system and respond after each command with the desired 
 ```
 =====================================
 Menu:
-  AND term term ...
-  OR term term ...
-  QUIT (and write feeds)
+  AND hashtag_word hashtag_word ...
+  OR hashtag_word hashtag_word ...
+  TWEET username text_of_tweet_until_newline
+  QUIT (and write feed files)
 ====================================
 
-Enter search terms:
-OR whiplash DATA
-Hit   1
-Data Abstraction & Problem Solving with C++
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99 20 left.
+Enter command:
+OR football selma
 
-Hit   2
-Whiplash DVD
-Genre: Drama Rating: R
-17.99  1 left.
+3 matches:
+2015-05-20 12:35:14 Mark #Selma was an excellent movie to remember the struggle for civil rights 
+2015-05-19 12:35:15 Jill Can't wait for football to start #kesslerforheisman #football
+2015-05-21 10:30:27 Sam @Mark when is the UEFA championship? #football
 
+Enter command:
+AND football selma
 
-Enter search terms:
-ADD redekopp 2
+No matches.
+
+Enter command:
+TWEET Mark Treat CS104 right #summerfun
+
+Enter command:
+QUIT
 ```
+
+When the user types QUIT the feed files should be generated an include any new tweets that have been added during the interactive user session.
+
+When a user adds a tweet you can query the computer system for the current data and time and convert it to a string. It's a bit complicated in C++ (other languages give a much cleaner library function to do this) but you are welcome to use the code provided [at this link](http://stackoverflow.com/questions/16357999/current-date-and-time-as-string).  
+
 
 ### Commit then Re-clone your Repository
 

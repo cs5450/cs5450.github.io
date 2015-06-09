@@ -14,7 +14,7 @@ nav: assignments
 Some skeleton code has been provided for you in the `hw3` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  Otherwise you'll need to clone it.
 
 ```
-$ git clone git@github.com:usc-csci104-spring2015/homework-resources
+$ git clone git@github.com:usc-csci104-summer2015/homework-resources
 ```
 
 ###Problem 1 (Review Material)

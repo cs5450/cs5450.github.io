@@ -159,7 +159,7 @@ class Tweet
 {
  public:
   /**
-   * Default constructor 
+   * Default constructor -- Initializes to current system day/time
    */
   Tweet();
 
@@ -378,7 +378,7 @@ Menu:
   OR hashtag_word hashtag_word ...
   TWEET username text_of_tweet_until_newline
   QUIT (and write feed files)
-====================================
+=============================+=======
 
 Enter command:
 OR football selma
@@ -402,7 +402,21 @@ QUIT
 
 When the user types QUIT the feed files should be generated an include any new tweets that have been added during the interactive user session.
 
-When a user adds a tweet you can query the computer system for the current data and time and convert it to a string. It's a bit complicated in C++ (other languages give a much cleaner library function to do this) but you are welcome to use the code provided [at this link](http://stackoverflow.com/questions/16357999/current-date-and-time-as-string).  
+When a user adds a tweet you can query the computer system for the current data and time and convert it to your `DateTime` object. It's a bit complicated to extract the current day/time in C++ (other languages give a much cleaner library function to do this) but you are welcome to use the code provided below which populates a `tm` struct (you need to `#include <ctime>`) which you can lookup online to find how to extract the fields you need.
+
+```c++
+  // Be sure you #include <ctime>
+  
+  time_t rawtime;
+  struct tm * timeinfo;
+  
+  time (&rawtime);
+  timeinfo = localtime(&rawtime);
+  
+  // Use timeinfo pointer to access fields of the tm struct
+```
+
+See [this link](http://www.cplusplus.com/reference/ctime/tm/).
 
 
 ### Commit then Re-clone your Repository

@@ -14,7 +14,7 @@ nav: assignments
 Some skeleton code has been provided for you in the `hw4` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  
 
 ###Step 0 (Use of Data Structures and STL, 0%)
-In this assignment you should use your LListStr and SetStr classes where you need to store lists of strings or sets of strings.  Copy those files from your previous homework directory to this `hw4` directory.  For all other data structures (lists or sets of objects, ints, etc. or any maps you should use the C++ STL version of the data structure (i.e. `vector<int>`, `map<>`, etc.)
+You may now use the C++ STL version of all data structures (i.e. `vector<int>`, `map<>`, etc.)
 
 ###Project Overview
 Our project for the semester will be to model a microblog site such as Twitter. As you will see, it will require using quite a lot of the data structures you are learning about. At a high level, a microblog site is based on the following components:

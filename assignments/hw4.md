@@ -8,7 +8,7 @@ nav: assignments
   + Directory name for this homework (case sensitive): `hw4`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
-    - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 2, 3, 4, and 5.  See instructions in each problem for specific rules.
+    - You should provide a `Makefile` to compile your `twitter` program.  See instructions in each problem for specific rules.
 	
 ###Skeleton Code
 Some skeleton code has been provided for you in the `hw4` folder and has been pushed to the Github repository [`homework-resources`](https://github.com/usc-csci104-summer2015/homework-resources/ ). If you already have this repository locally cloned, just perform a `git pull`.  
@@ -45,247 +45,13 @@ Each tweet contains:
 + the actual text of the tweet (we won't impose the 140 character limit in this project)
 + a set of hashtagged words (i.e. if the tweet contains `#cs104`, then this set should contain the string `cs104`)
 
+A DateTime class will model a timestamp
 
-To help you get started we require you to have a few of the following classes.
+The TwitEng class is the main interface to the application. It should store data related to your microblog engine and perform needed operation.  Good design would separate the user interface of this application (described later) and only provide member functions to carry out the desired operations. In this way we can remove the current command line/text interface and exchange it for a GUI interface but still use the operations provided by TwitEng.
 
-**user.h**
+Look in your `hw4` folder of the `homework-resources` folder for skeleton files.  Copy them into your `hw_usc-username/hw4` folder.
 
-```c++
-#ifndef USER_H
-#define USER_H
-
-#include <string>
-/* Add appropriate includes for your data structures here */
-
-/* Forward Declaration to avoid #include dependencies */
-class Tweet;
-
-class User {
- public:
-  /**
-   * Constructor 
-   */
-  User(std::string name);
-
-  /**
-   * Destructor
-   */
-  ~User();
-
-  /**
-   * Gets the name of the user 
-   * 
-   * @return name of the user 
-   */
-  std::string name();
-
-  /**
-   * Gets all the followers of this user  
-   * 
-   * @return Set of Users who follow this user
-   */
-  set<User*> followers();
-
-  /**
-   * Gets all the users whom this user follows  
-   * 
-   * @return Set of Users whom this user follows
-   */
-  set<User*> following();
-
-  /**
-   * Gets all the tweets this user has posted
-   * 
-   * @return List of tweets this user has posted
-   */
-  vector<Tweet*> tweets();
-
-  /**
-   * Adds a follower to this users set of followers
-   * 
-   * @param u User to add as a follower
-   */
-  void addFollower(User* u);
-
-  /**
-   * Adds another user to the set whom this User follows
-   * 
-   * @param u User that the user will now follow
-   */
-  void addFollowing(User* u);
-
-  /**
-   * Adds the given tweet as a post from this user
-   * 
-   * @param t new Tweet posted by this user
-   */
-  void addTweet(Tweet* t);
-
-  /**
-   * Produces the list of Tweets that represent this users feed/timeline
-   *  It should contain in timestamp order all the tweets from
-   *  this user and all the tweets from all the users whom this user follows
-   *
-   * @return vector of pointers to all the tweets from this user
-   *         and those they follow in timestamp order
-   */
-  vector<Tweet*> getFeed();
-
- private:
-
- /* Add appropriate data members here */
-
-};
-
-#endif
-```
-
-**tweet.h**
-
-``` c++
-#ifndef TWEET_H
-#define TWEET_H
-#include <iostream>
-#include <string>
-#include "datetime.h"
-
-/* Forward declaration */
-class User;
-
-/**
- * Models a tweet and provide comparison and output operators
- */
-class Tweet
-{
- public:
-  /**
-   * Default constructor -- Initializes to current system day/time
-   */
-  Tweet();
-
-  /**
-   * Constructor 
-   */
-  Tweet(User* user, DateTime& time, std::string& text);
-
-  /**
-   * Gets the timestamp of this tweet
-   *
-   * @return timestamp of the tweet
-   */
-  DateTime const & time() const;
-
-  /**
-   * Gets the actual text of this tweet
-   *
-   * @return text of the tweet
-   */
-  std::string const & text() const;
-
-  /**
-   * Return true if this Tweet's timestamp is less-than other's
-   *
-   * @return result of less-than comparison of tweet's timestamp
-   */
-  bool operator<(const Tweet& other){
-    return _time < other._time;
-  }
-
-  /**
-   * Return true if this Tweet's timestamp is greater-than other's
-   *
-   * @return result of greater-than comparison of tweet's timestamp
-   */
-  bool operator>(const Tweet& other){
-    return _time > other._time;
-  }
-
-  /**
-   * Outputs the tweet to the given ostream in format:
-   *   YYYY-MM-DD HH::MM::SS username tweet_text
-   *
-   * @return the ostream passed in as an argument
-   */
-  friend std::ostream& operator<<(std::ostream& os, const Tweet& t);
-
-  /* Create any other public or private helper functions you deem 
-     necessary */
- 
- 
- private:
-  DateTime _time;
-  std::string _text;
-
-  /* Add any other data members you need here */
-
-  
-};
-
-/* Leave this alone */
-struct TweetComp
-{
-  bool operator()(Tweet* t1, Tweet* t2)
-  {
-    return (*t1 > *t2);
-  }
-};
-#endif
-
-```
-
-**datetime.h**
-
-``` c++
-#ifndef DATETIME_H
-#define DATETIME_H
-#include <iostream>
-
-/**
- * Models a timestamp in format YYYY-MM-DD HH:MM:SS 
- */
-struct DateTime
-{
-  /**
-   * Constructor
-   */
-  DateTime();
-
-  /**
-   * Another constructor 
-   */
-  DateTime(int hh, int mm, int ss, int year, int month, int day);
-
-  /**
-   * Return true if the timestamp is less-than other's
-   *
-   * @return result of less-than comparison of timestamp
-   */
-  bool operator<(const DateTime& other);
-
-  /**
-   * Return true if the timestamp is greater-than other's
-   *
-   * @return result of greater-than comparison of timestamp
-   */
-  bool operator>(const DateTime& other);
-
-  /**
-   * Outputs the timestamp to the given ostream in format:
-   *   YYYY-MM-DD HH::MM::SS
-   *
-   * @return the ostream passed in as an argument
-   */
-  friend std::ostream& operator<<(std::ostream& os, const DateTime& other);
-
-  /* Add data members here -- they can all be public 
-   * which is why we've made this a struct */
-
-   
-};
-
-#endif
-
-```
+Read the following requirements and then implement the classes (feel free to add other classes as needed) and a top level `main()` in `twitter.cpp`
 
 ###Step 2 (Parsing and Twitter Feeds, 40%)
 
@@ -312,19 +78,22 @@ Mark Tommy Jill
 Tommy Jill Sam
 Jill Sam
 Sam Mark Tommy
-2015-05-20 12:35:14 Mark #Selma was an excellent movie to remember the struggle for civil rights 
+2015-05-20 12:35:14 Mark #Selma was an excellent movie to remember the struggle for civil rights
 2015-05-19 12:35:15 Jill Can't wait for football to start #kesslerforheisman #football
 2015-05-20 00:56:34 Jill Why did Chanos change their name #backwardsdrivethru
 2015-05-21 10:30:27 Sam @Mark when is the UEFA championship? #football
+
 ```
 
-Your job is to produce one output file per user with the filename `username.feed` (e.g. `Mark.feed`, `Tommy.feed`, etc.).  The feed should list the username on the first line and then all the tweets from the user as well as any users being followed sorted based on timestamp.  Thus, the file above should produce:
+Note: blank line in the tweets section should just be skipped and processing should continue.
 
-So when you run the program as:
+Part of this assignment will be to produce one output file per user with the filename `username.feed` (e.g. `Mark.feed`, `Tommy.feed`, etc.).  The requirements for your feed output are:
 
-`$ ./twitter twitter.dat`
-
-It should produce the following files
+  1. list the username on the first line
+  1. Then list all the tweets from the user as well as any **users being followed** (i.e. if this is Mark's feeds then we should show any tweets from Tommy or Jill. 
+  1. List the tweets in sorted order from more recent to least recent
+  
+Thus, the file above should yield the following feeds:
 
 **Mark.feed**
 
@@ -363,6 +132,10 @@ Sam
 
 **Your program must meet this output format or you will lose significant points as this helps our grading scripts!**
 
+You should use the `User::getFeed()` function to get the tweets to list for each User's feed.  This function returns a `vector<Tweet*>`.  To sort its contents you can use the std::sort algorithm provided in the `<algorithm>` library.  Call it like this:
+
+`sort(myfeedvec.begin(), myfeedvec.end(), TweetComp());`
+
 ###Step 3 (Hashtag Index and Search, 30%)
 
 We now want to add the ability to search tweets by hashtags.  This search should also be efficient in time [O(log n) where n = number of hashtags used in the system]  (at the cost of some memory storage).  To do this, you should keep an index of each hashtag term used in the entire system with the tweets that match them. 
@@ -370,27 +143,31 @@ We now want to add the ability to search tweets by hashtags.  This search should
 Once the program loads allow the user to search for tweets that match a given set of hashtags or quit and write the feeds.  Support both an `AND` and `OR` search strategy.  In an `AND` search the user may provide any number of hashtags and see which tweets match **ALL** of those hashtags.  An `OR` search should yield any tweet that matches **ANY** of the provided hashtags.
 
 Provide your user a menu system and respond after each command with the desired outputs. 
+
+So when you run the program as:
+
+`$ ./twitter twitter.dat`
  
+A sample run should look like this:
+
 ```
 =====================================
 Menu:
-  AND hashtag_word hashtag_word ...
-  OR hashtag_word hashtag_word ...
-  TWEET username text_of_tweet_until_newline
+  AND term term ...
+  OR term term ...
+  TWEET date time username tweet_text
   QUIT (and write feed files)
-=============================+=======
+=====================================
 
 Enter command:
 OR football selma
-
 3 matches:
-2015-05-20 12:35:14 Mark #Selma was an excellent movie to remember the struggle for civil rights 
+2015-05-20 12:35:14 Mark #Selma was an excellent movie to remember the struggle for civil rights
 2015-05-19 12:35:15 Jill Can't wait for football to start #kesslerforheisman #football
 2015-05-21 10:30:27 Sam @Mark when is the UEFA championship? #football
 
 Enter command:
 AND football selma
-
 No matches.
 
 Enter command:

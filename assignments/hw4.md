@@ -136,7 +136,7 @@ You should use the `User::getFeed()` function to get the tweets to list for each
 
 `sort(myfeedvec.begin(), myfeedvec.end(), TweetComp());`
 
-###Step 3 (Hashtag Index and Search, 30%)
+###Step 3 (Hashtag Index and Search, 40%)
 
 We now want to add the ability to search tweets by hashtags.  This search should also be efficient in time [O(log n) where n = number of hashtags used in the system]  (at the cost of some memory storage).  To do this, you should keep an index of each hashtag term used in the entire system with the tweets that match them. 
 

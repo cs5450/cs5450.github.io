@@ -50,7 +50,7 @@ Be sure to add, commit, and push your code in your `hw5` directory to your `hw_u
 1. Create a `verify` directory: `$ mkdir verify`
 1. Go into that directory: `$ cd verify`
 1. Clone your hw_username repo: `$ git clone git@github.com:usc-csci104-summer2015/hw_usc-username.git`
-1. Go into your hw2 folder `$ cd hw_username/hw5`
+1. Go into your hw5 folder `$ cd hw_username/hw5`
 1. Recompile and rerun your programs and tests to ensure that what you submitted works.
 
 

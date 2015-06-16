@@ -155,7 +155,7 @@ A sample run should look like this:
 Menu:
   AND term term ...
   OR term term ...
-  TWEET date time username tweet_text
+  TWEET username tweet_text
   QUIT (and write feed files)
 =====================================
 

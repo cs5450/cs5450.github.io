@@ -32,7 +32,7 @@ Then, we create a `QLabel` - essentially a textbox element in Qt. Its constructo
 
 ```
 
-After we've created an instance of the `QLabel`, we need to make sure to show it through a window by calling `theshow( )` method. This method is actually defined in its parent class, `QWidget`. In fact, every GUI element is a QWidget- more on this in a bit.
+After we've created an instance of the `QLabel`, we need to make sure to show it through a window by calling the `show( )` method. This method is actually defined in its parent class, `QWidget`. In fact, every GUI element is a QWidget- more on this in a bit.
 
 ```
   helloWorldLabel.show( );
@@ -179,7 +179,7 @@ Compile and run it, and try clicking on the button. Voila!
 
 Now that you're a guru of Qt, time to build an actual application. We'll build a application that looks like the Reddit front page, displaying a list of posts and allows the user to interact with it. We'll expand on the functionality in the later labs, but for now, let's just stick with layouts and simple signals.
 
-Screen Shot 2015-02-24 at 12.37.35 PM
+<img src="{{site.url}}/labs/ScreenShot_300x225.png)" alt="Create a Directory in GitHub Repository" />
 
 We have provided several classes for you:
 
@@ -245,6 +245,6 @@ Some tips:
 ```
 
       QApplication::exit( );
-      
+
 ```
     Qt is very well documented. You might want to check out documentation for `QGridLayout`, `QLabel`, `QPushButton`, etc.

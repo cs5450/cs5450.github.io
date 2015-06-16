@@ -179,7 +179,8 @@ Compile and run it, and try clicking on the button. Voila!
 
 Now that you're a guru of Qt, time to build an actual application. We'll build a application that looks like the Reddit front page, displaying a list of posts and allows the user to interact with it. We'll expand on the functionality in the later labs, but for now, let's just stick with layouts and simple signals.
 
-<img src="{{site.url}}/labs/ScreenShot_300x225.png)" alt="Create a Directory in GitHub Repository" />
+<img src="http://bits.usc.edu/cs104_su15/labs/img/ScreenShot_300x225.png" alt="Reddit Interface">
+
 
 We have provided several classes for you:
 

@@ -22,11 +22,11 @@ Each student will receive a private code repository on the course's [GitHub Orga
 | [**HW01**]({{ site.url }}/assignments/hw1.html)  | Course Overview and Recursion               | Fri. May 29, 2015 @ 11:59AM (PST)       |
 | [**HW02**]({{ site.url }}/assignments/hw2.html)  | Linked Lists and Stacks                  | Fri. June 5, 2015 @ 11:59PM (PST)       |
 | [**HW03**]({{ site.url }}/assignments/hw3.html)  | Copy Constructors, Operator Overloading and STL | Fri. June 12, 2015 @ 11:59PM (PST)      |
-| [**HW04**]({{ site.url }}/assignments/hw4.html)  | Project, Part 1                             | Fri. July 19, 2015 @ 11:59PM (PST)      |
-| [**HW05**]({{ site.url }}/assignments/hw5.html)  | Project, Part 2                             | Fri. July 26, 2015 @ 11:59PM (PST)      |
-| [**HW06**]({{ site.url }}/assignments/hw6.html)  | Project, Heaps and A* Puzzle Solver         | Fri. July 3, 2015 @ 11:59PM (PST)       |
-| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Project, Part 3  (Heaps and Maps)           | Fri. July 10, 2015 @ 11:59PM (PST)      |
-| [**HW08**]({{ site.url }}/assignments/hw8.html)  | Map and Set Implementations                 | Fri. July 17, 2015 @ 11:59PM (PST)      |
+| [**HW04**]({{ site.url }}/assignments/hw4.html)  | Project, Part 1                             | Sun. June 21, 2015 @ 11:59PM (PST)      |
+| [**HW05**]({{ site.url }}/assignments/hw5.html)  | Project, Part 2                             | Sun. June 28, 2015 @ 11:59PM (PST)      |
+| [**HW06**]({{ site.url }}/assignments/hw6.html)  | Project, Heaps and A* Puzzle Solver         | Sun. July 5, 2015 @ 11:59PM (PST)       |
+| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Project, Part 3  (Heaps and Maps)           | Sun. July 12, 2015 @ 11:59PM (PST)      |
+| [**HW08**]({{ site.url }}/assignments/hw8.html)  | Map and Set Implementations                 | Sun. July 19, 2015 @ 11:59PM (PST)      |
   
 ### Submission Instructions
 In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/assignments/submission-instructions.html)

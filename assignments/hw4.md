@@ -136,7 +136,7 @@ You should use the `User::getFeed()` function to get the tweets to list for each
 
 `sort(myfeedvec.begin(), myfeedvec.end(), TweetComp());`
 
-###Step 3 (Hashtag Index and Search, 30%)
+###Step 3 (Hashtag Index and Search, 40%)
 
 We now want to add the ability to search tweets by hashtags.  This search should also be efficient in time [O(log n) where n = number of hashtags used in the system]  (at the cost of some memory storage).  To do this, you should keep an index of each hashtag term used in the entire system with the tweets that match them. 
 
@@ -198,11 +198,11 @@ See [this link](http://www.cplusplus.com/reference/ctime/tm/).
 
 ### Commit then Re-clone your Repository
 
-Be sure to add, commit, and push your code in your `hw3` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):
+Be sure to add, commit, and push your code in your `hw4` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):
 
 1. Go to your home directory: `$ cd ~`
 1. Create a `verify` directory: `$ mkdir verify`
 1. Go into that directory: `$ cd verify`
 1. Clone your hw_username repo: `$ git clone git@github.com:usc-csci104-summer2015/hw_usc-username.git`
-1. Go into your hw2 folder `$ cd hw_username/hw3`
+1. Go into your hw4 folder `$ cd hw_username/hw4`
 1. Recompile and rerun your programs and tests to ensure that what you submitted works.

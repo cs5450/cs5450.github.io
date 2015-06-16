@@ -49,7 +49,8 @@ Last but not least, we call `exec( )` on the `QApplication` that we instantiated
 All of this works because Qt doesn't follow the traditional "sequential" paradigm, where the program reads and follows instructions line by line until the program ends. Instead, Qt applications are what we called Event-Driven Programs. These programs are constantly running (like a command line program in an eternal `while` loop waiting for something to happen); it'll respond to "events" such as a button click, and will stay idle for the rest of the time.
 
 Notice that when we call `exec( )` - Qt will take control of the entire program, which means it should be called only after all "initializations" have happened.
-Compiling the project
+
+#### Compiling the project
 
 Alright, let's see what this code gets us.
 
@@ -71,7 +72,7 @@ By default, Qt compiles to a binary file with the same name as your folder name.
 
 ### 2 - Widgets and Layouts
 
-A Widget is a "thing" that a user can see. They can be buttons, text fields, date picker, etc... they can process user input, and emit "Signals" to let other parts of program know that there might a be an "event" that they care about. We've already talked about `QLabel`, but there are also others like `QPushButton`, `QLineEdit` etc. You might find `theWidget` Gallery useful.
+A Widget is a "thing" that a user can see. They can be buttons, text fields, date picker, etc... they can process user input, and emit "Signals" to let other parts of program know that there might be an "event" that they care about. We've already talked about `QLabel`, but there are also others like `QPushButton`, `QLineEdit` etc. You might find `theWidget` Gallery useful.
 
 A Layout describes how different widgets are organized and positioned in an user interface. If you want to have multiple widgets showing "together" within one widget (e.g., two buttons in the same window), you'll have to use a layout so that you can specify how to organize their positions.
 
@@ -222,7 +223,7 @@ Some tips:
 
 ```
 
-    To change the text size / boldness, use `QFont`:
+To change the text size / boldness, use `QFont`:
 
 ```
       QFont titleFont;
@@ -232,7 +233,7 @@ Some tips:
 
 ```
 
-    You can actually use HTML in `QLabel`. To make a link clickable and open a browser:
+You can actually use HTML in `QLabel`. To make a link clickable and open a browser:
 
 ```
       url = "http://bits.usc.edu/cs104";
@@ -241,11 +242,11 @@ Some tips:
 
 ```
 
-    To quit, run the following:
+To quit, run the following:
 
 ```
 
       QApplication::exit( );
 
 ```
-    Qt is very well documented. You might want to check out documentation for `QGridLayout`, `QLabel`, `QPushButton`, etc.
+Qt is very well documented. You might want to check out documentation for `QGridLayout`, `QLabel`, `QPushButton`, etc.

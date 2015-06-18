@@ -70,26 +70,24 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 </tr>
 <tr>
 <td align="center"><strong>8</strong></td>
-<td align="left">Searching (Chapters 17), Templates &amp;  (C++ Interlude 1) and Exceptions (C++ Interlude 3)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 17, 8, 9</a></td>
+<td align="left">Searching (Chapters 17), Templates &amp;  (C++ Interlude 1) </td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 17, 8</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L13_Search.pdf">Search PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L15a_Templates.pdf">Templates PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L15b_Exceptions.pdf">Exceptions PDF</a></td>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L15a_Templates.pdf">Templates PDF</a></td>
 </tr>
 <tr>
 <td align="center"><strong>9</strong></td>
 <td align="left">Qt and Event-Based Programming<br>
                  Midterm Review</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 18</a></td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 18</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L14_Qt.pdf">PDF</a><br>
     <a href="http://bits.usc.edu/files/cs104/midterm.pdf">Sample Midterm (no solutions)</a></td>
 </tr>
 <tr>
 <td align="center"><strong>10</strong></td>
-<td align="left">Midterm Review and finish Qt</td>
-<td></td>
-<td></td>
+<td align="left">Exceptions (C++ Interlude 3)</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 9</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L15b_Exceptions.pdf">Exceptions PDF</a></td>
 </tr>
 <tr>
 <td colspan="99"><strong>Midterm -- Tuesday, June 23rd</strong></td> 

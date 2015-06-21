@@ -64,29 +64,30 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 </tr>
 <tr>
 <td align="center"><strong>7</strong></td>
-<td align="left">Qt and Event-Based Programming</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 18</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L14_Qt.pdf">PDF</a></td>
+<td align="left">Sorting Algorithms (Chapter 19) </td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 19</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L12_Sorting.pdf">Sorting PDF</a></td>
 </tr>
 <tr>
 <td align="center"><strong>8</strong></td>
-<td align="left">Sorting Algorithms (Chapter 19) and Searching (Chapters 17)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 17, 19</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L12_Sorting.pdf">Sorting PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L13_Search.pdf">Search PDF</a></td>
+<td align="left">Searching (Chapters 17), Templates &amp;  (C++ Interlude 1) </td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 17, 8</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L13_Search.pdf">Search PDF</a><br>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L15a_Templates.pdf">Templates PDF</a></td>
 </tr>
 <tr>
 <td align="center"><strong>9</strong></td>
-<td align="left">Midterm Review</td>
-<td></td>
-<td><a href="http://bits.usc.edu/files/cs104/midterm.pdf">Sample Midterm (no solutions)</a></td>
+<td align="left">Qt and Event-Based Programming<br>
+                 Midterm Review</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 18</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L14_Qt.pdf">PDF</a><br>
+    <a href="http://bits.usc.edu/files/cs104/midterm.pdf">Sample Midterm (no solutions)</a></td>
 </tr>
 <tr>
 <td align="center"><strong>10</strong></td>
-<td align="left">Templates &amp;  (C++ Interlude 1) and Exceptions (C++ Interlude 3)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 8, 9</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L15e_Templates.pdf">Templates PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20c_Exceptions.pdf">Exceptions PDF</a></td>
+<td align="left">Exceptions (C++ Interlude 3)</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 9</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L15b_Exceptions.pdf">Exceptions PDF</a></td>
 </tr>
 <tr>
 <td colspan="99"><strong>Midterm -- Tuesday, June 23rd</strong></td> 
@@ -108,26 +109,26 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L18b_BacktrackingSearch.pdf">Backtracking PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>13-14a</strong></td>
+<td align="center"><strong>13-14</strong></td>
 <td align="left">Balanced Search Trees (Chapter 19)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 23-24</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L19_BalancedBST_23.pdf">2-3 Tree PDF</a><br>
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20_BalancedBST_234_RB.pdf">2-3-4 &amp; RB-Tree PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>14b</strong></td>
+<td align="center"><strong>15</strong></td>
 <td align="left">Iterators (C++ Interlude 6)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">16</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L20b_Iterators.pdf">Iterators PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>15</strong></td>
+<td align="center"><strong>16</strong></td>
 <td align="left">Hash Tables (C++ Interlude 3)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 9, 25-26</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L21_Hashing.pdf">Hashing PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>16</strong></td>
+<td align="center"><strong>17</strong></td>
 <td align="left">Bloom Filters and Tries(Chapter 18, lecture notes), Skip Lists, and Splay Trees</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 26</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L22_OtherMapsSets.pdf">Other Maps/Sets PDF</a><br>
@@ -135,19 +136,14 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 	<a href="http://ee.usc.edu/~redekopp/cs104/slides/L24_SplayTrees.pdf">Splay TreesPDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>17</strong></td>
-<td align="left">More C++ Topics &amp; Design Patterns<br>Final</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">TBA</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L25_DesignPatterns.pdf">PDF</a></td>
-</tr>
-<tr>
 <td align="center"><strong>18</strong></td>
-<td align="left">Final Review</td>
-<td></td>
-<td><a href="http://bits.usc.edu/files/cs104/final.pdf">Sample Final (no solutions)</a></td>
+<td align="left">More C++ Topics &amp; Design Patterns<br>Final Review</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">TBA</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L25_DesignPatterns.pdf">PDF</a><br>
+    <a href="http://bits.usc.edu/files/cs104/final.pdf">Sample Final (no solutions)</a></td>
 </tr>
 <tr>
-<td colspan="99"><strong>Final -- Friday, July 21st 2:30 p.m.</strong></td> 
+<td colspan="99"><strong>Final -- Tuesday, July 21st 5:00 p.m.</strong></td> 
 </tr>
 
 </tbody>

@@ -25,7 +25,7 @@ Your microblog site should implement the following rules for handling @-mentions
 1. Add support for a separate "mentions" feed (which is separate from the normal feed) for a given user. Like your main feed, this feed should be sorted in timestamp order (from most to least recent)
 1. A tweet that contains an @username mention should be added to the @-mention feed of the specified user who is mentioned.  If the @username is not the very first string of the tweet then it should still appear in the feeds of all users following the user who posted the tweet
 1. In addition to display on the mentions feed, a tweet that contains an @username mention such that both the author and mentioned user follow each other should also appear on each persons main feed.
-1. A tweet that starts with an @-mention should not be displayed on the feeds of the followers of the author.  It should still follow the rules listed above for display on the author's and mentioned user's feeds
+1. A tweet that starts with an @-mention should not be displayed on the feeds of the followers of the author.  It should still follow the rules listed above for display on the author's and mentioned user's feeds.  Essentially this becomes a "private tweet" in terms of feeds and if there are subsequent @user mentions after the first @mention the tweet should NOT appear in the subsequent users @mention feed.
 
 
 Given the example below:

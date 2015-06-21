@@ -50,7 +50,6 @@ The tweet from Sam that started with @Mark would:
 - Appear in Sam's feed since he authored the tweet
 - Not appear in Jill's or Tommy's main feed since @Mark was the first word of the tweet.  Had the tweet started with a non-@-mention Jill and Tommy obviously would have it appear in their feed. 
 
-For the 
  
 ### Step 2 (Qt Front End - 75%)
 

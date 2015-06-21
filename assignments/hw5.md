@@ -74,6 +74,7 @@ A single class can act as multiple windows by simply having several "Widgets" as
 Another important tip is to NOT create windows each time you want to open it.  Essentially create it once at startup and just `show()` it when you need it, `hide()` it when you want it to "close", and simply call `show()` again when you want it to reappear.  Before you call `show()` just populate the windows controls with the updated data you want to display.  Don't reallocate and delete a Widget/window/control multiple time.  The bottom line: **It is best to allocate widgets/controls only once at startup and never again**.  
 
 multiwin.h
+
 ```c++
 #ifndef MULTIWIN_H
 #define MULTIWIN_H

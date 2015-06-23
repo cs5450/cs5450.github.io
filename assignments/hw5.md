@@ -23,9 +23,11 @@ You will now add support for @-mentions, appropriate visibility of tweets starti
 Your microblog site should implement the following rules for handling @-mentions...
 
 1. Add support for a separate "mentions" feed (which is separate from the normal feed) for a given user. Like your main feed, this feed should be sorted in timestamp order (from most to least recent)
-1. A tweet that contains an @username mention should be added to the @-mention feed of the specified user who is mentioned.  If the @username is not the very first string of the tweet then it should still appear in the feeds of all users following the user who posted the tweet
-1. In addition to display on the mentions feed, a tweet that contains an @username mention such that both the author and mentioned user follow each other should also appear on each persons main feed.
-1. A tweet that starts with an @-mention should not be displayed on the feeds of the followers of the author.  It should still follow the rules listed above for display on the author's and mentioned user's feeds.  Essentially this becomes a "private tweet" in terms of feeds and if there are subsequent @user mentions after the first @mention the tweet should NOT appear in the subsequent users @mention feed.
+1. Tweets that **DON'T** start w/ an @mention should still show up in the main feeds of others who are following the author
+1. Tweets that **DON'T** start w/ an @mention but contain @mentions should show up in the @mention feeds of the @mentioned users
+1. Tweets that **DO** start w/ an @mention should not show up in main feeds of the author's followers
+1. Tweets that **DO** start w/ an @mention should appear in the @mentions feed of the @mentioned user AND their main feed as well if both that user and the author follow each other.  
+1. Any other users @mentioned (other than the 1st @mentioned user) in a tweet that starts with an @-mention should not see the tweet in either their main or @mention feed (i.e. In a tweet "@user1 did you see what @user2 was wearing?", user2 would not see anything about the tweet in any of their feeds.)
 
 
 Given the example below:
@@ -66,6 +68,8 @@ Your Qt interface must include the following features:
 1. A way to "follow" another user [i.e. for the current selected user (a.k.a. user1), provide a means to add another user (a.k.a. user2) that user1 wants to follow and update the appropriate data structures so that feeds are updated appropriately immediately after clicking the button
 1. Add a button that allows the user to open a **NEW** window to search for tweets with given hashtag(s) using an AND or OR search approach.  The user should be able to select AND or OR with radio or push buttons, enter terms (separated by spaces) in a text box, and then click search.  Resulting tweets should be displayed in a listbox.  The user should be able to then close the window from view.  The next time they open the search window, the old contents should be removed/cleared (we don't want to see the old search results).   
 1. While your program should still automatically initialize the system with data from an input file given at the command line, add a new feature to be able to save all current info (including tweets added during the execution of the program) to a new file.  The name of the file should be specified by the user...you can choose a text box and a push button to save the data or use a file dialog box (see `QFileDialog::getSaveFileName()`).  The file should be written out in the same format as the input file.
+
+**Note:**  Your GUI should be usable and reasonably laid out.  GUIs that are unusable or VERY poor in design/layout will receive a deduction of up to 25 of the 75 points.
 
 ####QT Notes
 A single class can act as multiple windows by simply having several "Widgets" as either data members (or if your class inherits from QWidget or QMainWindow your object itself can be a window.  Any QWidget that is not a "child" of another widget (i.e. added to a layout that is part of another widget) can act as a top-level window. Simply call `show()` and `hide()` to make the window appear and disappear.

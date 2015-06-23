@@ -10,7 +10,7 @@ nav: assignments
   + Directory name for this homework (case sensitive): `hw5`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
-    - You should provide a `Makefile` to compile your `twitter` program.  See instructions in each problem for specific rules.
+    - You should provide a Qt `.pro` file.  We will then just run `qmake` and `make` to compile your `twitter` program.
 
 ###Overview
 

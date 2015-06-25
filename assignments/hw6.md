@@ -167,7 +167,7 @@ to a file.   **You must use the C++ Stack<T> class in your implementation.**
 Add support to your Twitter GUI (i.e. a button and a method to specify an output filename) to compute the strongly connected components of Twitter users.  The format of the output file should have each component titled by number and then all the usernames in that component on a separate line.  A blank line should separate the end of one component and the start of the next.
 
 
-** Since Tarjan's algorithm requires you to check if an item "exists" in the stack (which is difficult to do with a Stack supporting only push / pop / top, just keep a separate `set` alongside your `Stack` that tracks what elements are in the 
+Since Tarjan's algorithm requires you to check if an item "exists" in the stack (which is difficult to do with a Stack supporting only push / pop / top, just keep a separate `set` alongside your `Stack` that tracks what elements are in the 
 `Stack` and everytime you add or remove a value to the `Stack` you also do the same to your `set`.
 
 Sample output file:

@@ -30,9 +30,11 @@ Imagine that you are writing a video game. In it, the player can customize her c
 
 The players also have various characteristics, like strength, defense, and experience. The game supports arbitrary numbers of players playing at any given time.
 
-Diagram the classes involved in the game so far (we will ignore other parts of the game, such as monsters.) Indicate which classes are abstract, and which aren't. Show which classes inherit from each other, publicly or privately. Also show which classes have a "has-a" relationship, possibly using sets or maps or lists where appropriate.
+Diagram the classes involved in the game so far (we will ignore other parts of the game, such as monsters.) Indicate which classes are abstract, and which aren't. Show which classes inherit from each other, publicly or privately. Also show which classes have a "has-a" relationship to another class and indicate what container class (if any) would be used to store them (i.e. lists, sets or maps  where appropriate).
 
-For this problem and the next one, you can choose to draw this by hand and scan it (and submit as a JPG or PDF), or to use some graphics software (and produce a JPG or PDF), or to use UML (if you know it), or draw it using ASCII art (this may be a lot of work). Provide an explanation with your choices, i.e., tell us why you chose to have certain classes inherit from each other (or not inherit). (Notice that you don't need to do any actual programming for this problem.)
+It is probably best to identify the **key** virtual functions (and whether they are *pure* virtuals).  Also, identify the data members of a class insofar as they indicate "has-a" relationships.  
+
+For this problem, you can choose to draw this by hand and scan it (and submit as a JPG or PDF), or to use some graphics software (and produce a JPG or PDF), or to use UML (if you know it), or draw it using ASCII art (this may be a lot of work). Provide an explanation with your choices, i.e., tell us why you chose to have certain classes inherit from each other (or not inherit). (Notice that you don't need to do any actual programming for this problem.)
 
 Of course, there isn't just one solution, but some solutions are better than others.
 

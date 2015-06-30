@@ -8,7 +8,7 @@ nav: labs
 
 [Theme Song](https://www.youtube.com/watch?v=FqlxwAzP5zA)
 
-### 1 - Introduction
+## 1 - Introduction
 
 Inheritance is a method of reusing code by having an object take the properties of another object while adding its own. This is often used to build complex classes from simple ones and/or to make more specific versions of a class. For example, a rectangle object can inherit from a polygon since it is a more specific definition of a polygon.
 

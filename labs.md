@@ -18,7 +18,7 @@ This schedule may be changed somewhat over the course of the semester. The lab n
 | **[Lab 03]({{site.url}}/labs/lab03.html) <br>[Lab 04]({{site.url}}/labs/lab04.html)** | Makefiles <br> Unit Testing & Google Test |
 | **[Lab 05]({{site.url}}/labs/lab05.html)** | Copy Constructors and Operator Overloading                             |
 | **[Lab 06]({{site.url}}/labs/lab06.html)** | Qt Basics                             |
-| **[Lab 07]({{site.url}}/labs/lab07.html)** | Templates and Exceptions              |
-| **[Lab 08]({{site.url}}/labs/lab08.html)** | Backtracking Search                   |
+| **[Lab 07]({{site.url}}/labs/lab07.html)** | Inheritance and Polymorphism              |
+| **[Lab 08]({{site.url}}/labs/lab08.html)** | Templates and Exceptions / Backtracking Search                   |
 | **[Lab 09]({{site.url}}/labs/lab09.html)** | BSTs                                  |
 | **[Lab 10]({{site.url}}/labs/lab10.html)** | Hash Tables                           |

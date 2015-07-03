@@ -113,7 +113,7 @@ Recall, since all the clauses are AND'ed, EVERY clause must evaluate to true.  W
 Some clauses may not have enough information yet to determine true or false and thus means the current assignment is okay thus far but requires us to make another assignment.
 Sometime if we find a solution some variables may not even be assigned yet (meaning their value does not matter).  In that case, simply don't output those unassigned variables to the output file.
 
-Finally, to exercise your RB-Tree implementation above, you **MUST** maintain a map (not an array or list) of each variable to its current value (0, 1, or unassigned), and that map must be your RB-Tree implementation.  Failure to use your RB-Tree implementation for this purpose will result in at most 50% of the possible points for this problem.
+Finally, to exercise your RB-Tree implementation above, you **MUST** maintain a map (not an array or list) of each variable to its current value (0, 1, or unassigned), and that map must be your RB-Tree implementation.  Failure to use your RB-Tree implementation for this purpose will result in a deduction of 30% of the possible points for this problem.
 
 Feel free to generate your own CNF files and post them on Piazza along with the solutions.
 

@@ -7,7 +7,7 @@ nav: assignments
 ##Homework 7
 
   + Due: See Assignments page  
-  + Directory name for this homework (case sensitive): `hw6`
+  + Directory name for this homework (case sensitive): `hw7`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
     - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 4, 5, 6.

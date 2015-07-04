@@ -119,6 +119,37 @@ Feel free to generate your own CNF files and post them on Piazza along with the 
 
 As always, no memory leaks should be present in your program.
 
+###Extra Credit (DNA sequencing, 25%)
+
+Assume in biology a certain genome sequencing task looks at strings of nucleobases: A(denine),C(ytosine),T(hymine),G(uanine).  Recall from a biology class that A binds with T and C binds with G (so you will have pairs AT and CG).  Assume a biologist has a database of an even number of nucleobase strings and wants to check whether each one has a match in the database.  So for example if the input file was:
+
+```
+ACGTA
+CTG
+TGCAT
+CA
+GAC
+GT
+```
+
+then we would output `True` since:
+
+```
+ACGTA matches with TGCAT
+CTG matches with GAC
+CA matches with GT
+```
+
+Write a program that will output `True` or `False` to the screen (via `cout`) based on the contents of the input file.  Again, your job is to check whether each sequence has a matching sequence somewhere else in the database.  Output `True` only if all sequences have a match.
+
+Oh, and your solution has to run in time O(n). But you are allowed to use STL functionality. We strongly recommend looking at what data types are provided by STL in C++11.
+
+Your executable should get one parameter, the name of the input file. 
+
+`./dna_check input.txt`
+
+The input file format will resemble the sample file shown above and will not have any format errors.  We guarantee that there won't be spaces between letters on a line and that the line will contain all UPPER-CASE letters from the set {A,C,T,G}.
+
 ### Commit then Re-clone your Repository
 
 Be sure to add, commit, and push your code in your `hw7` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):

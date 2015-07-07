@@ -19,5 +19,5 @@ This schedule may be changed somewhat over the course of the semester. The lab n
 | **[Lab 05]({{site.url}}/labs/lab05.html)** | Copy Constructors and Operator Overloading                             |
 | **[Lab 06]({{site.url}}/labs/lab06.html)** | Qt Basics                             |
 | **[Lab 07]({{site.url}}/labs/lab07.html) <br> [Lab 08]({{site.url}}/labs/lab08.html)** | Inheritance and Polymorphism <br> Exceptions |
-| **[Lab 09]({{site.url}}/labs/lab09.html)** | Backtracking Search  / BSTs           |
+| **[Lab 09]({{site.url}}/labs/lab09.html)** | Backtracking Search           |
 | **[Lab 10]({{site.url}}/labs/lab10.html)** | Hash Tables                           |

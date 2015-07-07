@@ -7,7 +7,7 @@ nav: assignments
 ##Homework 7
 
   + Due: See Assignments page  
-  + Directory name for this homework (case sensitive): `hw6`
+  + Directory name for this homework (case sensitive): `hw7`
     - This directory should be in your `hw_username` repository
     - This directory needs its own `README.md` file
     - You should provide a `Makefile` to compile and run the code for your tests/programs in problems 4, 5, 6.
@@ -113,11 +113,42 @@ Recall, since all the clauses are AND'ed, EVERY clause must evaluate to true.  W
 Some clauses may not have enough information yet to determine true or false and thus means the current assignment is okay thus far but requires us to make another assignment.
 Sometime if we find a solution some variables may not even be assigned yet (meaning their value does not matter).  In that case, simply don't output those unassigned variables to the output file.
 
-Finally, to exercise your RB-Tree implementation above, you **MUST** maintain a map (not an array or list) of each variable to its current value (0, 1, or unassigned), and that map must be your RB-Tree implementation.  Failure to use your RB-Tree implementation for this purpose will result in at most 50% of the possible points for this problem.
+Finally, to exercise your RB-Tree implementation above, you **MUST** maintain a map (not an array or list) of each variable to its current value (0, 1, or unassigned), and that map must be your RB-Tree implementation.  Failure to use your RB-Tree implementation for this purpose will result in a deduction of 30% of the possible points for this problem.
 
 Feel free to generate your own CNF files and post them on Piazza along with the solutions.
 
 As always, no memory leaks should be present in your program.
+
+###Extra Credit (DNA sequencing, 25%)
+
+Assume in biology a certain genome sequencing task looks at strings of nucleobases: A(denine),C(ytosine),T(hymine),G(uanine).  Recall from a biology class that A binds with T and C binds with G (so you will have pairs AT and CG).  Assume a biologist has a database of an even number of nucleobase strings and wants to check whether each one has a match in the database.  So for example if the input file was:
+
+```
+ACGTA
+CTG
+TGCAT
+CA
+GAC
+GT
+```
+
+then we would output `True` since:
+
+```
+ACGTA matches with TGCAT
+CTG matches with GAC
+CA matches with GT
+```
+
+Write a program that will output `True` or `False` to the screen (via `cout`) based on the contents of the input file.  Again, your job is to check whether each sequence has a matching sequence somewhere else in the database.  Output `True` only if all sequences have a match.
+
+Oh, and your solution has to run in time O(n). But you are allowed to use STL functionality. We strongly recommend looking at what data types are provided by STL in C++11.
+
+Your executable should get one parameter, the name of the input file. 
+
+`./dna_check input.txt`
+
+The input file format will resemble the sample file shown above and will not have any format errors.  We guarantee that there won't be spaces between letters on a line and that the line will contain all UPPER-CASE letters from the set {A,C,T,G}.
 
 ### Commit then Re-clone your Repository
 

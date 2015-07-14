@@ -15,8 +15,8 @@ Doxygen is the de facto standard tool for generating documentation from annotate
 To generate the documentation:
 
 ```
-$ doxygen -g lab14.doxy
-$ doxygen lab14.doxy
+$ doxygen -g lab10.doxy
+$ doxygen lab10.doxy
 ```
 
 To view it:

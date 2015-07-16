@@ -119,7 +119,6 @@ Feel free to generate your own CNF files and post them on Piazza along with the 
 
 As always, no memory leaks should be present in your program.
 
-
 ### Commit then Re-clone your Repository
 
 Be sure to add, commit, and push your code in your `hw7` directory to your `hw_usc-username` repository.  Now double-check what you've committed, by following the directions below (failure to do so may result in point deductions):

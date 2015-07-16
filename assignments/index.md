@@ -25,7 +25,7 @@ Each student will receive a private code repository on the course's [GitHub Orga
 | [**HW04**]({{ site.url }}/assignments/hw4.html)  | Project, Part 1 (Twitter)                | Sun. June 21, 2015 @ 11:59PM (PST)      |
 | [**HW05**]({{ site.url }}/assignments/hw5.html)  | Project, Part 2 (Qt)                     | Tues. June 30, 2015 @ 11:59PM (PST)      |
 | [**HW06**]({{ site.url }}/assignments/hw6.html)  | Project, Part 3 (Sorting & Connected Components)     | Mon. July 6, 2015 @ 11:59PM (PST)       |
-| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Map and Set Implementations              | Mon. July 13, 2015 @ 11:59PM (PST)      |
+| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Map and Set Implementations              | Wed. July 15, 2015 @ 11:59AM (PST)      |
 | [**HW08**]({{ site.url }}/assignments/hw8.html)  | Project, Part 4  (Heaps and Maps)        | Sun. July 19, 2015 @ 11:59PM (PST)      |
   
 ### Submission Instructions

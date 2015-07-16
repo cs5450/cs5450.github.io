@@ -37,7 +37,7 @@ Draw the tree representation of the following Min Heap in its initial configurat
 - Insert 3
 
 ###Problem 3 (m-ary Heaps, 30%)
-Build your own m-ary `Heap` class whose public definition and skeleton code are provided in the `hw6` folder of the `homework-resources` with the interface given below.  Rather than specifying a specific type of heap (Min- or Max-Heap) we will pass in a Comparator object so that if the comparator object functor implements a **less-than** check then we will have a min-heap.  If the Comparator object functor implements a **greater-than** check we will have a max-heap.
+Build your own m-ary `Heap` class whose public definition and skeleton code are provided in the `hw8` folder of the `homework-resources` with the interface given below.  Rather than specifying a specific type of heap (Min- or Max-Heap) we will pass in a Comparator object so that if the comparator object functor implements a **less-than** check then we will have a min-heap.  If the Comparator object functor implements a **greater-than** check we will have a max-heap.
 
 ```
 template <typename T, typename Comparator >

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Structures and Object Oriented Design
-nav: index
+nav: Home
 ---
 
 ## Welcome to CSCI 104

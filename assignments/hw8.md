@@ -36,7 +36,7 @@ Draw the tree representation of the following Min Heap in its initial configurat
 - Remove 0 
 - Insert 3
 
-###Problem 3 (m-ary Heaps, 30%) 
+###Problem 3 (m-ary Heaps, 30%)
 Build your own m-ary `Heap` class whose public definition and skeleton code are provided in the `hw8` folder of the `homework-resources` with the interface given below.  Rather than specifying a specific type of heap (Min- or Max-Heap) we will pass in a priority Comparator (`PComp`) object so that if the comparator object functor implements a **less-than** check then we will have a min-heap.  If the PComp object functor implements a **greater-than** check we will have a max-heap.  For the `updateKey` operation we will also need to find items in the heap which may require a different comparison technique.  For this we will pass in a "key comparator" (`KComp`).  This should implement a functor (`operator()`) that performs less-than comparison to determine if one `T` item is less-than another by examining whatever "key" data (data that makes it unique) as opposed to comparing "priority" data.
 
 ```

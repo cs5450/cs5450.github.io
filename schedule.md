@@ -21,35 +21,49 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 </thead>
 <tbody>
 <tr>
-<td align="center"><strong>1</strong></td>
+<td align="center"><strong>1 (8/25)</strong></td>
 <td align="left">Course Overview – Motivation for DS, Review of Memory Allocation (Ch. 1-2, C++ Interlude 2)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 1-3, 4.1-4.2</a></td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 1-3</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L01_Overview.pdf">Overview PDF</a><br>
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L02_MemoryAllocation.pdf">Memory &amp; Scope PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>2</strong></td>
+<td align="center"><strong>2 (8/27)</strong></td>
 <td align="left">Recursion & Linked Lists (C++ Interlude 2)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 5</a></td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 4</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L03_LinkedLists.pdf">PDF</a></td>
 </tr>
-<td align="center"><strong>3</strong></td>
-<td align="left">Abstract Data Types: Set, List, Dictionary/Map and Classes (Chapters 1, 8, 18, Interlude 1)<br>
-                 Array Lists, Stacks, Queues (Chapters 9, 6, 7, 13.1, 13.2, 14.1)</td>
-<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 6, 7, 13, 14</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L04_ADTs.pdf">ADT PDF</a><br>
+<tr>
+<td align="center"><strong>3 (9/1)</strong></td>
+<td align="left">More Linked Lists and Abstract Data Types: Set, List, Dictionary/Map </td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 5.2, 6</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L04_ADTs.pdf">ADT PDF</a><br></td>
+</tr>
+<tr>
+<td align="center"><strong>4 (9/3)</strong></td>
+<td align="left">Classes and Objects(Chapters 1, 8, 18, Interlude 1)<br>
+                 Array Lists (Chapters 9, 6, 7, 13.1, 13.2, 14.1)</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 7, 13, 14</a></td>
+<td>
 <a href="http://ee.usc.edu/~redekopp/cs104/slides/L05_Classes.pdf">Classes PDF</a><br>
 <a href="http://ee.usc.edu/~redekopp/cs104/slides/L06_ArrayList_QueueStack.pdf">Queues & Stacks PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>4</strong></td>
-<td align="left">Runtime Analysis (Chapter 10), Amortized Runtime and Operator Overloading (C++ Interlude 5) </td>
+<td align="center"><strong>5 (9/8)</strong></td>
+<td align="left">Stacks and Queues (Chapters 6, 7, 13.1, 13.2, 14.1)<br>
+                 Runtime Analysis (Chapter 10)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapter 10</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L07_Runtime.pdf">Runtime PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L08_Operator_Copy.pdf">Op. Overloading & Copy Semantics PDF</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L06_ArrayList_QueueStack.pdf">Queues & Stacks PDF</a><br>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L07_Runtime.pdf">Runtime PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>5</strong></td>
+<td align="center"><strong>6 (9/10)</strong></td>
+<td align="left">Runtime (cont.) and Operator Overloading (C++ Interlude 11)</td>
+<td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 11 and 15</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L08_Operator_Copy.pdf">Op. Overloading & Copy Semantics PDF</a></td>
+</tr>
+<tr>
+<td align="center"><strong>7 (9/15)</strong></td>
 <td align="left">Copy Constructors (C++ Interlude 5) and STL Maps (C++ Interlude 7, Appendix I)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 11 and 15</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L08_Operator_Copy.pdf">Copy Semantics PDF</a> <a href="http://ee.usc.edu/~redekopp/cs104/slides/L09_STL.pdf">STL PDF</a></td>

@@ -17,16 +17,16 @@ Each student will receive a private code repository on the course's [GitHub Orga
 
 ###HW Schedule 
 
-|                      HW                          |           Topic                             |                Due Date                 |
-| :----------------------------------------------: | :------------------------------------------ | :-------------------------------------: |
-| [**HW01**]({{ site.url }}/assignments/hw1.html)  | Course Overview and Recursion               | Fri. May 29, 2015 @ 11:59AM (PST)       |
-| [**HW02**]({{ site.url }}/assignments/hw2.html)  | Linked Lists and Stacks                  | Fri. June 5, 2015 @ 11:59PM (PST)       |
-| [**HW03**]({{ site.url }}/assignments/hw3.html)  | Copy Constructors, Operator Overloading and STL | Fri. June 12, 2015 @ 11:59PM (PST)      |
-| [**HW04**]({{ site.url }}/assignments/hw4.html)  | Project, Part 1 (Twitter)                | Sun. June 21, 2015 @ 11:59PM (PST)      |
-| [**HW05**]({{ site.url }}/assignments/hw5.html)  | Project, Part 2 (Qt)                     | Tues. June 30, 2015 @ 11:59PM (PST)      |
-| [**HW06**]({{ site.url }}/assignments/hw6.html)  | Project, Part 3 (Sorting & Connected Components)     | Mon. July 6, 2015 @ 11:59PM (PST)       |
-| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Map and Set Implementations              | Wed. July 15, 2015 @ 11:59AM (PST)      |
-| [**HW08**]({{ site.url }}/assignments/hw8.html)  | Project, Part 4  (Heaps and Maps)        | Sun. July 19, 2015 @ 11:59PM (PST)      |
+|                      HW                          |           Topic                              |                Due Date                 |
+| :----------------------------------------------: | :------------------------------------------  | :-------------------------------------: |
+| [**HW01**]({{ site.url }}/assignments/hw1.html)  | Course Overview, Memory, & Recursion         | Fri. Sept. 4, 2015 @ 11:59PM (PST)      |
+| [**HW02**]({{ site.url }}/assignments/hw2.html)  | Linked Lists and Stacks                      | Mon. Sept. 14, 2015 @ 11:59PM (PST)     |
+| [**HW03**]({{ site.url }}/assignments/hw3.html)  | Copy Constructors, Operator Overloading and STL | Wed. Sept. 23, 2015 @ 11:59PM (PST)  |
+| [**HW04**]({{ site.url }}/assignments/hw4.html)  | Project, Part 1 (TBA)                        | Wed. Oct. 7, 2015 @ 11:59PM (PST)       |
+| [**HW05**]({{ site.url }}/assignments/hw5.html)  | Project, Part 2 (Qt)                         | Tues. Oct. 27, 2015 @ 11:59PM (PST)     |
+| [**HW06**]({{ site.url }}/assignments/hw6.html)  | Project, Part 3 (Heaps & Graph Algorithms)   | Tues. Nov. 10, 2015 @ 11:59PM (PST)     |
+| [**HW07**]({{ site.url }}/assignments/hw7.html)  | Iterators, Maps, and Backtracking            | Fri. Nov. 20, 2015 @ 11:59AM (PST)      |
+| [**HW08**]({{ site.url }}/assignments/hw8.html)  | Project, Part 4  (Hashing & Project Options) | Fri. Dec. 4, 2015 @ 11:59PM (PST)       |
   
 ### Submission Instructions
 In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/assignments/submission-instructions.html)

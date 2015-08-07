@@ -6,8 +6,6 @@ nav: lectures
 
 ##Lectures
 
-It is recommended that students take careful notes in class, which might be based on the <a href="http://bits.usc.edu/cs104_su15/docs/DataStructures.pdf">course notes</a>. 
-
 <h3 id="toc_2">Lecture Schedule (may be updated as needed)</h3>
 Chapter numbers under "Topic" refer to the textbook, while the chapter numbers under "Notes" refer to the posted lecture notes.
 <table>
@@ -66,7 +64,8 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 <td align="center"><strong>7 (9/15)</strong></td>
 <td align="left">Copy Constructors (C++ Interlude 5) and STL Maps (C++ Interlude 7, Appendix I)</td>
 <td><a href="http://www-scf.usc.edu/~csci104/lectures/DataStructures.pdf">Chapters 11 and 15</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L08_Operator_Copy.pdf">Copy Semantics PDF</a> <a href="http://ee.usc.edu/~redekopp/cs104/slides/L09_STL.pdf">STL PDF</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L08_Operator_Copy.pdf">Copy Semantics PDF</a><br>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L09_STL.pdf">STL PDF</a></td>
 </tr>
 <tr>
 <td align="center"><strong>8 (9/17)</strong></td>

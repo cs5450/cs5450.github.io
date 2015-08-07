@@ -19,7 +19,7 @@ The following point structure will be used in determining the grade for the cour
 <td align="left">Lab Participation</td>
 </tr>
 <tr>
-<td align="center">25%</td>
+<td align="center">20%</td>
 <td align="left">Project Assignments</td>
 </tr>
 <tr>
@@ -27,7 +27,7 @@ The following point structure will be used in determining the grade for the cour
 <td align="left">Other Homework Assignments</td>
 </tr>
 <tr>
-<td align="center">20%</td>
+<td align="center">25%</td>
 <td align="left">Midterm Exam</td>
 </tr>
 <tr>

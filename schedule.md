@@ -112,7 +112,7 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 <td><a href="http://bits.usc.edu/files/cs104/midterm.pdf">Sample Midterm (no solutions)</a></td>
 </tr>
 <tr>
-<td colspan="99"><strong>Midterm -- Friday, October 9th</strong></td> 
+<td align="center" colspan="99"><strong>Midterm -- Friday, October 9th</strong></td> 
 </tr>
 <tr>
 <td align="center"><strong>15 (10/13)</strong></td>
@@ -203,7 +203,7 @@ Chapter numbers under "Topic" refer to the textbook, while the chapter numbers u
 <td><a href="http://bits.usc.edu/files/cs104/final.pdf">Sample Final (no solutions)</a></td>
 </tr>
 <tr>
-<td colspan="99"><strong>Final -- Tuesday, July 21st 5:00 p.m.</strong></td> 
+<td align="center" colspan="99"><strong>Final -- Tuesday, July 21st 5:00 p.m.</strong></td> 
 </tr>
 </tbody>
 </table>

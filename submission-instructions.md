@@ -15,11 +15,11 @@ After concluding work on your assignment, you are to take a moment and make sure
 Make your code is grading friendly:
 
   + Create a `README.md` in the directory for each assignment
-  + Suppressed **all** debug messages (remove any `cout` statements or other debug output)
-  + All assignment files are in the correct directory, as specified in the assignment page
+  + Suppress **all** debug messages (remove any `cout` statements or other debug output)
+  + All assignment files should be in the correct directory, as specified in the assignment page
   + Make sure your code compiles with **no warnings**, **no errors** and **no exceptions**
   + If there are any specific actions and/or commands necessary to **compile**, **run**, or **access** any required documentation for your assignment, include it in a `README.md` file in the assignment's directory.
-  + Your grader will grade the assignment on a standard workstation (Linux, Mac, or Windows) equipped with g++ 4.8
+  + Your grader will grade the assignment on the provided course VM using `g++`
 
 
 ####Acceptable Document Formats
@@ -30,7 +30,7 @@ The following document formats are accepted:
   + Plain text
   + Markdown
 
-No other formats are accepted unless explicitly stated. These include but not limited to Microsoft Word documents (e.g. `.doc`, `.docx`) and Ritch Text Format (RTF) files.
+No other formats are accepted unless explicitly stated. These include but not limited to PDF, Microsoft Word documents (e.g. `.doc`, `.docx`) and Ritch Text Format (RTF) files.
 
 ###Step 2. Push your commits to GitHub
 After you've verified that your assignment is ready to be submitted, push your code. Run a `git status` on your repository and make sure that there are **no files** listed as:
@@ -51,7 +51,7 @@ nothing to commit, working directory clean
 
 ```bash
 cd
-git clone git@github.com:usc-csci104-spring2014/dslib_ttrojan.git test_assignment
+git clone git@github.com:usc-csci104-fall2015/hw_ttrojan.git test_assignment
 cd test_assignment
 ```
 
@@ -62,11 +62,11 @@ Our reference grading environment is the Virtual Machine we provided for the cou
 ###Late Submissions
 **After completing** your [late] assignment, the following steps _must_ be followed to signal your intention of making a late submission. Emails to Professors, TAs or CPs are not considered as a notice for late submissions. Failure to follow these instructions will result in grading your repository as it was by the official deadline:
 
-  1. Push your code to your GitHub repository
-  1. Submit a [Late Submission Request Form](http://bit.ly/cs104_summer15Late)
+  1. Push your code to your GitHub repository as outlined above
+  1. Submit a [Late Submission Request Form](http://bit.ly/cs104_fall15Late)
     - Include the [SHA Hash](http://www-cs-students.stanford.edu/~blynn/gitmagic/ch08.html#_integrity) of the commit to be graded. You can get the SHA from your repository's commit page as shown in the following screenshot:
 
-![SHA of latest commit](http://bits.usc.edu/cs104_su15/assignments/img/github_commit-sha.png)
+![SHA of latest commit](http://bits.usc.edu/cs104/assignments/img/github_commit-sha.png)
 
 
 
@@ -76,7 +76,7 @@ In the case you want to checkout a specific version of your code, such as the co
 
 ```bash
 cd
-git clone git@github.com:usc-csci104-spring2014/dslib_ttrojan.git test_assignment
+git clone git@github.com:usc-csci104-fall2015/hw_ttrojan.git test_assignment
 cd test_assignment
 git checkout d8da410b19cf0a9f5a3003120204a114b8496942
 ```

@@ -6,6 +6,7 @@ schedule: 'Lecture Schedule'
 assignments:
   label: 'Assignments'
   link: 'assignments'
+submission: 'Submission Instructions'
 labs: 'Labs'
 grading: 'Grading'
 tools: 'Tools and Links'

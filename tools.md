@@ -65,11 +65,16 @@ We strongly advise you against using gedit, notepad, or other primitive editors
  - Common Git issues and fixes
     + **Issue**: I got the following error when I try `git status` or `git commit`, why?:
 
-	
-	Fix:
-	This can happen if you don't shut down the VM properly. You should always choose the "Shut Down..." option from within Ubuntu: Power -> Shut Down. Don't save the machine state, force quit, or let your computer sleep while you have the VM running (while it won't always cause a problem, you may have issues with Git like this one here). You can find a solution on [at this link](http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty)  I've followed these steps before and it fixed my issue.
-    
-	You could also re-clone your repo to a new folder and work out of there. If you've made changes to your files, make sure to copy those changes to another file, then recommit your changes from the new directory. 
+	    ```bash
+        error: object file .git/objects/99/9269851355238be625dc0c0da9b6a7b8f3965f is empty
+        error: object file .git/objects/99/9269851355238be625dc0c0da9b6a7b8f3965f is empty
+        fatal: loose object 999269851355238be625dc0c0da9b6a7b8f3965f (stored in .git/objects/99/9269851355238be625dc0c0da9b6a7b8f3965f) is corrupt
+	    ```
+
+		**Fix**:
+		This can happen if you don't shut down the VM properly. You should always choose the "Shut Down..." option from within Ubuntu: Power -> Shut Down. Don't save the machine state, force quit, or let your computer sleep while you have the VM running (while it won't always cause a problem, you may have issues with Git like this one here). You can find a solution on [at this link](http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty)  I've followed these steps before and it fixed my issue.
+		
+		You could also re-clone your repo to a new folder and work out of there. If you've made changes to your files, make sure to copy those changes to another file, then recommit your changes from the new directory. 
 	
 <h3 id="toc_12">Tutoring</h3>
 <ul>

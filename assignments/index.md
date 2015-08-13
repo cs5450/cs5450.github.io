@@ -37,22 +37,6 @@ In order to properly submit your assignment, please follow the course [submissio
 ###Rubric
 Be sure to read our [grading rubric]({{ site.url }}/grading.html) for deductions that we will take on any program (things like memory leaks, poor coding style, etc.
 
-### Grade Disputes
-We will work hard to post HW scores and feedback within 2 weeks of the homework's due date. Exams will typically be graded within at most a few days of the exam date.
-
-Any disputes with posted grades **must** be raised within 2 weeks of the score posting. (If your schedule does not permit a detailed request within 2 weeks, you should register a short note that you plan to dispute, and then submit the dispute when you are ready.) Notice that any regrade request will result in us trying to give the fairest possible grade to you, which could be higher or lower than the one you received originally.
-
-To raise an issue with your exam score, you should come to the office hours of the professor teaching your section. If you cannot make posted office hours, schedule one by e-mail. The TAs will not be allowed to grant regrades on exams.
-
-Since we want to be able to make sure we can address all of your homework-related concerns as easily as possible, please follow the below policy for creating homework regrade requests:
-
-1. You will receive a grade report for your homework or project on GitHub.
-1. If you have questions, you should **assign** your grader to the issue, and then describe your questions in the comments for this issue.
-1. If the grader and you cannot resolve the issue, the grader will **reassign** the issue to one of the TAs.
-1. The TA will then review your homework and make any necessary adjustments, up or down.
-
-Final settlement will be, if necessary, decided by the professors.
-
 
 ### Academic Integrity
 The official language on academic integrity is on the [**syllabus**]({{ site.url }}/syllabus.html) . Here is a little more clarification.

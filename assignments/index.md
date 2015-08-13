@@ -5,15 +5,11 @@ nav: assignments
 ---
 
 ##Assignments
-Homework will be assigned roughly once per week. It will be graded, and require substantial work. The average student should expect to spend about 15 hours per homework. Homeworks will typically contain a mix of programming exercises and "theory" questions about data structures and their implementation. Roughly every third homework will contain a piece that contributes toward the class project, which is to build a simpler version of Netflix from scratch. As the project progresses, students may find it necessary to revisit and improve their earlier solutions, so good coding practices and documentation are strongly encouraged.
+Homework will be assigned roughly once per week. It will be graded, and require substantial work. The average student should expect to spend about 15 hours per homework. Homeworks will typically contain a mix of programming exercises and "theory" questions about data structures and their implementation. Roughly every other homework will contain a piece that contributes toward the class project, which is to build a simpler version of Google Search from scratch. As the project progresses, students may find it necessary to revisit and improve their earlier solutions, so good coding practices and documentation are strongly encouraged.
 
 For detailed information on late submission policies, grace periods, and similar questions about assignments, check the [grading page]({{ site.url }}/grading.html).
 
-Each student will receive a private code repository on the course's Github Organization to use it for the development and submission of all assignments. You will be using the git source code management tool to maintain your homework code.
-
-For detailed information on late submission policies, grace periods, and similar questions about assignments, check the [grading page]({{ site.url }}/grading.html).
-
-Each student will receive a private code repository on the course's [GitHub Organization](https://github.com/usc-csci104-summer2015) to use it for the development and submission of all assignments. You will be using the [git](http://git-scm.com/) source code management tool to maintain your homework code. 
+Each student will receive a private code repository on the course's [GitHub Organization](https://github.com/usc-csci104-fall2015) to use it for the development and submission of all assignments. You will be using the [git](http://git-scm.com/) source code management tool to maintain your homework code. 
 
 ###HW Schedule 
 
@@ -28,18 +24,18 @@ Each student will receive a private code repository on the course's [GitHub Orga
 | [**HW07**]({{ site.url }}/assignments/hw7.html)  | Iterators, Maps, and Backtracking            | Fri. Nov. 20, 2015 @ 11:59AM (PST)      |
 | [**HW08**]({{ site.url }}/assignments/hw8.html)  | Project, Part 4  (Hashing & Project Options) | Fri. Dec. 4, 2015 @ 11:59PM (PST)       |
   
+#### Grace Days (Late Submissions)
+Each student has 4 grace days they can use over the course of the semester. **You may only use 1 grace day per assignment**. Once you have used your grace days, any late submission will not be accepted and graded as a 0.
+
+To use a late day you <strong>MUST follow</strong> the submission policy outlined in our <a title="Submission Instructions" href="http://bits.usc.edu/cs104_su15/assignments/submission-instructions.html">late submission instructions</a> to alert the course staff to fetch your late submission.  Failure to follow these instruction and fill out the late-submission form will result in 0 credit for the assignment. 
+
+Note:  Even if you submit 1 minute after the deadline, you will need to use a late day (even if the wireless network in your dorm room is down or you have a github issue, etc.). It is your job to be on time and not cut it too close. 
+
 ### Submission Instructions
 In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/assignments/submission-instructions.html)
 
-### Homework Policies
-For each assignment, a precise time will be specified (usually at 11:59.59pm) on the due date. Submission must be made correctly via your github account. Each student has 4 grace days they can use over the course of the semester. **A maximum of 2 grace days can be used on a single assignment.** Once you have used your grace days, any late submission will not be accepted and graded as a 0.
-
-To use a late day you **MUST follow** the submission policy outlined in our late submission instructions to alert the course staff to fetch your late submission.
-
-We will grade your assignments using gcc/g++ at the command line in the virtual machine we provide for the course. You are free to use other compilers or IDEs to develop your code, but in the end, it has to work with g++ in the virtual machine. You probably want to test that it does before submitting.
-
-### Grading
-The final grading scale will be based on class performance and we will NOT use a fixed rubric as in past semesters. However, we will guarantee a standard grading scale (90-100 = A range, 80-89 = B range, etc.) and lower that scale at the end of the semester as warranted if scores are lower.
+###Rubric
+Be sure to read our [grading rubric]({{ site.url }}/grading.html) for deductions that we will take on any program (things like memory leaks, poor coding style, etc.
 
 ### Grade Disputes
 We will work hard to post HW scores and feedback within 2 weeks of the homework's due date. Exams will typically be graded within at most a few days of the exam date.
@@ -56,6 +52,7 @@ Since we want to be able to make sure we can address all of your homework-relate
 1. The TA will then review your homework and make any necessary adjustments, up or down.
 
 Final settlement will be, if necessary, decided by the professors.
+
 
 ### Academic Integrity
 The official language on academic integrity is on the [**syllabus**]({{ site.url }}/syllabus.html) . Here is a little more clarification.
@@ -76,32 +73,3 @@ A few things are clearly fine, while a few are clearly not fine. We are listing 
 - Unfortunately, we are aware that (1) there are solutions to many homework questions available on the WWW, and (2) even USC students tend to cheat quite frequently on homeworks. Please help us restore faith in the integrity of Trojans by not being those students.
 
 
-
-###Rubric
-Each homework assignment generally asks for a set of features to be
-implemented in C++. It also usually asks students to specifically
-either use or not use some STL classes. Based on these requirements,
-each assignment is going to have its own grading rubric. We also have
-a general rubric which you need to consider for *all* assignments;
-this captures issues that will be common to most of your projects,
-like quality of your code. 
-
-####General Rubric
-**Coding problems**
-
-- Up to 3% deduction for using global variables inappropriately or extensively in your program.
-- Up to 5% deduction if your code compiles with warnings. It depends on the number of warnings and their severity. In order to see the compiler warnings, you need to compile with the -Wall switch. For example g++ hw1.cpp -Wall -g -o hw1. If you believe the warnings are unavoidable document it in your README file.
-- Up to 5% if you do not use command line arguments correctly (hard code or use cin).
-- Up to 3% deduction for each compiler error depending on the severity of mistake.
-- Up to 10% deduction for bad Makefile (once Makefiles are taught).
-- Up to 20% deduction for bad coding practices, code organization, indentation, naming, code file and header separation, code documentation, throwing non-exception types, etc.
-- Up to 10% deduction for repo organization, garbage files in repo, folder organization, repeated code files, missing data files, missing README file, etc.
-- Up to 10% deduction if your program is testable but crashes during execution, leaks memory, or is considerably slow. Depending on the nature of the assignment, you may lose more points if your program is slow or not scalable.
-- If one of the features of an assignment is not testable because it has major compile errors, you will likely lose at least half its points in addition to other coding mistakes. For example if we cannot test one of your data structure functions because it is missing the UI section (main function) or it has major compile errors, then the best we can do is to look at your code and see if it would work or not. In this scenario, we can give you at most half the points for that data structure function.
-- Similar to the previous rule, if your project is missing a key feature such that testing many other features depends on it, you will likely lose a lot of points. For example, imagine that your assignment is supposed to read data from a file and then process. If you finish the processing part and leave out the file I/O part, you are making it very difficult to test your project. If you want to leave out the file I/O (maybe because you do not have time), change your main function so that it generates some data (like an initial array) just to test the rest of your assignment. This actually makes it easier for yourself to test your assignment as you build. If you want to learn more about this, look up unit testing.
-
-**Multiple choice problems**
-
- + If you miss 1 on a problem of several possible answers you get 50%
- + If you miss more than 1 on a problem with multiple correct answer you get 0
- + If you miss the 1 right answer (if there's only 1 correct answer) you get 0

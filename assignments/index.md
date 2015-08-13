@@ -27,12 +27,12 @@ Each student will receive a private code repository on the course's [GitHub Orga
 #### Grace Days (Late Submissions)
 Each student has 4 grace days they can use over the course of the semester. **You may only use 1 grace day per assignment**. Once you have used your grace days, any late submission will not be accepted and graded as a 0.
 
-To use a late day you <strong>MUST follow</strong> the submission policy outlined in our <a title="Submission Instructions" href="http://bits.usc.edu/cs104_su15/assignments/submission-instructions.html">late submission instructions</a> to alert the course staff to fetch your late submission.  Failure to follow these instruction and fill out the late-submission form will result in 0 credit for the assignment. 
+To use a late day you <strong>MUST follow</strong> the submission policy outlined in our [submission instructions]({{ site.url }}/submission-instructions.html) to alert the course staff to fetch your late submission.  Failure to follow these instruction and fill out the late-submission form will result in 0 credit for the assignment. 
 
-Note:  Even if you submit 1 minute after the deadline, you will need to use a late day (even if the wireless network in your dorm room is down or you have a github issue, etc.). It is your job to be on time and not cut it too close. 
+Note:  Even if you submit 1 minute after the deadline, you will need to use a late day (even if the wireless network in your dorm room is down or you have a github issue, etc.). It is your job to be on time and not cut it too close.  Leave time for things to "go wrong".
 
 ### Submission Instructions
-In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/assignments/submission-instructions.html)
+In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/submission-instructions.html)
 
 ###Rubric
 Be sure to read our [grading rubric]({{ site.url }}/grading.html) for deductions that we will take on any program (things like memory leaks, poor coding style, etc.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Submission Instructions
-nav: assignments
+nav: submission-instructions
 ---
 
 ##Submission Instructions

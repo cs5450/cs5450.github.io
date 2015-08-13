@@ -8,16 +8,18 @@ While you are welcome to install a C++ compiler or integrated development enviro
 
 <h3>Installation instructions</h3>
 <ol>
-	<li>To run this virtual machine you will need to download <a href="https://www.virtualbox.org/wiki/Downloads">Oracle VirtualBox</a>. Download version 4.3.20.</li>
+	<li>To run this virtual machine you will need to download <a href="https://www.virtualbox.org/wiki/Downloads">Oracle VirtualBox</a>. Download version 5.0</li>
 	<li>After installing VirtualBox, download and install the extension pack, available on <a href="https://www.virtualbox.org/wiki/Downloads">the same downloads page</a>.</li>
 	<li>Next download the virtual machine image. We recommend using 'curl' which is already installed on Mac and Linux machines. (A Windows version is available <a href="http://www.confusedbycode.com/curl/">here</a>.) 'curl' is a command line utility to download files from the Internet. Go to a folder where you want to download the file and start a command prompt (Windows) or Terminal there. Then run the command
-<pre>curl http://bits.usc.edu/files/cs104/cs104-vm.ova -o cs104-vm.ova</pre>
+<pre>curl http://bits.usc.edu/files/cs103/install/student-vm-2015.ova -o student-vm-2015.ova</pre>
 <ul>
-	<li>Alternatively, the actual link is available <a href="http://bits.usc.edu/files/cs104/cs104-vm.ova">here</a>. Using curl is recommended because browser downloads might disconnect unexpectedly.</li>
-	<li><b>[Optional] </b>Download an MD5 hash verIfication program (<a href="http://www.winmd5.com/">here's one</a>). Compute the MD5 of the .ova file you downloaded (with such a big file sometimes bits get corrupted that will cause the VM to be unable to install). Verify the MD5 has matches the original MD5 value: ad4dd68ba987978ef55831cf3c567533</li>
+	<li>Alternatively, the actual link is available <a href="http://bits.usc.edu/files/cs103/install/student-vm-2015.ova">here</a>. Using curl is recommended because browser downloads might disconnect unexpectedly.</li>
+	<li><b>[Optional] You can also try using an FTP client, which will support resuming stopped downloads. For example you can download the FileZilla FTP client from
+https://filezilla-project.org/download.php?type=client
+Once installed, connect to host "bits.usc.edu" and inside the "cs103" folder, inside its "install" subfolder, download the ova file.</li>
 </ul>
 </li>
-	<li>Start Virtual Box and choose File...Import. Then select the Ubuntu Virtual Machine (course-vm.ova) you downloaded. Use the default import options.</li>
+	<li>Start Virtual Box and choose File...Import. Then select the Ubuntu Virtual Machine (student-vm-2015.ova) you downloaded. Use the default import options.</li>
 	<li>Adjust the settings of your VM
 <ul>
 	<li>Adjust the appropriate amount of base memory. Everything has to be in the green zone:
@@ -50,18 +52,6 @@ While you are welcome to install a C++ compiler or integrated development enviro
 	<li><b><span style="text-decoration: underline">DO</span></b> install the “Guest Additions” to your Linux VM. This will allow you resize the resolution/window and also support shared folders between your Host and Guest OSs. To do this, start your VM and click the Devices Menu..Install Guest Additions. You may have to enter your password (“developer”) or hit ‘Enter’ once or twice, but other than that it will just run and take a few minutes. When complete it will say “Hit Enter to close the window”. At this point restart your VM and everything should be working.</li>
 	<li><b><span style="text-decoration: underline">DO</span></b> find a way to back up your code on the VM. This is not as important, because you will learn how to use git, a version control system, to maintain and save your code. That will automatically act as a reliable backup option, if used correctly. However, here are alternatives:
 <ol>
-	<li><strong>Dropbox. </strong>You can install Dropbox on the Linux VM and in that way your files will automatically be copied and sync’ed with that service.
-<ul>
-	<li>The installation instructions are given <a href="https://www.dropbox.com/install?os=lnx">here</a>. As of Oct 27 2014, they say to enter the following commands one after the other in a command prompt:
-<ol>
-	<li><tt>cd ~</tt></li>
-	<li><tt>wget -O - https://www.dropbox.com/download?plat=lnx.x86_64 | tar xzf -</tt></li>
-	<li><tt>~/.dropbox-dist/dropboxd &amp;</tt></li>
-	<li>Follow the default options in the installer.</li>
-</ol>
-</li>
-	<li>This will create a folder <tt>/home/student/Dropbox</tt> (a.k.a. <tt>~/Dropbox</tt>). If you keep all of your work in there, it will all be synced. Don’t move or rename the <tt>Dropbox</tt> folder.</li>
-</ul>
 </li>
 	<li><strong>Shared Folders. </strong>You can use the shared folders feature that is part of the VirtualBox service. Follow these steps to create a shared folder in VirtualBox. (note: “guest” or “VM” means the Linux box that you run your code on, while “host” means the system that you normally run.)
 <ul>
@@ -84,7 +74,8 @@ While you are welcome to install a C++ compiler or integrated development enviro
 <h3 id="toc_2"><a name="Troubleshooting"></a>Troubleshooting</h3>
 In this section, we briefly go over common problems with VirtualBox and Ubuntu.
 <ul>
-	<li>In the “Settings” menu, if there is a sign at the bottom of the window that reads “non-optimal”, it means you have chosen a wrong setting. Hover your mouse over the warning message to get the details.</li>
+	<li>If you're VM can't connect to the Internet but your host PC can, just restart the VM.  It is common for the VM to have trouble connecting if you leave it open when you put your laptop to sleep, etc.  Simply rebooting the VM usually reconnects to the network.
+	<li>In the "Settings" menu, if there is a sign at the bottom of the window that reads "non-optimal", it means you have chosen a wrong setting. Hover your mouse over the warning message to get the details.</li>
 	<li>The error “Failed to install NtCreateSection monitor” on Windows can be due to a known bug. Try downloading the <a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=62615">test build here</a>.</li>
 	<li>Error “VT-x features locked or unavailable in MSR”: You need to enable Virtualization for your laptop. If you don’t do this, Ubuntu won’t be able to take advantage of all your CPU power. Usually virtualization is disabled by default on PC laptops and enabled by default on Mac laptops. Here is how to enable it on Windows:
 <ol>

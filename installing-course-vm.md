@@ -14,7 +14,7 @@ While you are welcome to install a C++ compiler or integrated development enviro
 <pre>curl http://bits.usc.edu/files/cs103/install/student-vm-2015.ova -o student-vm-2015.ova</pre>
 <ul>
 	<li>Alternatively, the actual link is available <a href="http://bits.usc.edu/files/cs103/install/student-vm-2015.ova">here</a>. Using curl is recommended because browser downloads might disconnect unexpectedly.</li>
-	<li><b>[Optional] You can also try using an FTP client, which will support resuming stopped downloads. For example you can download the FileZilla FTP client from
+	<li><b>[Optional]</b> You can also try using an FTP client, which will support resuming stopped downloads. For example you can download the FileZilla FTP client from
 https://filezilla-project.org/download.php?type=client
 Once installed, connect to host "bits.usc.edu" and inside the "cs103" folder, inside its "install" subfolder, download the ova file.</li>
 </ul>

@@ -64,11 +64,13 @@ See [Sections page]({{site.url}}/sections.html)
 
 The following point structure will be used in determining the grade for the course. Your final grade will depend solely on your own performance, graded according to the scale given below. Grades will not be curved. Of all homework assignments (but not project assignments), the worst one will be dropped in calculating your grades.
 
-|  5% | Lab Participation     |
-| 15% | Non-Projec Homework Assignments  |
-| 20% | Project Assignments   |
-| 25% | Midterm               |
-| 35% | Final Exam            |
+| Pct. | Item |
+| ---- |:-------------:|
+|  5%  | Lab Participation     |
+| 15%  | Non-Projec Homework Assignments  |
+| 20%  | Project Assignments   |
+| 25%  | Midterm               |
+| 35%  | Final Exam            |
 
 Class participation and attendance is strongly encouraged, but will not be enforced or affect grades directly. (Experience shows, however, that attendance and participation correlate highly with success in classes.)
 

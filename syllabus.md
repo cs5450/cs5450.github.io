@@ -60,7 +60,26 @@ See [Sections page]({{site.url}}/sections.html)
 
 ###Grading
 
+#### Grade Weights
+
+The following point structure will be used in determining the grade for the course. Your final grade will depend solely on your own performance, graded according to the scale given below. Grades will not be curved. Of all homework assignments (but not project assignments), the worst one will be dropped in calculating your grades.
+
+|  5% | Lab Participation     |
+| 15% | Non-Projec Homework Assignments  |
+| 20% | Project Assignments   |
+| 25% | Midterm               |
+| 35% | Final Exam            |
+
+Class participation and attendance is strongly encouraged, but will not be enforced or affect grades directly. (Experience shows, however, that attendance and participation correlate highly with success in classes.)
+
+#### Grading Scale
+
+The final grading scale will be based on class performance and we will <strong>NOT</strong> use a fixed rubric as in past semesters. However, we will guarantee a standard grading scale (90-100 = A range, 80-89 = B range, etc.) and lower that scale at the end of the semester as warranted if scores are lower.
+
+#### Grading policies
+
 For grading policies see our [grading page]( {{site.url}}/grading.html )
+
 
 <h3 id="toc_8">Textbook</h3>
 

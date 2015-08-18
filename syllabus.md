@@ -67,7 +67,7 @@ The following point structure will be used in determining the grade for the cour
 | Pct. | Item |
 | ---- |:-------------:|
 |  5%  | Lab Participation     |
-| 15%  | Non-Projec Homework Assignments  |
+| 15%  | Non-Project Homework Assignments  |
 | 20%  | Project Assignments   |
 | 25%  | Midterm               |
 | 35%  | Final Exam            |

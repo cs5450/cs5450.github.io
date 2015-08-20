@@ -12,7 +12,6 @@ The instructions and discussion in this lab are for the git <strong>command line
 <h3 id="toc_2">1. Install Course VM</h3>
 Download and Install the Course Virtual Machine. <a title="Installing The Course VM" href="http://bits.usc.edu/cs104_su15/installing-course-vm.html">Instructions are available on this page</a>.
 
-
 <h3 id="toc_7">2. Git Configuration – SSH Keys</h3>
 One of the main features of using a distributed version control system such as git, is having a complete backup of your code and its history. Git uses the <a href="http://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a> protocol (SSH) when contacting remote servers. To facilitate this communication, you need to generate a pair of encryption keys: one public and the other private.
 

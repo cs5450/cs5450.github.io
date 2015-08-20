@@ -14,6 +14,7 @@ This schedule may be changed somewhat over the course of the semester. The lab n
 
 | **Week #**                                 | **Topic**                                |
 | :----------------------------------------: | :-----------------------------------:    |
+| **[Lab 00]({{site.url}}/labs/lab00.html)** | Git Registration (Do before attending 1st lab)             |
 | **[Lab 01]({{site.url}}/labs/lab01.html)** | Git Tutorial; Course VM <br>             |
 | **[Lab 02]({{site.url}}/labs/lab02.html)** | GDB Debugging                            |
 | **[Lab 03]({{site.url}}/labs/lab03.html)** | Makefiles                                |

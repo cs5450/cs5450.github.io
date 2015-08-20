@@ -27,7 +27,7 @@ For special questions, you can contact your instructor. However, we encourage y
 </tr>
 <tr>
 <td>David Kempe</td>
-<td><img class=" size-full wp-image-279 alignnone" src="http://www-bcf.usc.edu/~dkempe/photo.jpg" alt="David" width="85" height="90" /></td>
+<td><img class=" size-full wp-image-279 alignnone" src="http://www-bcf.usc.edu/~dkempe/images/photo.jpg" alt="David" width="85" height="90" /></td>
 <td>dkempe@</td>
 <td>TBA</td>
 <td>SAL 232</td>
@@ -53,28 +53,28 @@ For special questions, you can contact your instructor. However, we encourage y
 </tr>
 <tr>
 <td>Nisar Ahmed</td>
-<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/nisar.jpg" alt="" width="90" height="81" /></td>
+<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/wordpress/wp-content/uploads/sites/8/2014/08/nisar.jpg" alt="Nisar" width="90" height="81" /></td>
 <td>nisarahm@</td>
 <td>TBA</td>
 <td>TBA</td>
 </tr>
 <tr>
 <td>Neal Lawton</td>
-<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads-sites/11/2014/08/download.jpg" alt="" width="90" height="81" /></td>
+<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads/sites/11/2014/08/download.jpg" alt="Neal" width="90" height="81" /></td>
 <td>nlawton@</td>
 <td>TBA</td>
 <td>TBA</td>
 </tr>
 <tr>
 <td>Alana Shine</td>
-<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads-sites/11/2014/08/download.jpg" alt="" width="90" height="81" /></td>
+<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads/sites/11/2014/08/download.jpg" alt="Alana" width="90" height="81" /></td>
 <td>ashinem@</td>
 <td>TBA</td>
 <td>TBA</td>
 </tr>
 <tr>
 <td>Charith Wickramaarachchi</td>
-<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads-sites/11/2014/08/download.jpg" alt="" width="90" height="81" /></td>
+<td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads/sites/11/2014/08/download.jpg" alt="Charith" width="90" height="81" /></td>
 <td>cwickram@</td>
 <td>TBA</td>
 <td>TBA</td>

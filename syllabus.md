@@ -62,7 +62,9 @@ See [Sections page]({{site.url}}/sections.html)
 
 #### Grade Weights
 
-The following point structure will be used in determining the grade for the course. Your final grade will depend solely on your own performance, graded according to the scale given below. Grades will not be curved. Of all homework assignments (but not project assignments), the worst one will be dropped in calculating your grades.
+The following point structure will be used in determining the grade
+for the course. Your final grade will depend solely on your own
+performance, graded according to the scale given below. Grades will not be curved, and there will be no extra-credit to make up for lost points.
 
 | Pct. | Item |
 | ---- |:-------------:|

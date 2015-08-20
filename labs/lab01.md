@@ -12,14 +12,6 @@ The instructions and discussion in this lab are for the git <strong>command line
 <h3 id="toc_2">1. Install Course VM</h3>
 Download and Install the Course Virtual Machine. <a title="Installing The Course VM" href="http://bits.usc.edu/cs104_su15/installing-course-vm.html">Instructions are available on this page</a>.
 
-<h3>2. Create a Github account</h3>
-If you have not created a Github account yet, follow the instructions given in this section. If you already have a Github account and you wish to use it for this course, you can skip to next section.
-
-We will be using git extensively this semester in labs and in programming assignments. Github is a development ecosystem based around git. In CS 104, we will be using Github to host our git repositories and we will take advantage of other GitHub features such as the <a href="https://github.com/features/projects/issues">issue tracker</a> and <a href="https://github.com/features/projects/wikis">wiki</a>.
-
-We start by visiting Github's sign-up page. You are free to choose your username and email. It does not necessarily need to match your USCNet account. Your email, however, needs the email you used in your git configuration.
-<blockquote><a href="https://github.com/signup/free">https://github.com/signup/free</a></blockquote>
-You will be sent an email to verify your email address. Do that before proceeding.
 
 <h3 id="toc_7">2. Git Configuration – SSH Keys</h3>
 One of the main features of using a distributed version control system such as git, is having a complete backup of your code and its history. Git uses the <a href="http://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a> protocol (SSH) when contacting remote servers. To facilitate this communication, you need to generate a pair of encryption keys: one public and the other private.

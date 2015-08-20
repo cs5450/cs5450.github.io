@@ -68,7 +68,7 @@ For special questions, you can contact your instructor. However, we encourage y
 <tr>
 <td>Alana Shine</td>
 <td><img class="alignnone wp-image-278 size-full" src="http://bits.usc.edu/cs103/wp-content/uploads/sites/11/2014/08/download.jpg" alt="Alana" width="90" height="81" /></td>
-<td>ashinem@</td>
+<td>ashine@</td>
 <td>TBA</td>
 <td>TBA</td>
 </tr>

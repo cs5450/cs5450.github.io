@@ -39,7 +39,7 @@ Which of the following are acceptable behaviors in solving homeworks/projects?
 1. Copying code from my classmates, and then editing it significantly.
 1. Asking the course staff for help.
 1. Sitting next to my classmate and coding together as a team or with significant conversation about approach.
-1. Sharing my code with a classmate, even if he/she just wants to read over it and learn from it
+1. Sharing my code with a classmate, if he/she just wants to read over it and learn from it
 
 ####Part (b): 
 Which of the following are recommended ways of writing code?
@@ -76,7 +76,7 @@ Is there a grace period to submit assignments?
 
 
 
-###Problem 2 (Git, 6%)
+###Problem 2 (Git, 10%)
 Carefully review and implement the steps discussed in [Lab1](http://bits.usc.edu/cs104/lab01/). Then, answer the following questions:
 
 **Continue your answers to this question in the file name `hw1.txt`**
@@ -104,25 +104,89 @@ Let's say you staged three files to be committed. Then, you ran the following co
 What will git do?
 
 
-###Problem 3 (Review Material)
-Carefully review recursion and dynamic memory management from your CSCI 103 notes and textbook. You may also find Chapters 2 and 5 from the textbook, and the C++ Interlude 2, helpful.
-
-
-###Problem 4 (Strings and Streams, Dynamic Memory, 19%)
-
-
-
+###Problem 3 (Review Material, and Programming Advice)
+Carefully review recursion and dynamic memory management from your CSCI 103 notes and textbook. You may also find Chapters 2 and 5 from the textbook, Chapters 2 and 3 from the lecture notes, and the C++ Interlude 2, helpful.
 
 You will lose points if you have memory leaks, so be sure to run `valgrind` once you think your code is working.
 
 `$ valgrind --tool=memcheck --leak-check=yes ./sum_pairs input.txt output.txt`
 
-**Hint**: In order to read the filename as a command line argument in C++, you need to use a slightly different syntax for your `main` function: `int main (int argc, char * argv[])`. Here, `argc` is the total number of arguments that the program was given, and `argv` is an array of strings, the parameters the program was passed. `argv[0]` is always the name of your program, and `argv[1]` is the first argument. 
+**Hint**: In order to read parameters as command line arguments in C++, you need to use a slightly different syntax for your `main` function: `int main (int argc, char * argv[])`. Here, `argc` is the total number of arguments that the program was given, and `argv` is an array of strings, the parameters the program was passed. `argv[0]` is always the name of your program, and `argv[1]` is the first argument. The operating system will assign the values of `argc` and `argv`, and you can just access them inside your program.
 
-###Problem 5 (Parsing 25%)
+###Problem 4 (Recursion, Dynamic Memory, 25%)
 
+Write a **recursive** function to split the elements of a singly-linked list into two sublists, one containing the elements smaller than a given number, the other containing the elements larger than the number. At the same time, the original list should be **deleted**. Your function must be recursive - you will get only very little credit for an iterative solution.
 
-###Problem 6 (Using Recursion to Generate Combinations, 40%)
+You should use the following `Node` type from class:
+
+```
+struct Node {
+    int value;
+    Node *next;
+};
+```
+
+Here is the function you should implement:
+
+```
+void split (Node *in, Node*& smaller, Node*& larger, int pivot);
+ /* When this function terminates, the following holds:
+    - smaller is the pointer to the head of a new singly linked list containing
+      all elements of "in" that were less than or equal to the pivot.
+    - larger is the pointer to the head of a new singly linked list containing
+      all elements of "in" that were (strictly) larger than the pivot.
+    - the linked list "in" no longer exists.
+```
+
+Hint: by far the easiest way to make this work is to not `delete` or `new` nodes, but just to change the pointers.
+
+###Problem 5 (Parsing 30%)
+Markdown is the language used inside `git` for documentation, and the language your course staff use to maintain your course web page. (It is then used translated to HTML.) We will also use Markdown as a format for "web pages" when you write your own version of Google this semester. While we will later give you code for parsing web pages, you should at least have an idea of what's going on inside that code, so here, you'll write a simple parser.
+
+The input will be a plain text file, in which only the characters `[`, `]`, `(`, and `)` have special meaning. Words will be separated by anything that is not a letter, including numbers, white space, special characters, etc. Links to other pages are denoted by one of the following:
+
++ `(link location)` is a link to `link location` that is just displayed as is. For instance, `(www.usc.edu)` would display as `www.usc.edu`.
++ `[anchor text](link location)` is a link to `link location` that is displayed as `anchor text`. So `[USC](www.usc.edu)` would display as `USC`, and when you click on it, you are taken to `www.usc.edu`.
++ `[anchor text]` is not a valid link. In this case, the square brackets are just punctuation characters that should be ignored.
+
+Your task is to write a program parsemd, which reads the name of a Markdown text file at the command line, and outputs, one per line, each **word** in the file in the order in which they appear. You should not output any special characters, numbers, white space, etc. For each link that you encounter, you should output `LINK (destination, anchor text)`, where `destination` is where the link points, and `anchor text` is the anchor text that is displayed. (If none was specified, that's the same as the destination.)
+
+For example, supposed that the input was the following file `input.md`:
+
+```
+Writing my own (www.google.com) in   my 3rd 
+semester at [USC](www.usc.edu). 
+[Parsing] #!@@!  text   is part of [Assignment 1].
+```
+
+You would run
+
+```
+$ ./parsemd input.txt
+```
+
+The output should be
+
+```
+Writing
+my
+own
+LINK (www.google.com, www.google.com)
+in
+my
+rd
+semester
+at
+LINK (www.usc.edu, USC)
+Parsing
+text
+is
+part
+of
+Assignment
+```
+
+###Problem 6 (Using Recursion to Generate Combinations, 25%)
 A palindrome is a string that is the same when read forward and backward (e.g. `racecar`, `mom`, `otto`). It can be recursively defined as `P = {empty string}` or `P = xPx` where x is some character.
 
 Your job is to write a program that will read in a string of characters and an integer size and generate **all possible** palindromes of the **given size or less** using the characters provided as your options.  Each palindrome should be output to a file.

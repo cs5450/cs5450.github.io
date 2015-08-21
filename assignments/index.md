@@ -7,7 +7,6 @@ nav: assignments
 ##Assignments
 Homework will be assigned roughly once per week. It will be graded, and require substantial work. The average student should expect to spend about 15 hours per homework. Homeworks will typically contain a mix of programming exercises and "theory" questions about data structures and their implementation. Roughly every other homework will contain a piece that contributes toward the class project, which is to build a simpler version of Google Search from scratch. As the project progresses, students may find it necessary to revisit and improve their earlier solutions, so good coding practices and documentation are strongly encouraged.
 
-For detailed information on late submission policies, grace periods, and similar questions about assignments, check the [grading page]({{ site.url }}/grading.html).
 
 Each student will receive a private code repository on the course's [GitHub Organization](https://github.com/usc-csci104-fall2015) to use it for the development and submission of all assignments. You will be using the [git](http://git-scm.com/) source code management tool to maintain your homework code. 
 
@@ -29,7 +28,7 @@ Each student has 4 grace days they can use over the course of the semester. **Yo
 
 To use a late day you <strong>MUST follow</strong> the submission policy outlined in our [submission instructions]({{ site.url }}/submission-instructions.html) to alert the course staff to fetch your late submission.  Failure to follow these instruction and fill out the late-submission form will result in 0 credit for the assignment. 
 
-Note:  Even if you submit 1 minute after the deadline, you will need to use a late day (even if the wireless network in your dorm room is down or you have a github issue, etc.). It is your job to be on time and not cut it too close.  Leave time for things to "go wrong".
+Note:  **There is NO grace period.** Even if you submit a few minutes after the deadline, you will need to use a late day (even if the wireless network in your dorm room is down or you have a github issue, etc.). It is your job to be on time and not cut it too close.  Leave time for things to "go wrong".
 
 ### Submission Instructions
 In order to properly submit your assignment, please follow the course [submission instructions]({{ site.url }}/submission-instructions.html)

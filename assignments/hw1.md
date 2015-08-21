@@ -47,7 +47,7 @@ Which of the following are recommended ways of writing code?
 1. gedit
 1. emacs
 1. Eclipse
-1. vim
+1. sublime
 1. Microsoft Visual Studio
 1. notepad
 
@@ -55,8 +55,8 @@ Which of the following are recommended ways of writing code?
 What is the late submission policy?
 
 1. One hour late submission is acceptable for each assignment.
-1. Each assignment can be submitted up to three days late for 50% credit.
-1. Each student has 4 late days of which only 2 can be used per HW
+1. Each assignment can be submitted up to two days late for 50% credit.
+1. Each student has 4 late days of which only 1 can be used per HW
 1. Students need to get an approval before submitting an assignment late.
 
 ####Part(d): 
@@ -70,9 +70,8 @@ After making a late submission by pushing your code to Gihub you should...
 Is there a grace period to submit assignments?
 
 1. No
-1. There is an hour grace period per assignment for 50% credit.
+1. There is an hour grace period per assignment.
 1. Yes, but only if there is a technical difficulty with submission.
-1. There is a day grace period upon approval.
 
 
 

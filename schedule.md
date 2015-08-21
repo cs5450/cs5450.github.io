@@ -162,27 +162,26 @@ Operator Overloading (C++ Interlude 11)</td>
 <tr>
 <td align="center"><strong>19-20 (10/27-10/29)</strong></td>
 <td align="left"> Backtracking Search (Chapter 5)<br>
-                 Balanced Search Trees (Chapter 19)</td>
+                 Introduction to Balanced Search Trees (Chapter 19)</td>
 <td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapters 23-24</a></td>
 <td>
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L18b_BacktrackingSearch.pdf">Backtracking PDF</a><br>
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L19_BalancedBST_23.pdf">2-3 Tree PDF</a><br>
-    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20_BalancedBST_234_RB.pdf">2-3-4 &amp; RB-Tree PDF</a>
 </td></tr>
 
 <tr>
 <td align="center"><strong>21 (11/3)</strong></td>
-<td align="left">Red-Black Trees continued (Chapter 19)<br>
+<td align="left">Balanced Search Trees<br>Red-Black Trees (Chapter 19)<br>
 Iterators (C++ Interlude 6)</td>
-<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">24-25</a></td>
-<td>    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20_BalancedBST_234_RB.pdf">2-3-4 &amp; RB-Tree PDF</a>
-<a href="http://ee.usc.edu/~redekopp/cs104/slides/L20b_Iterators.pdf">Iterators PDF</a>
+<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapters 24-25</a></td>
+<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L19_BalancedBST_23.pdf">2-3 Tree PDF</a><br>
+    <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20_BalancedBST_234_RB.pdf">2-3-4 &amp; RB-Tree PDF</a>
 </td></tr>
 
 <tr>
 <td align="center"><strong>22 (11/5)</strong></td>
-<td align="left">Iterators continued (C++ Interlude 6)<br>
-Hash Tables</td>
+<td align="left">Iterators (C++ Interlude 6)<br>
+Intro. to Hash Tables</td>
 <td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">25-26</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L20b_Iterators.pdf">Iterators PDF</a><br>
 <a href="http://ee.usc.edu/~redekopp/cs104/slides/L21_Hashing.pdf">Hashing PDF</a>

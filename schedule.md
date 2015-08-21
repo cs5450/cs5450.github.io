@@ -112,15 +112,8 @@ Operator Overloading (C++ Interlude 11)</td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L14_Qt.pdf">Qt PDF</a></td>
 </tr>
 <tr>
-<td align="center"><strong>12 (10/1)</strong></td>
+<td align="center"><strong>12-13 (10/1-10/6)</strong></td>
 <td align="left">Sorting Algorithms (Chapter 19) </td>
-<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapter 16</a></td>
-<td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L12_Sorting.pdf">Sorting PDF</a></td>
-</tr>
-
-<tr>
-<td align="center"><strong>13 (10/6)</strong></td>
-<td align="left">Sorting Algorithms (Cont.) (Chapter 19) </td>
 <td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapter 16</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L12_Sorting.pdf">Sorting PDF</a></td>
 </tr>
@@ -147,7 +140,7 @@ Operator Overloading (C++ Interlude 11)</td>
 <tr>
 <td align="center"><strong>16 (10/15)</strong></td>
 <td align="left">Intro to Graphs (Chapters 20.1, 20.2) and Trees (15,16), Traversals and Search (Chapter 20)</td>
-<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapter 19-20</a></td>
+<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapters 19-20</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L16_Graphs.pdf">Graphs PDF</a></td>
 </tr>
 
@@ -162,7 +155,7 @@ Operator Overloading (C++ Interlude 11)</td>
 <td align="center"><strong>18 (10/22)</strong></td>
 <td align="left">Graph Algorithms (Chapters 20.3.1, 20.3.2)<br>
                  PageRank</td>
-<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapter 19, 22</a></td>
+<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapters 19, 22</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L18_GraphAlgorithms.pdf">Graph Algs. PDF</a>
 </td></tr>
 
@@ -240,7 +233,7 @@ Hash Tables</td>
 <tr>
 <td align="center"><strong>30 (12/3)</strong></td>
 <td align="left">Final Review</td>
-<td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">TBA</a></td>
+<td></td>
 <td><a href="http://bits.usc.edu/files/cs104/final.pdf">Sample Final (no solutions)</a></td>
 </tr>
 

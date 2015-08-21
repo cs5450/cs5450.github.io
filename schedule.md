@@ -171,8 +171,7 @@ Operator Overloading (C++ Interlude 11)</td>
 
 <tr>
 <td align="center"><strong>21 (11/3)</strong></td>
-<td align="left">Balanced Search Trees<br>Red-Black Trees (Chapter 19)<br>
-Iterators (C++ Interlude 6)</td>
+<td align="left">Balanced Search Trees<br>Red-Black Trees (Chapter 19)</td>
 <td><a href="http://www-bcf.usc.edu/~dkempe/teaching/DataStructures.pdf">Chapters 24-25</a></td>
 <td><a href="http://ee.usc.edu/~redekopp/cs104/slides/L19_BalancedBST_23.pdf">2-3 Tree PDF</a><br>
     <a href="http://ee.usc.edu/~redekopp/cs104/slides/L20_BalancedBST_234_RB.pdf">2-3-4 &amp; RB-Tree PDF</a>

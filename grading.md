@@ -9,6 +9,19 @@ nav: grading
 ### Homework Grade Policies
 For each assignment, a precise time will be specified (usually at 11:59.59pm) on the due date. Submission must be made correctly via your github account. **After you believe you have submitted, you should always clone your repo into a new folder and make sure everything you think you submitted was cloned into this new folder.  Then compile your code in this new folder and run it to ensure we will also be able to compile and run your code.** 
 
+### Grading Scale
+We will guarantee that you will get at least the grade indicated by the following scale.  At the end of the semester, we may decide to lower the scale if the exams were more difficult than intended.
+85%+ = A
+80%-85% = A-
+77-80% = B+
+73-77% = B
+70-73% = B-
+67-70% = C+
+63-67% = C
+60-63% = C-
+57-60% = D+
+53-57% = D
+50-53% = D-
 
 #### Grading Disputes
 We will work hard to post HW scores and feedback within 2 weeks of the homework's due date. Exams will typically be graded within at most a few days of the exam date.

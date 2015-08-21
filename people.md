@@ -81,7 +81,7 @@ For special questions, you can contact your instructor. However, we encourage y
 </tr>
 </tbody>
 </table>
-<h3>Sherpas</h3>
+<h3>Course Producers</h3>
 <table>
 <tbody>
 <tr>
@@ -102,25 +102,6 @@ For special questions, you can contact your instructor. However, we encourage y
 <td>Aaron Cheney</td>
 <td><img class="alignnone wp-image-1694" src="http://bits.usc.edu/cs104_su15/img/acheney.jpg" alt="" width="85" height="90" /></td>
 <td><a href="mailto:acheney@usc.edu">acheney@</a></td>
-<td>TBA</td>
-<td>TBA</td>
-</tr>
-</tbody>
-</table>
-<h3>Graders</h3>
-<table>
-<tbody>
-<tr>
-<th>Name</th>
-<th></th>
-<th>Email</th>
-<th>Office Hours</th>
-<th>Location</th>
-</tr>
-<tr>
-<td>TBA</td>
-<td>TBA</td>
-<td>TBA</td>
 <td>TBA</td>
 <td>TBA</td>
 </tr>

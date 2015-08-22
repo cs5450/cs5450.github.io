@@ -148,7 +148,7 @@ The input will be a plain text file, in which only the characters `[`, `]`, `(`,
 + `[anchor text](link location)` is a link to `link location` that is displayed as `anchor text`. So `[USC](www.usc.edu)` would display as `USC`, and when you click on it, you are taken to `www.usc.edu`.
 + `[anchor text]` is not a valid link. In this case, the square brackets are just punctuation characters that should be ignored.
 
-Your task is to write a program parsemd, which reads the name of a Markdown text file at the command line, and outputs, one per line, each **word** in the file in the order in which they appear. You should not output any special characters, numbers, white space, etc. For each link that you encounter, you should output `LINK (destination, anchor text)`, where `destination` is where the link points, and `anchor text` is the anchor text that is displayed. (If none was specified, that's the same as the destination.)
+Your task is to write a program named parsemd, which reads the name of a Markdown text file at the command line, and outputs, one per line, each **word** in the file in the order in which they appear. You should not output any special characters, numbers, white space, etc. For each link that you encounter, you should output `LINK (destination, anchor text)`, where `destination` is where the link points, and `anchor text` is the anchor text that is displayed. (If none was specified, that's the same as the destination.)
 
 For example, supposed that the input was the following file `input.md`:
 

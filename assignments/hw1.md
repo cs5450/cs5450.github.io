@@ -111,6 +111,7 @@ You will lose points if you have memory leaks, so be sure to run `valgrind` once
 
 **Hint**: In order to read parameters as command line arguments in C++, you need to use a slightly different syntax for your `main` function: `int main (int argc, char * argv[])`. Here, `argc` is the total number of arguments that the program was given, and `argv` is an array of strings, the parameters the program was passed. `argv[0]` is always the name of your program, and `argv[1]` is the first argument. The operating system will assign the values of `argc` and `argv`, and you can just access them inside your program.
 
+
 ###Problem 4 (Recursive Definitions, 15%)
 In class, we saw how to recursively define things like palindromes. Remember that a string being a palindrome can be characterized as follows:
 
@@ -128,26 +129,27 @@ Here, you are to give us a similar definition for correctly parenthesized expres
 
 Your solution to this problem should be a text file (or MarkDown, or PDF; no Word, Apple Writer, or other formats please), in which you formally write down the recursive definition for correctly parenthesized expressions. Your solution should not contain any actual code for anything.
 
+
 ###Problem 5 (Dynamic Memory, 20%)
 
-Write a program to solve the following problem: you will be given a "grid" of floating point numbers (`double`), and are to look for the longest strictly increasing sequence along a row, column, or diagonal (forward or backward). Notice that the grid need not be regular. The input will look as follows (explained below):
+Write a program to solve the following problem: you will be given a "grid" of floating point numbers (`double`), and are to look for the longest strictly increasing sequence along a row or column (forward or backward). Notice that the grid need not be regular. The input will look as follows (explained below):
 
 ```
 6
-3 2 6 2 4 3
+3 2 6 2 4 5
 -1.0 3.14  42
 0.2 2.7172
 0.5 1.4142 -0.5 0 -0.5 0
 0 0.577
 10000 9999.99 -3 10
-1 2 3
+1 1 1 1 1
 ```
 
 The first row tells you the number `n` of data rows you will have. The second row gives you the number of floating point numbers for each of the following `n` rows - here, since we have 6 rows of data, there are six numbers. Then, you get that many numbers in the next `n` rows.
 
 We promise you that the total number of floating point numbers will always comfortably fit into main memory (say, no more than 10,000,000 total). But they could be in one long row, or in very many short rows, or anything in between. You will need to take care of this.
 
-As output, you should just write the longest increasing sequence in the input data. In the example above, that would be `4`; the sequence is (0.577, 1.4142, 2.7172, 3.14). (Pat yourself on the shoulder if you know what all those numbers are.) There are a lot of sequences of length 3, such as (-1.0, 3.14, 42), or (0.5, 2.7172, 42), or (-3, 9999.99, 10000), or (1, 2, 3). (We're mentioning this just to illustrate that you can go in a bunch of different directions.)
+As output, you should just write the length of the longest increasing sequence in the input data. In the example above, that would be `4`; the sequence is (0.577, 1.4142, 2.7172, 3.14). (Pat yourself on the shoulder if you know what all those numbers are.) There are several sequences of length 3, such as (-1.0, 3.14, 42), or (-3, 9999.99, 10000). (We're mentioning this just to illustrate that you can go in a bunch of different directions.) Notice that (1,1,1,1,1) is not an increasing sequence of length 5, as the numbers need to **strictly** increase (not be equal).
 
 Your program should be called `sequencesearch`, read its input from a file whose name is given at the command line, and write its output to a file whose name is also given at the command line. So for instance, if the file above were named `input.txt`, then running
 
@@ -163,7 +165,7 @@ should result in `output.txt` looking as follows:
 
 
 ###Problem 6 (Parsing 25%)
-Markdown is the language used inside `git` for documentation, and the language your course staff use to maintain your course web page. (It is then used translated to HTML.) We will also use Markdown as a format for "web pages" when you write your own version of Google this semester. While we will later give you code for parsing web pages, you should at least have an idea of what's going on inside that code, so here, you'll write a simple parser.
+Markdown is the language used inside `github` for documentation, and the language your course staff use to maintain your course web page. (It is then used translated to HTML.) We will also use Markdown as a format for "web pages" when you write your own version of Google this semester. While we will later give you code for parsing web pages, you should at least have an idea of what's going on inside that code, so here, you'll write a simple parser.
 
 The input will be a plain text file, in which only the characters `[`, `]`, `(`, and `)` have special meaning. Words will be separated by anything that is not a letter, including numbers, white space, special characters, etc. Links to other pages are denoted by one of the following:
 
@@ -172,8 +174,9 @@ The input will be a plain text file, in which only the characters `[`, `]`, `(`,
 + `[anchor text]` is not a valid link. In this case, the square brackets are just punctuation characters that should be ignored.
 
 Your task is to write a program named parsemd, which reads the name of a Markdown text file at the command line, and outputs into a file, one per line, each **word** in the file in the order in which they appear. You should not output any special characters, numbers, white space, etc. For each link that you encounter, you should output `LINK (destination, anchor text)`, where `destination` is where the link points, and `anchor text` is the anchor text that is displayed. (If none was specified, that's the same as the destination.)
+To simplify your life, we promise that each link `[` or `(` is preceded by a whitespace, tab, or newline character.
 
-For example, supposed that the input was the following file `input.md`:
+For example, suppose that the input was the following file `input.md`:
 
 ```
 Writing my own (www.google.com) in   my 3rd 

@@ -66,6 +66,11 @@ You are <strong>required</strong> to attend the lecture section that you are off
 <td><a href="http://web-app.usc.edu/maps/?b=SAL">SAL</a> 109</td>
 </tr>
 <tr>
+<td>30210</td>
+<td>Wednesday 10:00-11:50am</td>
+<td><a href="http://web-app.usc.edu/maps/?b=SAL">SAL</a> 127</td>
+</tr>
+<tr>
 <td>29938</td>
 <td>Wednesday 5:30-7:20pm</td>
 <td><a href="http://web-app.usc.edu/maps/?b=SAL">SAL</a> 126</td>

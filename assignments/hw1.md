@@ -174,12 +174,18 @@ The input will be a plain text file, in which only the characters `[`, `]`, `(`,
 + `[anchor text]` is not a valid link. In this case, the square brackets are just punctuation characters that should be ignored.
 
 Your task is to write a program named parsemd, which reads the name of a Markdown text file at the command line, and outputs into a file, one per line, each **word** in the file in the order in which they appear. You should not output any special characters, numbers, white space, etc. For each link that you encounter, you should output `LINK (destination, anchor text)`, where `destination` is where the link points, and `anchor text` is the anchor text that is displayed. (If none was specified, that's the same as the destination.)
-To simplify your life, we promise that each link `[` or `(` is preceded by a whitespace, tab, or newline character.
+
+Here are a few answers to special cases you may have about this:
+
++ To simplify your life, we promise that each link `[` or `(` is preceded by a whitespace, tab, or newline character.
++ The text inside the `[]` or `()` could be anything, except it will not contain any `[`, `]`, `(`, or `)`. It may contain spaces or numbers or punctuation marks, and the "link location" may not be a well-formed web address. You should just output them as they are, not breaking them into words.
++ The text or link location (or both) may also be empty, in which case you should output the empty string.
++ There may be text immediately after the closing `)`; you should just treat it as a new word.
 
 For example, suppose that the input was the following file `input.md`:
 
 ```
-Writing my own (www.google.com) in   my 3rd 
+Writing my own (www.google.com)in   my 3rd 
 semester at [USC](www.usc.edu). 
 [Parsing] #!@@!  text   is part of [Assignment 1].
 ```

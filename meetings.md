@@ -13,41 +13,41 @@ All meetings will be held in David's office, SAL 232.
 
 + 4:10 Alves Dulce, Tiago
 + 4:15 Anderson, George, Vaux
-+ 4:20 Azage, Emanuel, Hiwot
++ 4:20 
 + 4:25 Barroso Perrotta, Thiago
 + 4:30 Bratti, Jose Douglas
 + 4:35 Chander, Rahul
 + 4:40 Conde, Kevin, Rowland
 + 4:45 Cook, William, Michael
-+ 4:50 Cordeiro Coutinho, Joao Victor
++ 4:50 Huang, Yining
 + 4:55 Duan, Michael, S.
 
 ####Wednesday, August 26
 + 2:00 Ferguson, Shandira, Danea
-+ 2:05 Gill, Shaina, Kaur
++ 2:05 Cordeiro Coutinho, Joao Victor
 + 2:10 Gosula, Rama , Soares Reddy
-+ 2:15 Green, Daniel, Alexander
++ 2:15 Azage, Emanuel, Hiwot
 + 2:20 Hernandez, Robert
-+ 2:25 Huang, Yining
++ 2:25 Levonian, Eric, Matthew
 + 2:30 Hui, Johnson
 + 2:35 Hyams, Emma, Barringer
 + 2:40 Jaques, Brian, Alexander
 + 2:45 Kapasi, Mubina
 + 2:50 Kataria, Kunal
 + 2:55 Lee, Chia-Yu
-+ 3:00 Levonian, Eric, Matthew
++ 3:00 Gill, Shaina, Kaur
 + 3:05 Levy, Henry
 + 3:10 Li, Devin, J.
 + 3:15 Liao, Xiaoyang
 + 3:20 Mariucci, Wallis, Josephine
 + 3:25 Meng, Yifan
 + 3:30 Nandapurkar, Zachary, Elijah
-+ 3:35 Pai, Leilani, Marie
++ 3:35 
 + 3:40 Pevehouse, Amanda, Kay
 + 3:45 Rezende Souza, Iuri
 + 3:50 Rudow, Adam, Scott
 + 3:55 Santos, Tatiana
-+ 4:00 Schule, Alec, Quinn
++ 4:00 Green, Daniel, Alexander
 + 4:05 Shi, Kevin, Cai
 + 4:10 Song, Ao
 + 4:15 Uko, William, Uwe
@@ -61,3 +61,9 @@ All meetings will be held in David's office, SAL 232.
 + 4:55 Yin, Michelle
 + 5:00 Yuan, Sean
 + 5:05 Zolintakis, Andrew, Peter
+
+####Friday, August 28
++ 2:00 Schule, Alec, Quinn
+
+####To Be Rescheduled
++ Pai, Leilani, Marie

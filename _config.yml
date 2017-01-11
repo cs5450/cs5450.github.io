@@ -1,5 +1,5 @@
 encoding: utf-8
-url: 'http://localhost:4000'
+url: 'https://pages.github.coecis.cornell.edu/cs5450/website/'
 timezone: America/Los_Angeles
 redcarpet:
   extensions: ['no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'tables', 'with_toc_data']

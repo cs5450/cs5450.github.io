@@ -1,7 +1,6 @@
 encoding: utf-8
 url: 'http://localhost:4000'
 timezone: America/Los_Angeles
-markdown: redcarpet
 redcarpet:
   extensions: ['no_intra_emphasis', 'fenced_code_blocks', 'autolink', 'tables', 'with_toc_data']
 highlighter: pygments

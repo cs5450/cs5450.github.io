@@ -1,9 +1,22 @@
 ---
 layout: default
-title: Data Structures and Object Oriented Design
+title: Networked and Distributed Computing
 nav: Home
 ---
 
-## Welcome to CSCI 104
+## Welcome to CS 5450
 
-Welcome to CSCI 104 - Data Structures and Object-Oriented Design.  This website will serve as the main portal to all the information and other sites related to this course. Check it often!
+Welcome to CS 5450: Networked and Distributed Computing at Cornell Tech. This course introduces students to the design and implementation of networked and distributed systems.  Topics include the basics of networking (including Internet architecture, TCP/IP, Wi-Fi, and routing), distributed protocols, foundations of mobile and Web computing, virtualization, cloud computing, reliability, fault tolerance, and security in distributed systems, and introduction to performance evaluation.  Course labs, projects, and exercises include a significant implementation component and require working knowledge of C/C++.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This website will serve as the main portal to all the information and other sites related to this course.

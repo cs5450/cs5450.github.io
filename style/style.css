@@ -19,7 +19,7 @@ html, body {
 
 #deprecated {
 	padding: 20px 50px;
-	background: #8a0000;
+	background: #c0c0c0;
 	color: white;
 	font-weight: bold;
 	width: 80%;
@@ -30,7 +30,7 @@ html, body {
 }
 
 #top_bar {
-	background: #990000;
+	background: #c0c0c0;
 	height: 10px;
 	width: 100%;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.9);
@@ -44,24 +44,23 @@ html, body {
 	background:-webkit-linear-gradient(#990000 0%, #990000 50%, rgba(153, 0, 0, 0) 100%);
 	*/
 	padding: 0px 15px 10px;
-	background : #990000;
+
 	width: 24%;
-	min-width: 224px;
+	min-width: 70px;
 	float: right;
 	margin-top: 10px;
-	border: 1px solid #740909;
 	border-width: 0px 1px 1px 1px;
 	text-align: center;
-	-webkit-box-sizing: brder-box;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 #logo_wrapper #logo {
-	height: 50px;
-	width: 194px;
+	height:90px;
+	width: 70px;
 	margin: 0 auto;
-	background: #990000 url("./logo.gif") no-repeat;
+	background: url("./T_Filled_Manhattan_Map.png") no-repeat;
 }
 
 header {
@@ -235,6 +234,12 @@ header h1 span{
 	box-sizing: border-box;
 	padding: 15px 20px;
         overflow: auto;
+}
+
+#sidecornell{
+	float: right;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #sidebar {

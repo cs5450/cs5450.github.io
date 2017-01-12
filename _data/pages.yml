@@ -1,12 +1,5 @@
 index: 'Home'
-people: 'People/Office Hours'
-sections: 'Sections'
-syllabus: 'Syllabus'
 schedule: 'Lecture Schedule'
 assignments:
   label: 'Assignments'
   link: 'assignments'
-submission-instructions: 'Submission Instructions'
-labs: 'Labs'
-grading: 'Grading'
-tools: 'Tools and Links'

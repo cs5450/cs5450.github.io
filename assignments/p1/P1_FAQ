@@ -1,0 +1,125 @@
+15-441 Project 1 FAQ Document
+
+Checkpoint 2
+
+(1) Do we have to support pipelined requests?
+
+        Yes.
+
+(2) Do we have to support Chunking?
+
+        No.
+
+(3) For POST, if a Content-Length header is not provided in the request, is
+    it fine to respond with a 411 as specified in the RFC?
+
+        Yes, this is both possible and desired because it is a valid response.
+        It may also simplify design of the server.  Unclear right now.
+
+(4) Do we have to support "Conditional" GETs?
+
+        No.
+
+(5) Can I use a hash table library written by another person?
+
+        No, for this project implement your own if you really want it.
+
+        You won't have to track every header, only the important ones for basic
+        compliance.
+
+        Notes: "Currently, to handle http requests, I keep each of them as a
+                separate struct containing method, uri, version, header, body,
+                and status fields.
+
+                I read that there are 64 different kinds of headers. Initially,
+                I wanted to store the header names and their values in a hash
+                table; now I am thinking of using a linked list."
+
+(6) Should we expect HTTP/1.1 requests to fit in one buffer?
+
+        No, do not assume that they always fit inside one buffer.  Be prepared
+        to parse across buffer boundaries.
+
+(7) Can I assume that the request always has the Content-length field?
+
+        Yes, assume requests to your server have Content-length if applicable.
+        That is, you will not have to guess on how many bytes you need to read.
+
+        If it is missing, return a 411 response.
+
+(8) Since the server will serve static files, are we allowed to use
+        http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+
+        You are allowed to use that or a simplified version of it.
+
+        No need to support all well-known MIME-types.  Only the most common
+        would be needed:
+
+            text/html
+            text/css
+            image/png
+            image/jpeg
+            image/gif
+
+        and maybe a few others up to your discretion.
+
+(9) GNU Flex and Bison was mentioned, but I suppose it isn't mandatory to use
+    them in our implementation?
+
+        They are not mandatory to use, and in our simplified world, they are a
+        bit overkill; so we are simplifying things by removing them from the
+        project description.
+
+(10) For last-modified field, is there a C library that we can read file
+     metadata  such as this? Or is our web server supposed to handle that
+     manually. (i.e. stamping each and every file in the www root with a
+     last-modified stamp and manually updating that stamp every time a file is
+     changed....).
+
+
+        For this you will want the veritable stat() syscall:
+
+            http://pubs.opengroup.org/onlinepubs/009695399/functions/stat.html
+
+        See the part of the struct labeled st_mtime.
+
+        This is file system kept metadata---no need to roll your own.
+
+(11) To parse the http requests correctly, I think it is inevitable for me to
+     read the request line by line.  In this case, I would have to write a
+     function that recvs 1 byte at a time continuously until encountering a line
+     feed. My concern about this approach is performance. Is it write for me to
+     implement the recv_line function that recvs 1 byte at a time until it sees
+     a line feed?
+
+        That sounds perfectly reasonable, and that is _exactly_ what real-world
+        interpreters and protocol parsers do. You could also opt for a buffered approach.
+
+        Under the covers flex and bison would generate FSMs that go through data
+        one byte at a time depending on the rules you supply them.
+
+        Remember there are points for performance as well :)
+
+        Remember though that lines are terminated by 2 bytes: \r\n
+
+ (12) After processing a particular client's HTTP request, e.g. a GET request
+      for index.html, is it bad to read this entire index.html file from disk,
+      and then send the full response back to the client?
+
+        Try to send a 'full buffer' of the file from disk every time.
+
+        Don't try sending the whole file at once---although that might be more
+        realistic in practice.
+
+ (13) Are we allowed to reject requests with headers beyond a maximum size?
+
+        Yes, you may reject any header > 8192 bytes.  However, you must find
+        and parse the next request properly for pipelining purposes.
+
+ (14) Should we also handle request made up with /n instead of /r/n?
+
+        tl;dr No.
+
+        Some web servers do this and it is nice for telnet testing.
+
+        However, Liso does not have this as a requirement.

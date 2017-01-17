@@ -7,7 +7,7 @@ nav: assignments
 
 ### Checkpoint 1
 
-Link to handout and started code
+Link to [**handout**](http://www.cs.cmu.edu/~prs/15-441-F16/project1/project1.pdf) and [**starter code**](https://cornell.box.com/s/l9g2sryeddy69p58nbbdlvgorymwuxag)
 
 Make a git repository for your project as described in the handout.
 Create a select()-based echo server with support for multiple concurrent clients.
@@ -41,8 +41,8 @@ Run make inside autolab_scripts
 This should give you your score.
 Useful resources:
 
-1. FAQ
-2. Annotated Excerpted RFC 2616 Text - This helps you interpret some RFC text and better understand the exact features you should implement
+1. [**FAQ**]({{ site.url }}/assignments/p1/P1_FAQ)
+2. [**Annotated Excerpted RFC 2616 Text**]({{ site.url }}/assignments/p1/rfc) - This helps you interpret some RFC text and better understand the exact features you should implement
 3. Lex Yacc Starter Package(For the HTTP Parser)
 4. dumper.py - Point a web browser to this Python web server and observe requests
 5. Static Site - Demo static website to serve with Liso

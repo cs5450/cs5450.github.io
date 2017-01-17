@@ -11,4 +11,4 @@ Each student will receive a private code repository on the course's [GitHub Orga
 
 |                      HW                          |           Topic                              |                Due Date                 |
 | :----------------------------------------------: | :------------------------------------------  | :-------------------------------------: |
-| [**HW01**]({{ site.url }}/assignments/hw1.html)  | TBD                                          | TBD      |
+| [**HW01**]({{ site.url }}/assignments/hw1.html)  | HTTP server                                  | TBD      |

@@ -22,6 +22,7 @@ Office hours: TBD
 Office hours:  TBD
 
 Eugene Bagdasaryan (TA) <ebagdasa at cs.cornell.edu>
+
 Office hours: TBD
 
 ### Academic Integrity

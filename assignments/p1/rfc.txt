@@ -1,6 +1,6 @@
 {{  This document represents slices of RFC 2616 that help create a minimal
     working web server fulfilling the HTTP/1.1 specification. Course
-    annotations for 15-441's Project 1 are denoted by surrounding double curly
+    annotations for CS 5450's Project 1 are denoted by surrounding double curly
     braces.
 
     Assume that the header fits completely in 8192 bytes.  If it goes over this

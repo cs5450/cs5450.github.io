@@ -2,3 +2,11 @@
 _site/
 .idea
 *.iml
+
+*.bbl
+*.dvi
+*.out
+*.ps
+*.aux
+*.blg
+*.log

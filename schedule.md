@@ -4,7 +4,7 @@ title: Lectures
 nav: lectures
 ---
 
-##Lectures
+## Lectures
 
 <h3 id="toc_2">Lecture Schedule (may be updated as needed)</h3>
 <br>

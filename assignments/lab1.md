@@ -1,18 +1,17 @@
 ---
 layout: default
-title: Homework 1
+title: Lab 1
 nav: assignments
 ---
-## HW1
+## Lab 1
 
-### Checkpoint 1
+### Checkpoint
 
-Link to [**handout**](http://www.cs.cmu.edu/~prs/15-441-F16/project1/project1.pdf) and [**starter code**](https://cornell.box.com/s/l9g2sryeddy69p58nbbdlvgorymwuxag)
+Link to [**handout**]({{ site.url }}/assignments/p1/handout.pdf) and [**starter code**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
 
-Make a git repository for your project as described in the handout.
 Create a select()-based echo server with support for multiple concurrent clients.
 Test using our provided cp1_checker.py test script (read that script and understand it too)
-Submission is in the form of a tarball (see handout) which must be uploaded to Autolab by September 9 (cut off is midnight).
+Submission is in the form of a tarball (see handout) which must be uploaded to CMS by {{ site.data.main.lab1_deadline }}.
 To aid you in programming an echo server, and testing it, we have prepared this starter package for you. This code needs to be modified to use select() as well as adding support for multiple clients at once.
 
 Files we expect to see:
@@ -24,12 +23,12 @@ Files we expect to see:
 * vulnerabilities.txt - identify at least one vulnerability in your current implementation
 
 
-### Checkpoint 2 
+### Final Submission
 
 
 #### Autolab Grading Scripts
 
-Link to Autolab Scripts
+Link to [**Autolab Scripts**]({{ site.url }}/assignments/p1/autolab_scripts.tar)
 
 #### Instructions
 
@@ -41,8 +40,8 @@ Run make inside autolab_scripts
 This should give you your score.
 Useful resources:
 
-1. [**FAQ**]({{ site.url }}/assignments/p1/P1_FAQ)
-2. [**Annotated Excerpted RFC 2616 Text**]({{ site.url }}/assignments/p1/rfc) - This helps you interpret some RFC text and better understand the exact features you should implement
+1. [**FAQ**]({{ site.url }}/assignments/p1/P1_FAQ.txt)
+2. [**Annotated Excerpted RFC 2616 Text**]({{ site.url }}/assignments/p1/rfc.txt) - This helps you interpret some RFC text and better understand the exact features you should implement
 3. Lex Yacc Starter Package(For the HTTP Parser)
 4. dumper.py - Point a web browser to this Python web server and observe requests
 5. Static Site - Demo static website to serve with Liso
@@ -70,8 +69,8 @@ Useful resources:
 
 Files we expect to see in your submission:
 
-Makefile - make sure nothing is hard coded specific to your user; should build a 'lisod' file which runs the HTTP 1.1 server
-All of your source code - all .c and .h files
-readme.txt - file containing a brief description of your current implementation of lisod
-tests.txt - file containing a brief description of your testing methods for lisod
-vulnerabilities.txt - identify at least one vulnerability in your current implementation
+* Makefile - make sure nothing is hard coded specific to your user; should build a 'lisod' file which runs the HTTP 1.1 server
+* All of your source code - all .c and .h files
+* readme.txt - file containing a brief description of your current implementation of lisod
+* tests.txt - file containing a brief description of your testing methods for lisod
+* vulnerabilities.txt - identify at least one vulnerability in your current implementation

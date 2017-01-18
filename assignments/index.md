@@ -5,10 +5,14 @@ nav: assignments
 ---
 
 ## Assignments
-Each student will receive a private code repository on the course's [GitHub Organization](https://github.coecis.cornell.edu/cs5450) to use it for the development and submission of all assignments. You will be using the [git](http://git-scm.com/) source code management tool to maintain your homework code. 
 
-### HW Schedule
+Please use Git to work on your projects.
 
-|                      HW                          |           Topic                              |                Due Date                 |
+### Lab Schedule
+
+|                      Name                        |           Topic                              |                Due Date                 |
 | :----------------------------------------------: | :------------------------------------------  | :-------------------------------------: |
-| [**HW01**]({{ site.url }}/assignments/hw1.html)  | HTTP server                                  | TBD      |
+| [**Lab 1**]({{ site.url }}/assignments/lab1.html)  | HTTP server                                | {{ site.data.main.lab1_deadline }}    |
+| [**Lab 2**]({{ site.url }}/assignments/lab2.html)  | TCP/IP                                     | {{ site.data.main.lab2_deadline }}    |
+| [**Lab 3**]({{ site.url }}/assignments/lab3.html)  | Peer-to-peer                               | {{ site.data.main.lab3_deadline }}    |
+| [**Lab 4**]({{ site.url }}/assignments/lab4.html)  | Mobile                                     | {{ site.data.main.lab4_deadline }}    |

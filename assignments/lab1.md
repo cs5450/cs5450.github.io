@@ -7,7 +7,7 @@ nav: assignments
 
 ### Checkpoint
 
-Link to [**handout**]({{ site.url }}/assignments/p1/handout.pdf) and [**starter code**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
+Link to [**handout**]({{ site.url }}/assignments/p1/handout/handout.pdf) and [**starter code**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
 
 Create a select()-based echo server with support for multiple concurrent clients.
 Test using our provided cp1_checker.py test script (read that script and understand it too)

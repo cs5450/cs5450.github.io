@@ -32,21 +32,22 @@ Link to [**Autolab Scripts**]({{ site.url }}/assignments/p1/autolab_scripts.tar)
 
 #### Instructions
 
-Untar the autolab_grading.tar
-In the directory that is created you should have 2 files. autograder.tar and Makefile
-Download your Autolab submission that you want to test and copy it to the above created directory
-Rename your submission tar to handin.tar
-Run make inside autolab_scripts
-This should give you your score.
-Useful resources:
+1. Untar the autolab_grading.tar
+1. In the directory that is created you should have 2 files. autograder.tar and Makefile
+1. Download your Autolab submission that you want to test and copy it to the above created directory
+1. Rename your submission tar to handin.tar
+1. Run make inside autolab_scripts
+1. This should give you your score.
+
+#### Useful resources:
 
 1. [**FAQ**]({{ site.url }}/assignments/p1/P1_FAQ.txt)
 2. [**Annotated Excerpted RFC 2616 Text**]({{ site.url }}/assignments/p1/rfc.txt) - This helps you interpret some RFC text and better understand the exact features you should implement
 3. [**Lex Yacc Starter Package(For the HTTP Parser)**]({{ site.url }}/assignments/p1/checkpoint2.tar.gz)
-4. dumper.py - Point a web browser to this Python web server and observe requests
-5. Static Site - Demo static website to serve with Liso
-6. Liso Prototype - Python web server demoing what requests from Liso should look like; not a full solution
-7. CP2_Test_Code - Sample test code for CP2
+4. [**dumper.py**]({{ site.url }}/assignments/p1/dumper.py) - Point a web browser to this Python web server and observe requests
+5. [**Static Site**]({{ site.url }}/assignments/p1/liso.static_site.tar.gz) - Demo static website to serve with Liso
+6. [**Liso Prototype**]({{ site.url }}/assignments/p1/liso_prototype.py) - Python web server demoing what requests from Liso should look like; not a full solution
+7. [**CP2_Test_Code**]({{ site.url }}/assignments/p1/proj1cp2_checker.tar)- Sample test code for CP2
 
 #### Steps
 

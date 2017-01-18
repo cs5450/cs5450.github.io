@@ -7,12 +7,12 @@ nav: assignments
 
 ### Checkpoint
 
-Link to [**handout**]({{ site.url }}/assignments/p1/handout/handout.pdf) and [**starter code**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
+Link to [**handout**]({{ site.url }}/assignments/p1/handout/handout.pdf) and [**starter package**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
 
 Create a select()-based echo server with support for multiple concurrent clients.
 Test using our provided cp1_checker.py test script (read that script and understand it too)
 Submission is in the form of a tarball (see handout) which must be uploaded to CMS by {{ site.data.main.lab1_deadline }}.
-To aid you in programming an echo server, and testing it, we have prepared this starter package for you. This code needs to be modified to use select() as well as adding support for multiple clients at once.
+To aid you in programming an echo server, and testing it, we have prepared this [**starter package**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz) for you. This code needs to be modified to use select() as well as adding support for multiple clients at once.
 
 Files we expect to see:
 
@@ -42,7 +42,7 @@ Useful resources:
 
 1. [**FAQ**]({{ site.url }}/assignments/p1/P1_FAQ.txt)
 2. [**Annotated Excerpted RFC 2616 Text**]({{ site.url }}/assignments/p1/rfc.txt) - This helps you interpret some RFC text and better understand the exact features you should implement
-3. Lex Yacc Starter Package(For the HTTP Parser)
+3. [**Lex Yacc Starter Package(For the HTTP Parser)**]({{ site.url }}/assignments/p1/checkpoint2.tar.gz)
 4. dumper.py - Point a web browser to this Python web server and observe requests
 5. Static Site - Demo static website to serve with Liso
 6. Liso Prototype - Python web server demoing what requests from Liso should look like; not a full solution

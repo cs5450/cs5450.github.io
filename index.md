@@ -21,7 +21,7 @@ Office hours: TBD
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor) <shmat>
 Office hours:  TBD
 
-#### Eugene Bagdasaryan (TA) <ebagdasa@cs.cornell.edu>
+Eugene Bagdasaryan (TA) <ebagdasa at cs.cornell.edu>
 Office hours: TBD
 
 ### Academic Integrity

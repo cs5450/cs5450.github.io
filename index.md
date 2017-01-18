@@ -35,7 +35,8 @@ You must acknowledge by name anyone whom you consulted. You may not give nor rec
 
 If you are unsure about what is permissible and what is not, please ask.
 
-Academic Integrity Resources:
-- [Cornell University Code of Academic Integrity](http://cuinfo.cornell.edu/aic.cfm)
-- [Computer Science Department Code of Academic Integrity](http://www.cs.cornell.edu/undergrad/CSMajor#ai)
-- [Explanation of AI Proceedings](http://www.theuniversityfaculty.cornell.edu/AcadInteg/)
+Academic Integrity Resources: 
+
+* [Cornell University Code of Academic Integrity](http://cuinfo.cornell.edu/aic.cfm)
+* [Computer Science Department Code of Academic Integrity](http://www.cs.cornell.edu/undergrad/CSMajor#ai)
+* [Explanation of AI Proceedings](http://www.theuniversityfaculty.cornell.edu/AcadInteg/)

@@ -21,7 +21,7 @@ If you like to develop in CLI, containers might be an easy way to go.
 
 1.  Install **Docker** on your OS
 2.  Install **CLion IDE** [**https://www.jetbrains.com/clion/download/**](https://www.jetbrains.com/clion/download/) and get a student license: [**https://www.jetbrains.com/student/**](https://www.jetbrains.com/student/).
-3.  Build a container from Docker image. You can just download an image from Dockerhub: `docker pull ebagdasa/cs5450_p1` or here is the *Dockerfile*:
+3.  Create a Docker image. You can just download an image from Dockerhub: `docker pull ebagdasa/cs5450_p1` or create it from this Dockerfile:
 
     ~~~ bash
     FROM ubuntu:16.04
@@ -43,7 +43,6 @@ If you like to develop in CLI, containers might be an easy way to go.
 
     EXPOSE 22 9999 7777
     CMD ["/usr/sbin/sshd", "-D"]
-
     ~~~
 
     We expose 3 ports: 22, 9999 and 7777.
@@ -54,11 +53,9 @@ If you like to develop in CLI, containers might be an easy way to go.
 4.  Start the container:
 
     ~~~ bash
-
     docker run -d -p 3022:22 -p 7777:7777 -p 9999:9999 -h server.cornell.edu  \
       --security-opt seccomp:unconfined  \
       --name server ebagdasa/cs5450_p1:latest
-
     ~~~
 
    This option `--security-opt seccomp:unconfined` is required to allow remote debugger to run.
@@ -93,7 +90,7 @@ This is the sample config on MacOS:
     gdbserver 127.0.0.1:7777 ./echo_server &
     ~~~
 
-9.  After the script run **server** file back to laptop `scp -P 3022 root@127.0.0.1:/root/code/starter_code/echo_server /$YOUR_LOCATION/starter_code/`
+9.  After the script run **server** file back to laptop `scp -P 3022 root@127.0.0.1:/root/code/server /$YOUR_LOCATION/starter_code/`
 
 10. Set breakpoints in CLion and run the Remote Debugger.
 

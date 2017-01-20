@@ -22,6 +22,14 @@ Files we expect to see:
 * tests.txt - file containing a brief description of your testing methods for lisod
 * vulnerabilities.txt - identify at least one vulnerability in your current implementation
 
+#### Development advice
+The project uses Linux socket library. **Note**: MacOS socket library has a different API.
+
+If you are new to the area, we can suggest few ways to setup a development environment:
+1. Use the Linux-based OS, like Ubuntu. You can set it up as a VM through VirtualBox or install it natively.
+2. You can try to develop on your OS (Windows or Mac), setup a container and develop remotely.
+
+We have prepared a guide to quick startup with [**Docker and CLion IDE**]({{ site.url }}/assignments/p1/docker.html).
 
 ### Final Submission
 

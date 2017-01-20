@@ -67,7 +67,7 @@ header {
 	background: url("./bg.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #6e7983;	
+	background-color: #6e7983;
 	height: 170px;
 	width: 100%;
 	z-index: 1;
@@ -111,7 +111,7 @@ header h1 span{
 	background: #fff;
 	color: #333;
 	font-weight: 300;
-	
+
 	font-size: 16px;
 	line-height: 22px;
 }
@@ -122,7 +122,7 @@ header h1 span{
 	font-size: 35px;
 	line-height: 30px;
 	border-bottom: 1px solid #ccc;
-	
+
 	font-family: "PT Serif", "Merriweather", arial, sans-serif;
 	font-variant: small-caps
 }
@@ -132,9 +132,9 @@ header h1 span{
 	padding: 0;
 	font-size: 21px;
 	line-height: 23px;
-	
+
 	font-family: "PT Serif", "Merriweather", arial, sans-serif;
-	
+
 	background: -webkit-linear-gradient(rgba(207, 192, 192, 0) 0%, rgba(207, 192, 192, 0) 30%, rgba(207, 192, 192, 0.15) 100%);
 	background: -moz-linear-gradient(rgba(207, 192, 192, 0) 0%, rgba(207, 192, 192, 0) 30%, rgba(207, 192, 192, 0.15) 100%);
 	background: linear-gradient(rgba(207, 192, 192, 0) 0%, rgba(207, 192, 192, 0) 30%, rgba(207, 192, 192, 0.15) 100%);
@@ -298,7 +298,7 @@ header h1 span{
 #sidebar nav ul a {
 	border-bottom: 1px solid #ccc;
 	display: block;
-	padding: 7px;	
+	padding: 7px;
 	font-size: 15px;
 	color: #990000;
 }
@@ -350,13 +350,13 @@ footer .right {
 		-moz-box-sizing: border-box !important;
 		box-sizing: border-box !important;
 	}
-	
+
 	#top_bar{
 		position: static;
 		height: auto;
 		padding: 0 10px;
 	}
-	
+
 	#logo_wrapper {
 		float: none;
 		margin: 0;
@@ -364,27 +364,27 @@ footer .right {
 		border: none;
 		width: auto;
 	}
-	
+
 	.center {
 		width: 95%;
 	}
-	
+
 	header {
 		height: 250px;
 	}
-	
+
 	header h1 {
 		line-height: 50px;
 		margin-bottom: 10px;
 	}
-	
+
 	header h1 span {
 		line-height: 30px;
 	}
 
 }
 
-@media screen and (max-device-width: 640px), screen and (max-width: 640px) { 
+@media screen and (max-device-width: 640px), screen and (max-width: 640px) {
 	.center {
 		width: 90%;
 	}
@@ -400,7 +400,7 @@ a {
 	-moz-transition: 0.2s opacity;
 	transition: 0.2s opacity;
 	border-bottom: 1px dashed #ccc;
-	color: #999;
+	color: #555;
 }
 
 a:hover {

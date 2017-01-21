@@ -33,7 +33,7 @@ We have prepared a guide to quick startup with [**Docker and CLion IDE**]({{ sit
 
 #### Resources to use
 
-Please consult with Beej's guide which is essentially helpful for this project. Here is the link: [**beej.us/guide/bgnet/output/html/multipage/index.html**](beej.us/guide/bgnet/output/html/multipage/index.html)
+Please consult with Beej's guide which is essentially helpful for this project. Here is the link: [**beej.us/guide/bgnet/output/html/multipage/index.html**](http://beej.us/guide/bgnet/output/html/multipage/index.html)
 
 ### Final Submission
 

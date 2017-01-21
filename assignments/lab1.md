@@ -29,11 +29,11 @@ If you are new to the area, we can suggest few ways to setup a development envir
 1. Use the Linux-based OS, like Ubuntu. You can set it up as a VM through VirtualBox or install it natively.
 2. You can try to develop on your OS (Windows or Mac), setup a container and develop remotely.
 
-We have prepared a guide to quick startup with [**beej.us/guide/bgnet/output/html/multipage/index.html**](beej.us/guide/bgnet/output/html/multipage/index.html).
+We have prepared a guide to quick startup with [**Docker and CLion IDE**]({{ site.url }}/assignments/p1/docker.html).
 
 #### Resources to use
 
-Please consult with Beej's guide which is essentially helpful for this project. Here is the link:
+Please consult with Beej's guide which is essentially helpful for this project. Here is the link: [**beej.us/guide/bgnet/output/html/multipage/index.html**](beej.us/guide/bgnet/output/html/multipage/index.html)
 
 ### Final Submission
 

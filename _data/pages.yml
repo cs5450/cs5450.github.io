@@ -3,3 +3,4 @@ schedule: 'Lecture Schedule'
 assignments:
   label: 'Assignments'
   link: 'assignments'
+materials: 'Materials'

@@ -16,14 +16,14 @@ Please use Piazza for all interactions regarding the class: [**{{ site.data.main
 ###  Course Staff
 
 #### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor) <destrin>
-Office hours: TBD
+Office hours: Wed 4-4:50 pm, Location:
 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor) <shmat>
 Office hours:  TBD
 
 Eugene Bagdasaryan (TA) <ebagdasa at cs.cornell.edu>
 
-Office hours: TBD
+Office hours: Fri 5-7pm, Location: 
 
 ### Academic Integrity
 
@@ -35,7 +35,7 @@ You must acknowledge by name anyone whom you consulted. You may not give nor rec
 
 If you are unsure about what is permissible and what is not, please ask.
 
-Academic Integrity Resources: 
+Academic Integrity Resources:
 
 * [Cornell University Code of Academic Integrity](http://cuinfo.cornell.edu/aic.cfm)
 * [Computer Science Department Code of Academic Integrity](http://www.cs.cornell.edu/undergrad/CSMajor#ai)

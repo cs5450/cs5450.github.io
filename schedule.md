@@ -124,7 +124,7 @@ nav: lectures
 <td align="center">3/8</td>
 <td align="left">Routing</td>
 <td></td>
-<td></td>
+<td>Lab 2 Assigned (TCP/IP)</td>
 </tr>
 
 <tr>
@@ -132,7 +132,7 @@ nav: lectures
 <td align="center">3/13</td>
 <td align="left">Routing Robustness</td>
 <td></td>
-<td>Lab 2 Assigned (TCP/IP) </td>
+<td></td>
 </tr>
 
 <tr>
@@ -148,7 +148,7 @@ nav: lectures
 <td align="center">3/20</td>
 <td align="left">Content delivery networks</td>
 <td></td>
-<td></td>
+<td>Lab 2 due. Lab 3 Assigned (Peer to Peer)</td>
 </tr>
 
 <tr>
@@ -164,7 +164,7 @@ nav: lectures
 <td align="center">3/27</td>
 <td align="left">Virtualization</td>
 <td></td>
-<td>Lab 2 due. Lab 3 Assigned (Peer to Peer)</td>
+<td></td>
 </tr>
 
 <tr>

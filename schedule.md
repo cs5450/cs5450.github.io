@@ -80,7 +80,7 @@ nav: lectures
 <tr>
 <td align="center">5</td>
 <td align="center">2/20</td>
-<td align="right">*FEB BREAK*</td>
+<td align="right"><i>FEB BREAK</i></td>
 <td></td>
 <td></td>
 </tr>
@@ -114,7 +114,7 @@ nav: lectures
 <tr>
 <td align="center">7</td>
 <td align="center">3/6</td>
-<td align="left">**MIDTERM 1**</td>
+<td align="left"><strong>MIDTERM 1</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -178,7 +178,7 @@ nav: lectures
 <tr>
 <td align="center">11</td>
 <td align="center">4/3</td>
-<td align="right">*SPRING BREAK*</td>
+<td align="right"><i>SPRING BREAK</i></td>
 <td></td>
 <td></td>
 </tr>
@@ -186,7 +186,7 @@ nav: lectures
 <tr>
 <td align="center">11</td>
 <td align="center">4/5</td>
-<td align="right">*SPRING BREAK*</td>
+<td align="right"><i>SPRING BREAK</i></td>
 <td></td>
 <td></td>
 </tr>
@@ -219,7 +219,7 @@ nav: lectures
 <tr>
 <td align="center">13</td>
 <td align="center">4/19</td>
-<td align="left">**MIDTERM 2**</td>
+<td align="left"><strong>MIDTERM 2</strong></td>
 <td></td>
 <td></td>
 </tr>

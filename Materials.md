@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Materials
-nav: materials
+nav: Materials
 ---
 
 ## Materials

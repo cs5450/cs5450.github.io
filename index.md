@@ -12,7 +12,7 @@ The class Mon-Wed 1pm-2:15pm. Location: Big Red.
 
 ### Piazza group
 
-Please use Piazza for all interactions regarding the class: [**{{ site.data.main.piazza }}**]({{ site.data.main.piazza }})
+Please use [**Piazza**] for all interactions regarding the class: [**{{ site.data.main.piazza }}**]({{ site.data.main.piazza }})
 
 ###  Course Staff
 
@@ -20,7 +20,7 @@ Please use Piazza for all interactions regarding the class: [**{{ site.data.main
 Office hours: Wed 4-4:50 pm, Location: TBD
 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor) <shmat>
-Office hours:  TBD
+Office hours:  Send an email in advance
 
 #### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA) <ebagdasa at cs.cornell.edu>
 Office hours: Thu 11-1pm, Location at Cornell Tech 3 - Dubi. We will use TelePresence.

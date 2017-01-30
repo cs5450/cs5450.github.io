@@ -24,7 +24,9 @@ nav: lectures
 <td align="center">1/25</td>
 <td align="center">1</td>
 <td align="left">Overview of the course: topics, labs, participation</td>
-<td><a href="{{ site.url }}/lectures/intro.pdf">intro</a></td>
+<td><a href="{{ site.url }}/lectures/intro.pdf">intro</a>,
+<a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">InternetArch</a>
+</td>
 <td></td>
 </tr>
 

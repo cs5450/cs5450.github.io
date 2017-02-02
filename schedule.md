@@ -42,7 +42,7 @@ nav: lectures
 <td align="center">2</td>
 <td align="center">2/1</td>
 <td align="left">Intro to distributed systems</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/ds.pdf">notes</a></td>
 <td></td>
 </tr>
 

@@ -58,9 +58,9 @@ If you like to develop in CLI, containers might be an easy way to go.
       --name server ebagdasa/cs5450_p1:latest
     ~~~
 
-   This option `--security-opt seccomp:unconfined` is required to allow remote debugger to run.
+    This option `--security-opt seccomp:unconfined` is required to allow remote debugger to run.
 
-   If you want to run sever and client containers you can start them both and then communicate through Docker network (`172.17.0.0/16`), but in this project it is redundant.
+    If you want to run sever and client containers you can start them both and then communicate through Docker network (`172.17.0.0/16`), but in this project it is redundant.
 
 6.  Try to SSH into your container `ssh -p 3022 root@127.0.0.1`. The password is `root`. You can copy your SSH public key from your machine.
 

@@ -23,10 +23,12 @@ Office hours: Wed 4-4:50 pm, Location: TBD
 Office hours:  Send an email in advance
 
 #### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA) <ebagdasa at cs.cornell.edu>
-Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use TelePresence.
+Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use Cisco TelePresence.
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 
-#### I'll have OH Friday 2/3 3-4pm at Dubi
+## Important notes:
+Prof. Deborah Estrin has cancelled her Office Hours for this week. Please email her to schedule meeting if needed.
+Eugene's OH start 9:30 Thu.
 
 
 ### Academic Integrity

@@ -50,7 +50,7 @@ nav: lectures
 <td align="center">3</td>
 <td align="center">2/6</td>
 <td align="left">RPC</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/rpc.pdf">notes</a></td>
 <td></td>
 </tr>
 

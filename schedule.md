@@ -58,7 +58,7 @@ nav: lectures
 <td align="center">3</td>
 <td align="center">2/8</td>
 <td align="left">Web Computing</td>
-<td><a href="https://www.youtube.com/watch?v=3Q-s0G9tZDg">video</a>, <a href="{{ site.url }}/lectures/http.pdf">notes</a></td>
+<td><a href="https://www.youtube.com/watch?v=3Q-s0G9tZDg">Macaroons video</a>, <a href="{{ site.url }}/lectures/http.pdf">notes</a></td>
 <td>Lab 1 Assigned (Web Computing)</td>
 </tr>
 

@@ -27,8 +27,7 @@ Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use C
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 
 ## Important notes:
-Prof. Deborah Estrin has cancelled her Office Hours for this week. Please email her to schedule meeting if needed.
-Eugene's OH start 9:30 Thu.
+Due to the weather problems I will be available on Friday 3:30-4:30 pm at Ursa or via Zoom.us
 
 
 ### Academic Integrity

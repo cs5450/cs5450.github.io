@@ -66,7 +66,7 @@ nav: lectures
 <td align="center">4</td>
 <td align="center">2/13</td>
 <td align="left">Network Protocols Bottom Up</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-LinkMAC-2-11-17.pdf">notes</a></td>
 <td></td>
 </tr>
 
@@ -74,7 +74,7 @@ nav: lectures
 <td align="center">4</td>
 <td align="center">2/15</td>
 <td align="left">MAC-WiFi</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-LinkMAC-2-11-17.pdf">same notes</a></td>
 <td></td>
 </tr>
 

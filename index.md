@@ -17,7 +17,7 @@ Please use [**Piazza**] for all interactions regarding the class: [**{{ site.dat
 ###  Course Staff
 
 #### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor) <destrin>
-Office hours: Wed 4-4:50 pm, Location: TBD
+Office hours: Wed 4-4:50 pm, Location: 3rd floor open area
 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor) <shmat>
 Office hours:  Send an email in advance
@@ -27,8 +27,7 @@ Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use C
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 
 ## Important notes:
-Due to the weather problems I will be available on Friday 3:30-4:30 pm at Ursa or via Zoom.us
-
+None
 
 ### Academic Integrity
 

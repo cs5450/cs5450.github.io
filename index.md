@@ -16,13 +16,13 @@ Please use [**Piazza**] for all interactions regarding the class: [**{{ site.dat
 
 ###  Course Staff
 
-#### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor) <destrin>
+#### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor) email: destrin
 Office hours: Wed 4-4:50 pm, Location: 3rd floor open area
 
-#### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor) <shmat>
+#### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor)  email: shmat
 Office hours:  Send an email in advance
 
-#### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA) <ebagdasa at cs.cornell.edu>
+#### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA) ebagdasa at cs.cornell.edu
 Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use Cisco TelePresence.
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 

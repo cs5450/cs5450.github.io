@@ -19,7 +19,7 @@ Please use [**Piazza**] for all interactions regarding the class: [**{{ site.dat
 #### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor)
 email: destrin at cornell
 
-Office hours: Wed 4-4:50 pm, Location: 3rd floor open area
+Office hours: Wed 4-4:50 pm, Location: 12th floor Office
 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor)  
 email: shmat at cornell

@@ -93,7 +93,7 @@ nav: lectures
 <td align="center">5</td>
 <td align="center">2/22</td>
 <td align="left">IP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-IP.pdf">notes</a></td>
 <td></td>
 </tr>
 

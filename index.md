@@ -33,7 +33,7 @@ Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use C
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 
 ## Important notes:
-None
+Additional OH for Eugene: Friday, 3:30-5:00 (Dubi) (we can extend it till 5:30 if needed)
 
 ### Academic Integrity
 

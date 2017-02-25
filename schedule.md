@@ -34,7 +34,7 @@ nav: lectures
 <td align="center">2</td>
 <td align="center">1/30</td>
 <td align="left">Internet Architecture - Part 1</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">same notes</a></td>
 <td>HW 1 Assigned (Web Computing)</td>
 </tr>
 
@@ -101,7 +101,7 @@ nav: lectures
 <td align="center">6</td>
 <td align="center">2/27</td>
 <td align="left">TCP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-TCP.pdf">notes</a></td>
 <td></td>
 </tr>
 
@@ -109,7 +109,7 @@ nav: lectures
 <td align="center">6</td>
 <td align="center">3/1</td>
 <td align="left">TCP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-TCP.pdf">notes</a></td>
 <td>Lab 1 Due</td>
 </tr>
 

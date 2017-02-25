@@ -5,7 +5,7 @@ nav: assignments
 ---
 ## Lab 1
 
-For this assignment you can work in pairs. Use [**https://cms.csuglab.cornell.edu**] https://cms.csuglab.cornell.edu to submit your work.
+For this assignment you can work in pairs. Use [**https://cms.csuglab.cornell.edu**](https://cms.csuglab.cornell.edu) to submit your work.
 
 **Deadline for to submit is {{ site.data.main.lab1_deadline }}**
 

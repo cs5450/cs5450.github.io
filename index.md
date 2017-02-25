@@ -29,11 +29,11 @@ Office hours:  Send an email in advance
 #### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA)
 email: ebagdasa@cs.cornell.edu.
 
-Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi. We will use Cisco TelePresence.
+Office hours: <del>Thu 9:30-11:30am<del> Tue 3-5 pm, Location at Cornell Tech 3 - Dubi.
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
 
 ## Important notes:
-Additional OH for Eugene: Friday, 3:30-5:00 (Dubi) (we can extend it till 5:30 if needed)
+
 
 ### Academic Integrity
 

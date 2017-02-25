@@ -5,22 +5,18 @@ nav: assignments
 ---
 ## Lab 1
 
+For this assignment you can work in pairs. Use [**https://cms.csuglab.cornell.edu**] https://cms.csuglab.cornell.edu to submit your work.
+
+**Deadline for to submit is {{ site.data.main.lab1_deadline }}**
+
 ### Checkpoint
 
 Link to [**handout**]({{ site.url }}/assignments/p1/handout/handout.pdf) and [**starter package**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz)
 
 Create a select()-based echo server with support for multiple concurrent clients.
 Test using our provided cp1_checker.py test script (read that script and understand it too)
-Submission is in the form of a tarball (see handout) which must be uploaded to CMS by {{ site.data.main.lab1_deadline }}.
 To aid you in programming an echo server, and testing it, we have prepared this [**starter package**]({{ site.url }}/assignments/p1/checkpoint1.tar.gz) for you. This code needs to be modified to use select() as well as adding support for multiple clients at once.
 
-Files we expect to see:
-
-* Makefile - make sure nothing is hard coded specific to your user; should build a 'lisod' file which runs the echo server
-* All of your source code - all .c and .h files
-* readme.txt - file containing a brief description of your current implementation of lisod
-* tests.txt - file containing a brief description of your testing methods for lisod
-* vulnerabilities.txt - identify at least one vulnerability in your current implementation
 
 #### Development advice
 The project uses Linux socket library. **Note**: MacOS socket library has a different API.
@@ -36,6 +32,8 @@ We have prepared a guide to quick startup with [**Docker and CLion IDE**]({{ sit
 Please consult with Beej's guide which is essentially helpful for this project. Here is the link: [**beej.us/guide/bgnet/output/html/multipage/index.html**](http://beej.us/guide/bgnet/output/html/multipage/index.html)
 
 ### Final Submission
+
+Submission is in the form of a tarball (see handout) which must be uploaded to CMS by {{ site.data.main.lab1_deadline }}.
 
 
 #### Autolab Grading Scripts
@@ -64,8 +62,7 @@ Link to [**Autolab Scripts**]({{ site.url }}/assignments/p1/autolab_scripts.tar)
 #### Steps
 
 1. Begin with your repository and state of work from Checkpoint 1
-2. Create a logging module for your project.
-* Handle creation of a log file as specified in the project handout.
+2. Create a logging module for your project. You can make it in a free format
 * Make API functions for formatted (up to you; we may specify this later) writing to this log file (not thread-safe).
 * Make an API function for gracefully closing this log file.
 * Expose and use this module/API within the Checkpoints instead of using stderr or stdout.
@@ -80,10 +77,9 @@ Link to [**Autolab Scripts**]({{ site.url }}/assignments/p1/autolab_scripts.tar)
 * Submission is the same as Checkpoint 1. Tag and upload your repo in a tarball to the corresponding lab on CMS.
 * Checkpoint 2 builds on top of the foundation you built in Checkpoint 1. Try architecting these two checkpoints as 'layers' in your design. You have the low-level select() layer from Checkpoint 1 which serves as a blackbox handling the select() system call and associated recv() and send() calls. It should expose an API to Checkpoint 2 that also uses functions provided by Checkpoint 2. That is, Checkpoint 2 also provides functions used by Checkpoint 1 (you are free to design differently, this is only a suggestion). For example, Checkpoint 2 might provide an HTTP 1.1 finite state machine that interprets and parses bytes coming in on buffers from Checkpoint 1. It might also provide special disconnect handlers as needed to cleanup state if a connection closes inside Checkpoint 1 without sending a proper HTTP 1.1 close header option. In addition, Checkpoint 1 might provide functions or a method of passing back bytes in some buffer that Checkpoint 2 wants to be written back to the client. Architect this however you like, you are the software engineer here designing and building a web server based on select().
 
-Files we expect to see in your submission:
+## Files we expect to see in your submission:
 
 * Makefile - make sure nothing is hard coded specific to your user; should build a 'lisod' file which runs the HTTP 1.1 server
 * All of your source code - all .c and .h files
 * readme.txt - file containing a brief description of your current implementation of lisod
-* tests.txt - file containing a brief description of your testing methods for lisod
-* vulnerabilities.txt - identify at least one vulnerability in your current implementation
+* tests.txt - file containing a brief description of your testing methods for lisod, vulnerabilities that you found

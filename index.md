@@ -34,6 +34,7 @@ Office hours: <del>Thu 9:30-11:30am</del> Tue 3-5 pm, Location at Cornell Tech 3
 
 ## Important notes:
 
+Eugene's OH moved to  Tue 3-5 pm to accommodate deadline for Lab 1.
 
 ### Academic Integrity
 

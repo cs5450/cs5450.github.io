@@ -34,7 +34,7 @@ nav: lectures
 <td align="center">2</td>
 <td align="center">1/30</td>
 <td align="left">Internet Architecture - Part 1</td>
-<td><a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">same notes</a></td>
+<td><a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">same </a></td>
 <td>HW 1 Assigned (Web Computing)</td>
 </tr>
 
@@ -125,7 +125,7 @@ nav: lectures
 <td align="center">7</td>
 <td align="center">3/8</td>
 <td align="left">Routing</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/CS5450-Routing.pdf">notes</a></td>
 <td>Lab 2 Assigned (TCP/IP)</td>
 </tr>
 

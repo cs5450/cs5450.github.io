@@ -5,4 +5,4 @@ nav: assignments
 ---
 ## Lab 2
 
-TBD
+Please find the assignment on CMS.

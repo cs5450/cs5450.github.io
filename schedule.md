@@ -133,7 +133,7 @@ nav: lectures
 <td align="center">8</td>
 <td align="center">3/13</td>
 <td align="left">Routing Robustness</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/bgp.pdf">notes</a></td>
 <td></td>
 </tr>
 
@@ -141,7 +141,7 @@ nav: lectures
 <td align="center">8</td>
 <td align="center">3/15</td>
 <td align="left">DNS</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/dns.pdf">notes</a></td>
 <td></td>
 </tr>
 

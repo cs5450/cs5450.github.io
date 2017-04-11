@@ -165,7 +165,7 @@ nav: lectures
 <td align="center">10</td>
 <td align="center">3/27</td>
 <td align="left">Virtualization</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/virtual.pdf">notes</a></td>
 <td>Lab 3 Assigned (Peer to Peer)</td>
 </tr>
 
@@ -173,7 +173,7 @@ nav: lectures
 <td align="center">10</td>
 <td align="center">3/29</td>
 <td align="left">MapReduce</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/mapreduce.pdf">notes</a></td>
 <td></td>
 </tr>
 
@@ -197,7 +197,7 @@ nav: lectures
 <td align="center">12</td>
 <td align="center">4/10</td>
 <td align="left">Cloud Computing </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/cloud_1.pdf">notes</a></td>
 <td></td>
 </tr>
 

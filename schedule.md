@@ -205,7 +205,7 @@ nav: lectures
 <td align="center">12</td>
 <td align="center">4/12</td>
 <td align="left">Cloud Computing </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/cloud_2.pdf">notes</a></td>
 <td>Lab 3 Due</td>
 </tr>
 

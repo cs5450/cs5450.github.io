@@ -8,7 +8,7 @@ nav: Home
 
 Welcome to CS 5450: Networked and Distributed Computing at Cornell Tech. This course introduces students to the design and implementation of networked and distributed systems.  Topics include the basics of networking (including Internet architecture, TCP/IP, Wi-Fi, and routing), distributed protocols, foundations of mobile and Web computing, virtualization, cloud computing, reliability, fault tolerance, and security in distributed systems, and introduction to performance evaluation.  Course labs, projects, and exercises include a significant implementation component and require working knowledge of C/C++.
 
-The class Mon-Wed 1pm-2:15pm. Location: Big Red.
+The class Mon-Wed 1:45pm-3:00pm. Location: Bloomberg Center 161.
 
 ### Piazza group
 
@@ -29,7 +29,8 @@ Office hours:  Send an email in advance
 #### [**Yunhao Zhang**](http://dolobyte.net) (TA)
 email: cs5450at17f@gmail.com.
 
-Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi.
+Office hours: Tue, Fri 19:00-21:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
+
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/3499408617**](https://cornell.zoom.us/j/3499408617)
 
 ## Important notes:

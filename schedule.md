@@ -11,84 +11,66 @@ nav: lectures
 <table>
 <thead>
 <tr>
-<th align="center">Week</th>
-<th align="center">Date</th>
+<th align="right">Week</th>
+<th align="left">Date</th>
 <th align="left">Topic</th>
 <th>Readings</th>
-<th>Key Dates</th>
+<th>Assignments</th>
 </tr>
 </thead>
 <tbody>
 
 <tr>
-<td align="center">8/23</td>
-<td align="center">1</td>
+<td align="right">1</td>
+<td align="left">8/23</td>
 <td align="left">Overview of the course: topics, labs, participation</td>
 <td></td>
 </tr>
 
 <tr>
-<td align="center">8/28</td>
-<td align="center">2</td>
+<td align="right">2</td>
+<td align="left">8/28</td>
 <td align="left">Intro to distributed systems</td>
 <td></td>
 </tr>
 
 <tr>
+<td align="right">2</td>
 <td align="center">8/30</td>
-<td align="center">3</td>
 <td align="left">Internet architecture</td>
 <td></td>
 </tr>
 
 <tr>
-<td align="center">9/6</td>
-<td align="center">4</td>
+<td align="right">3</td>
+<td align="left">9/4</td>
+<td align="left">Labor Day (no class)</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">9/6</td>
 <td align="left">RPC</td>
 <td></td>
 </tr>
 
 <tr>
-<td align="center">9/11</td>
-<td align="center">5</td>
+<td align="right">4</td>
+<td align="left">9/11</td>
 <td align="left">Web computing</td>
 <td></td>
 <td>Lab 1 Assigned (Web Server)</td>
 </tr>
 
+<tr>
+<td align="right">4</td>
+<td align="left">9/13</td>
+<td align="left">Network protocols bottom up</td>
+<td></td>
+</tr>
+
 <!--
-<tr>
-<td align="center">2</td>
-<td align="center">1/30</td>
-<td align="left">Internet Architecture - Part 1</td>
-<td><a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">same </a></td>
-<td>HW 1 Assigned (Web Computing)</td>
-</tr>
-
-<tr>
-<td align="center">2</td>
-<td align="center">2/1</td>
-<td align="left">Intro to distributed systems</td>
-<td><a href="{{ site.url }}/lectures/ds.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">3</td>
-<td align="center">2/6</td>
-<td align="left">RPC</td>
-<td><a href="{{ site.url }}/lectures/rpc.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">3</td>
-<td align="center">2/8</td>
-<td align="left">Web Computing</td>
-<td><a href="https://www.youtube.com/watch?v=3Q-s0G9tZDg">Macaroons video</a>, <a href="{{ site.url }}/lectures/http.pdf">notes</a></td>
-<td>Lab 1 Assigned (Web Computing)</td>
-</tr>
-
 <tr>
 <td align="center">4</td>
 <td align="center">2/13</td>

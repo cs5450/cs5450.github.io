@@ -26,11 +26,11 @@ email: shmat at cornell
 
 Office hours:  Send an email in advance
 
-#### [**Eugene Bagdasaryan**](http://www.cs.cornell.edu/~ebagdasa) (TA)
-email: ebagdasa@cs.cornell.edu.
+#### [**Yunhao Zhang**](http://dolobyte.net) (TA)
+email: cs5450at17f@gmail.com.
 
 Office hours: Thu 9:30-11:30am, Location at Cornell Tech 3 - Dubi.
-**You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/218174320**](https://cornell.zoom.us/j/218174320)
+**You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/3499408617**](https://cornell.zoom.us/j/3499408617)
 
 ## Important notes:
 

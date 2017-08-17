@@ -21,15 +21,42 @@ nav: lectures
 <tbody>
 
 <tr>
-<td align="center">1/25</td>
+<td align="center">8/23</td>
 <td align="center">1</td>
 <td align="left">Overview of the course: topics, labs, participation</td>
-<td><a href="{{ site.url }}/lectures/intro.pdf">intro</a>,
-<a href="{{ site.url }}/lectures/CS5450-InternetArch-013017-Final.pdf">InternetArch</a>
-</td>
 <td></td>
 </tr>
 
+<tr>
+<td align="center">8/28</td>
+<td align="center">2</td>
+<td align="left">Intro to distributed systems</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">8/30</td>
+<td align="center">3</td>
+<td align="left">Internet architecture</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">9/6</td>
+<td align="center">4</td>
+<td align="left">RPC</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">9/11</td>
+<td align="center">5</td>
+<td align="left">Web computing</td>
+<td></td>
+<td>Lab 1 Assigned (Web Server)</td>
+</tr>
+
+<!--
 <tr>
 <td align="center">2</td>
 <td align="center">1/30</td>
@@ -277,6 +304,7 @@ Anonymity networks</td>
 <td></td>
 <td></td>
 </tr>
+-->
 
 </tbody>
 </table>

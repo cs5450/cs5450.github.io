@@ -16,11 +16,6 @@ Please use [**Piazza**] for all interactions regarding the class: [**{{ site.dat
 
 ###  Course Staff
 
-#### [**Deborah Estrin**](http://destrin.smalldata.io) (Instructor)
-email: destrin at cornell
-
-Office hours: Wed 4-4:50 pm, Location: 12th floor Office
-
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor)  
 email: shmat at cornell
 
@@ -29,7 +24,7 @@ Office hours:  Send an email in advance
 #### [**Yunhao Zhang**](http://dolobyte.net) (TA)
 email: cs5450at17f@gmail.com.
 
-Office hours: Tue, Thu 19:00-21:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
+Office hours: Tue 13:30 - 15:30, Thu 19:00-21:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
 
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/3499408617**](https://cornell.zoom.us/j/3499408617)
 

@@ -24,7 +24,7 @@ Office hours:  Send an email in advance
 #### [**Yunhao Zhang**](http://dolobyte.net) (TA)
 email: cs5450at17f@gmail.com.
 
-Office hours: Tue 13:30 - 15:30, Thu 19:00-21:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
+Office hours: Tue 13:30 - 15:30, Thu 18:00-20:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
 
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/3499408617**](https://cornell.zoom.us/j/3499408617)
 

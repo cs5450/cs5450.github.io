@@ -23,14 +23,14 @@ nav: lectures
 <tr>
 <td align="right">1</td>
 <td align="left">8/23</td>
-<td align="left">Overview of the course: topics, labs, participation</td>
+<td align="left">Overview of the course: topics, labs, participation.  Intro to distributed systems.</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">2</td>
 <td align="left">8/28</td>
-<td align="left">Intro to distributed systems</td>
+<td align="left">RPC</td>
 <td></td>
 </tr>
 
@@ -51,7 +51,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">9/6</td>
-<td align="left">RPC</td>
+<td align="left">Network protocols bottom-up</td>
 <td></td>
 </tr>
 
@@ -66,7 +66,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">9/13</td>
-<td align="left">Network protocols bottom up</td>
+<td align="left">MAC-WiFi</td>
 <td></td>
 </tr>
 

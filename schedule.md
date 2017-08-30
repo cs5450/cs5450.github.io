@@ -23,14 +23,22 @@ nav: lectures
 <tr>
 <td align="right">1</td>
 <td align="left">8/23</td>
-<td align="left">Overview of the course: topics, labs, participation.  Intro to distributed systems.</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/0-intro.pdf">
+        Overview of the course: topics, labs, participation.  Intro to distributed systems.
+    </a>
+</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">2</td>
 <td align="left">8/28</td>
-<td align="left">RPC</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/2-rpc.pdf">
+        RPC
+    </a>
+</td>
 <td></td>
 </tr>
 

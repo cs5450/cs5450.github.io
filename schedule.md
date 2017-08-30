@@ -27,6 +27,7 @@ nav: lectures
     <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/0-intro.pdf">
         General Information and Policies
     </a>
+    <br>
     <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/1-ds-intro.pdf">
         Overview of the course: topics, labs, participation.  Intro to distributed systems.
     </a>

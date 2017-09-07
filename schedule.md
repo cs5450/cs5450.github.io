@@ -120,7 +120,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">10/4</td>
-<td align="left"><strong>MIDTERM 1</strong></td>
+<td align="left"><strong>MIDTERM #1</strong></td>
 <td></td>
 </tr>
 

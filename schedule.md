@@ -110,23 +110,21 @@ nav: lectures
 <td></td>
 </tr>
 
-<!--
+<tr>
+<td align="right">7</td>
+<td align="left">10/2</td>
+<td align="left">DNS</td>
+<td></td>
+</tr>
 
 <tr>
-<td align="center">7</td>
-<td align="center">3/6</td>
+<td align="right">7</td>
+<td align="left">10/4</td>
 <td align="left"><strong>MIDTERM 1</strong></td>
 <td></td>
-<td></td>
 </tr>
 
-<tr>
-<td align="center">8</td>
-<td align="center">3/15</td>
-<td align="left">DNS</td>
-<td><a href="{{ site.url }}/lectures/dns.pdf">notes</a></td>
-<td></td>
-</tr>
+<!--
 
 <tr>
 <td align="center">9</td>

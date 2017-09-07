@@ -115,6 +115,7 @@ nav: lectures
 <td align="left">10/2</td>
 <td align="left">DNS</td>
 <td></td>
+<td>Lab 1 is due</td>
 </tr>
 
 <tr>
@@ -122,17 +123,25 @@ nav: lectures
 <td align="left">10/4</td>
 <td align="left"><strong>MIDTERM #1</strong></td>
 <td></td>
+<td>Lab 2 Assigned (TCP/IP)</td>
+</tr>
+
+
+<tr>
+<td align="right">8</td>
+<td align="left">10/9</td>
+<td align="left">Fall break (no class)</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">8</td>
+<td align="left">10/11</td>
+<td align="left">Content delivery networks</td>
+<td></td>
 </tr>
 
 <!--
-
-<tr>
-<td align="center">9</td>
-<td align="center">3/20</td>
-<td align="left">Content delivery networks</td>
-<td><a href="{{ site.url }}/lectures/cdn.pdf">notes</a></td>
-<td>Lab 2 due.</td>
-</tr>
 
 <tr>
 <td align="center">9</td>

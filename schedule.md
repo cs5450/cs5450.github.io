@@ -63,7 +63,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">9/6</td>
-<td align="left">Network protocols bottom-up</td>
+<td align="left">Framing, reliable transmission, sharing</td>
 <td></td>
 </tr>
 
@@ -78,83 +78,45 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">9/13</td>
-<td align="left">MAC-WiFi</td>
+<td align="left">IP</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">9/18</td>
+<td align="left">TCP</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">9/20</td>
+<td align="left">TCP</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td align="left">9/25</td>
+<td align="left">Routing</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td align="left">9/27</td>
+<td align="left">Routing robustness</td>
 <td></td>
 </tr>
 
 <!--
-<tr>
-<td align="center">4</td>
-<td align="center">2/13</td>
-<td align="left">Network Protocols Bottom Up</td>
-<td><a href="{{ site.url }}/lectures/CS5450-LinkMAC-2-11-17.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">4</td>
-<td align="center">2/15</td>
-<td align="left">MAC-WiFi</td>
-<td><a href="{{ site.url }}/lectures/CS5450-LinkMAC-2-11-17.pdf">same notes</a></td>
-<td></td>
-</tr>
-
-
-<tr>
-<td align="center">5</td>
-<td align="center">2/20</td>
-<td align="right"><i>FEB BREAK</i></td>
-<td></td>
-<td></td>
-</tr>
-
-
-
-<tr>
-<td align="center">5</td>
-<td align="center">2/22</td>
-<td align="left">IP</td>
-<td><a href="{{ site.url }}/lectures/CS5450-IP.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">6</td>
-<td align="center">2/27</td>
-<td align="left">TCP</td>
-<td><a href="{{ site.url }}/lectures/CS5450-TCP.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">6</td>
-<td align="center">3/1</td>
-<td align="left">TCP</td>
-<td><a href="{{ site.url }}/lectures/CS5450-TCP.pdf">notes</a></td>
-<td>Lab 1 Due</td>
-</tr>
 
 <tr>
 <td align="center">7</td>
 <td align="center">3/6</td>
 <td align="left"><strong>MIDTERM 1</strong></td>
 <td></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">7</td>
-<td align="center">3/8</td>
-<td align="left">Routing</td>
-<td><a href="{{ site.url }}/lectures/CS5450-Routing.pdf">notes</a></td>
-<td>Lab 2 Assigned (TCP/IP)</td>
-</tr>
-
-<tr>
-<td align="center">8</td>
-<td align="center">3/13</td>
-<td align="left">Routing Robustness</td>
-<td><a href="{{ site.url }}/lectures/bgp.pdf">notes</a></td>
 <td></td>
 </tr>
 

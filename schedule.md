@@ -49,7 +49,11 @@ nav: lectures
 <tr>
 <td align="right">2</td>
 <td align="center">8/30</td>
-<td align="left">Internet architecture</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/3-CS5450-InternetArch-013017-Final 2.pdf">
+        Internet architecture
+    </a>
+</td>
 <td></td>
 </tr>
 
@@ -63,7 +67,11 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">9/6</td>
-<td align="left">Framing, reliable transmission, sharing</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/4-CS5450-LinkMAC-2-11-17 Version.pdf">
+        Framing, reliable transmission, sharing
+    </a>
+</td>
 <td></td>
 </tr>
 

@@ -86,14 +86,22 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">9/13</td>
-<td align="left">IP</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/5-CS5450-IP.pdf">
+        IP
+    </a>
+</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">5</td>
 <td align="left">9/18</td>
-<td align="left">TCP</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/6-CS5450-TCP.pdf">
+    TCP
+    </a>
+</td>
 <td></td>
 </tr>
 

@@ -115,14 +115,22 @@ nav: lectures
 <tr>
 <td align="right">6</td>
 <td align="left">9/25</td>
-<td align="left">Routing</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/7-bgp.pdf">
+    Routing
+    </a>
+</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">6</td>
 <td align="left">9/27</td>
-<td align="left">DNS</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/8-dns.pdf">
+        DNS
+    </a>
+</td>
 <td></td>
 </tr>
 

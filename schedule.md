@@ -122,14 +122,14 @@ nav: lectures
 <tr>
 <td align="right">6</td>
 <td align="left">9/27</td>
-<td align="left">Routing robustness</td>
+<td align="left">DNS</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">7</td>
 <td align="left">10/2</td>
-<td align="left">DNS</td>
+<td align="left">Content delivery networks</td>
 <td></td>
 <td>Lab 1 is due</td>
 </tr>
@@ -153,19 +153,11 @@ nav: lectures
 <tr>
 <td align="right">8</td>
 <td align="left">10/11</td>
-<td align="left">Content delivery networks</td>
+<td align="left">Peer-to-peer systems</td>
 <td></td>
 </tr>
 
 <!--
-
-<tr>
-<td align="center">9</td>
-<td align="center">3/22</td>
-<td align="left">Peer-to-peer systems</td>
-<td><a href="{{ site.url }}/lectures/p2p.pdf">notes</a></td>
-<td></td>
-</tr>
 
 <tr>
 <td align="center">10</td>

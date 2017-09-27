@@ -128,7 +128,7 @@ nav: lectures
 <td align="left">9/27</td>
 <td align="left">
     <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/8-dns.pdf">
-        DNS
+    DNS
     </a>
 </td>
 <td></td>

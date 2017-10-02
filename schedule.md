@@ -137,7 +137,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">10/2</td>
-<td align="left">Content delivery networks</td>
+<td align="left">DNS (continued)</td>
 <td></td>
 <td>Lab 1 is due</td>
 </tr>
@@ -150,7 +150,6 @@ nav: lectures
 <td>Lab 2 Assigned (TCP/IP)</td>
 </tr>
 
-
 <tr>
 <td align="right">8</td>
 <td align="left">10/9</td>
@@ -161,43 +160,39 @@ nav: lectures
 <tr>
 <td align="right">8</td>
 <td align="left">10/11</td>
+<td align="left">Content delivery systems</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">10/16</td>
 <td align="left">Peer-to-peer systems</td>
 <td></td>
 </tr>
 
-<!--
-
 <tr>
-<td align="center">10</td>
-<td align="center">3/27</td>
+<td align="right">9</td>
+<td align="left">10/18</td>
 <td align="left">Virtualization</td>
-<td><a href="{{ site.url }}/lectures/virtual.pdf">notes</a></td>
-<td>Lab 3 Assigned (Peer to Peer)</td>
+<td></td>
 </tr>
 
 <tr>
-<td align="center">10</td>
-<td align="center">3/29</td>
+<td align="right">10</td>
+<td align="left">10/23</td>
+<td align="left">Security in virtualized environments</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">10/25</td>
 <td align="left">MapReduce</td>
-<td><a href="{{ site.url }}/lectures/mapreduce.pdf">notes</a></td>
 <td></td>
 </tr>
 
-<tr>
-<td align="center">11</td>
-<td align="center">4/3</td>
-<td align="right"><i>SPRING BREAK</i></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">11</td>
-<td align="center">4/5</td>
-<td align="right"><i>SPRING BREAK</i></td>
-<td></td>
-<td></td>
-</tr>
+<!--
 
 <tr>
 <td align="center">12</td>

@@ -17,7 +17,7 @@ Please use [**Piazza**] for all interactions regarding the class: [**{{ site.dat
 ###  Course Staff
 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor)  
-email: shmat at cornell
+email: shmat@cs.cornell.edu
 
 Office hours:  Send an email in advance
 

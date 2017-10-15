@@ -236,7 +236,6 @@ nav: lectures
 
 <!--
 
-
 <tr>
 <td align="center">14</td>
 <td align="center">4/24</td>
@@ -244,6 +243,8 @@ nav: lectures
 <td><a href="{{ site.url }}/lectures/authentication.pdf">notes</a></td>
 <td>Lab 4 Assigned (Authentication, Mobile)</td>
 </tr>
+
+-->
 
 </tbody>
 </table>

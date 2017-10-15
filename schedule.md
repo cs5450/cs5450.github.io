@@ -192,40 +192,49 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">11</td>
+<td align="left">10/30</td>
+<td align="left">Spark</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td align="left">11/1</td>
+<td align="left">Mobile OS</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">11/6</td>
+<td align="left">Cloud computing</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">11/8</td>
+<td align="left">Consensus</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">11/13</td>
+<td align="left">Cloud computing (cont'd)</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">11/15</td>
+<td align="left">Consensus (cont'd)</td>
+<td></td>
+</tr>
+
 <!--
-
-<tr>
-<td align="center">12</td>
-<td align="center">4/10</td>
-<td align="left">Cloud Computing </td>
-<td><a href="{{ site.url }}/lectures/cloud_1.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">12</td>
-<td align="center">4/12</td>
-<td align="left">Cloud Computing </td>
-<td><a href="{{ site.url }}/lectures/cloud_2.pdf">notes</a></td>
-<td>Lab 3 Due</td>
-</tr>
-
-
-<tr>
-<td align="center">13</td>
-<td align="center">4/17</td>
-<td align="left">Cloud Computing </td>
-<td><a href="{{ site.url }}/lectures/cloud_3.pdf">notes</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">13</td>
-<td align="center">4/19</td>
-<td align="left"><strong>MIDTERM 2</strong></td>
-<td></td>
-<td></td>
-</tr>
 
 
 <tr>
@@ -235,50 +244,6 @@ nav: lectures
 <td><a href="{{ site.url }}/lectures/authentication.pdf">notes</a></td>
 <td>Lab 4 Assigned (Authentication, Mobile)</td>
 </tr>
-
-<tr>
-<td align="center">14</td>
-<td align="center">4/26</td>
-<td align="left">Mobile OS</td>
-<td><a href="{{ site.url }}/lectures/android.pdf">notes</a></td>
-<td></td>
-</tr>
-
-
-<tr>
-<td align="center">15</td>
-<td align="center">5/1</td>
-<td align="left">Advanced Topics 1</td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="center">15</td>
-<td align="center">5/3</td>
-<td align="left">Advanced Topics 2: Bitcoin</td>
-<td></td>
-<td></td>
-</tr>
-
-
-<tr>
-<td align="center">16</td>
-<td align="center">5/8</td>
-<td align="left">Advanced Topics 3:
-Anonymity networks</td>
-<td></td>
-<td>Lab 4 Final Due</td>
-</tr>
-
-<tr>
-<td align="center">16</td>
-<td align="center">5/10</td>
-<td align="left">Student presentations</td>
-<td></td>
-<td></td>
-</tr>
--->
 
 </tbody>
 </table>

@@ -202,7 +202,7 @@ nav: lectures
 <tr>
 <td align="right">11</td>
 <td align="left">11/1</td>
-<td align="left">Mobile OS</td>
+<td align="left">Anonymity networks</td>
 <td></td>
 </tr>
 
@@ -234,17 +234,20 @@ nav: lectures
 <td></td>
 </tr>
 
-<!--
-
 <tr>
-<td align="center">14</td>
-<td align="center">4/24</td>
-<td align="left">Authentication</td>
-<td><a href="{{ site.url }}/lectures/authentication.pdf">notes</a></td>
-<td>Lab 4 Assigned (Authentication, Mobile)</td>
+<td align="right">14</td>
+<td align="left">11/20</td>
+<td align="left">Mobile OS</td>
+<td></td>
 </tr>
 
--->
+<tr>
+<td align="right">14</td>
+<td align="left">11/22</td>
+<td align="left">Authentication</td>
+<td></td>
+</tr>
+
 
 </tbody>
 </table>

@@ -160,14 +160,22 @@ nav: lectures
 <tr>
 <td align="right">8</td>
 <td align="left">10/11</td>
-<td align="left">Content delivery systems</td>
+<td align="left">
+    <a href="https://github.coecis.cornell.edu/cs5450/website/blob/master/lectures/9-cdn.pdf">
+    Content delivery systems
+    </a>
+</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">9</td>
 <td align="left">10/16</td>
-<td align="left">Peer-to-peer systems</td>
+<td align="left">
+    <a href="https://github.coecis.cornell.edu/cs5450/website/blob/master/lectures/10-p2p.pdf">
+    Peer-to-peer systems
+    </a>
+</td>
 <td></td>
 </tr>
 

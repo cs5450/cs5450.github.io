@@ -182,14 +182,22 @@ nav: lectures
 <tr>
 <td align="right">9</td>
 <td align="left">10/18</td>
-<td align="left">Virtualization</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/11-virtual.pdf">
+        Virtualization
+    </a>
+</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">10</td>
 <td align="left">10/23</td>
-<td align="left">Security in virtualized environments</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/12-vmsecurity.pdf">
+        Security in virtualized environments
+    </a>
+</td>
 <td></td>
 <td>Lab 2 is due</td>
 </tr>

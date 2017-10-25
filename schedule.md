@@ -80,7 +80,7 @@ nav: lectures
 <td align="left">9/11</td>
 <td align="left">Web computing</td>
 <td></td>
-<td>Lab 1 Assigned (Web Server)</td>
+<td>Lab 1 assigned (Web server)</td>
 </tr>
 
 <tr>
@@ -147,7 +147,7 @@ nav: lectures
 <td align="left">10/4</td>
 <td align="left"><strong>MIDTERM #1</strong></td>
 <td></td>
-<td>Lab 2 Assigned (TCP/IP)</td>
+<td>Lab 2 assigned (TCP/IP)</td>
 </tr>
 
 <tr>
@@ -191,6 +191,7 @@ nav: lectures
 <td align="left">10/23</td>
 <td align="left">Security in virtualized environments</td>
 <td></td>
+<td>Lab 2 is due</td>
 </tr>
 
 <tr>
@@ -198,6 +199,7 @@ nav: lectures
 <td align="left">10/25</td>
 <td align="left">Virtualization (cont'd)</td>
 <td></td>
+<td>Lab 3 assigned (P2P)</td>
 </tr>
 
 <tr>

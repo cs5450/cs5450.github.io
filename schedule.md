@@ -196,21 +196,21 @@ nav: lectures
 <tr>
 <td align="right">10</td>
 <td align="left">10/25</td>
-<td align="left">MapReduce</td>
+<td align="left">Virtualization (cont'd)</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">11</td>
 <td align="left">10/30</td>
-<td align="left">Spark</td>
+<td align="left">MapReduce</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">11</td>
 <td align="left">11/1</td>
-<td align="left">Anonymity networks</td>
+<td align="left">Spark</td>
 <td></td>
 </tr>
 
@@ -256,6 +256,12 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">15</td>
+<td align="left">11/27</td>
+<td align="left">Anonymity networks</td>
+<td></td>
+</tr>
 
 </tbody>
 </table>

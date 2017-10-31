@@ -227,7 +227,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">11/6</td>
-<td align="left">Cloud computing</td>
+<td align="left">Authentication</td>
 <td></td>
 </tr>
 
@@ -241,7 +241,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">11/13</td>
-<td align="left">Cloud computing (cont'd)</td>
+<td align="left">Cloud computing</td>
 <td></td>
 </tr>
 
@@ -255,14 +255,14 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">11/20</td>
-<td align="left">Mobile OS</td>
+<td align="left">Cloud computing (cont'd)</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">14</td>
 <td align="left">11/22</td>
-<td align="left">Authentication</td>
+<td align="left">Mobile OS</td>
 <td></td>
 </tr>
 

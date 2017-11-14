@@ -249,7 +249,11 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">11/13</td>
-<td align="left">Cloud computing</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/15-cloud.pdf">
+            Cloud computing
+    </a>
+</td>
 <td></td>
 </tr>
 
@@ -264,9 +268,7 @@ nav: lectures
 <td align="right">14</td>
 <td align="left">11/20</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/15-cloud.pdf">
         Cloud computing (cont'd)
-    </a>
 </td>
 <td></td>
 </tr>

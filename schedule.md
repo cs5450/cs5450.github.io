@@ -287,5 +287,12 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">15</td>
+<td align="left">11/29</td>
+<td align="left"><strong>MIDTERM #2</strong></td>
+<td></td>
+</tr>
+
 </tbody>
 </table>

@@ -255,6 +255,7 @@ nav: lectures
     </a>
 </td>
 <td></td>
+<td>Lab 3 due</td>
 </tr>
 
 <tr>
@@ -267,9 +268,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">11/20</td>
-<td align="left">
-        Cloud computing (cont'd)
-</td>
+<td align="left">Cloud computing (cont'd)</td>
 <td></td>
 </tr>
 
@@ -278,6 +277,7 @@ nav: lectures
 <td align="left">11/22</td>
 <td align="left">Mobile OS</td>
 <td></td>
+<td>Lab 4 assigned (Firebase)</td>
 </tr>
 
 <tr>
@@ -292,6 +292,13 @@ nav: lectures
 <td align="left">11/29</td>
 <td align="left"><strong>MIDTERM #2</strong></td>
 <td></td>
+</tr>
+
+<tr>
+<td align="right">16</td>
+<td align="left">12/7</td>
+<td></td>
+<td>Lab 4 due</d>
 </tr>
 
 </tbody>

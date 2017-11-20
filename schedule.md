@@ -298,7 +298,8 @@ nav: lectures
 <td align="right">16</td>
 <td align="left">12/7</td>
 <td></td>
-<td>Lab 4 due</d>
+<td></td>
+<td>Lab 4 due</td>
 </tr>
 
 </tbody>

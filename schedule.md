@@ -270,20 +270,20 @@ nav: lectures
 <td align="left">11/20</td>
 <td align="left">Cloud computing (cont'd)</td>
 <td></td>
+<td>Lab 4 assigned (Firebase)</td>
 </tr>
 
 <tr>
 <td align="right">14</td>
 <td align="left">11/22</td>
-<td align="left">Mobile OS</td>
+<td align="left">No class (Thanksgiving)</td>
 <td></td>
-<td>Lab 4 assigned (Firebase)</td>
 </tr>
 
 <tr>
 <td align="right">15</td>
 <td align="left">11/27</td>
-<td align="left">Anonymity networks</td>
+<td align="left">Mobile OS</td>
 <td></td>
 </tr>
 

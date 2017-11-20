@@ -295,7 +295,7 @@ nav: lectures
 </tr>
 
 <tr>
-<td align="right">16</td>
+<td align="right"></td>
 <td align="left">12/7</td>
 <td></td>
 <td></td>

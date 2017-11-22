@@ -236,7 +236,7 @@ nav: lectures
 <td align="right">12</td>
 <td align="left">11/6</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/15-authentication.pdf">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/16-authentication.pdf">
         Authentication
     </a>
 </td>
@@ -246,7 +246,11 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">11/8</td>
-<td align="left">Consensus</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/18-consensus.pdf">
+        Consensus
+    </a>
+</td>
 <td></td>
 </tr>
 
@@ -273,7 +277,7 @@ nav: lectures
 <td align="right">14</td>
 <td align="left">11/20</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/16-cloudcnt.pdf">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/17-cloudcnt.pdf">
         Cloud computing (cont'd)
     </a>
 </td>

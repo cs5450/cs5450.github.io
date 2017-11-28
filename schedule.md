@@ -295,7 +295,11 @@ nav: lectures
 <tr>
 <td align="right">15</td>
 <td align="left">11/27</td>
-<td align="left">Mobile OS</td>
+<td align="left">
+    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/19-android.pdf">
+        Mobile OS
+    </a>
+</td>
 <td></td>
 </tr>
 

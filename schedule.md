@@ -22,55 +22,72 @@ nav: lectures
 
 <tr>
 <td align="right">1</td>
-<td align="left">8/23</td>
+<td align="left">8/27</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/0-intro.pdf">
-        General Information and Policies
-    </a>
+Overview of the course and general information.
     <br>
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/1-ds-intro.pdf">
-        Overview of the course: topics, labs, participation.  Intro to distributed systems.
-    </a>
+Intro to distributed systems.
 </td>
 <td></td>
 </tr>
+
+<tr>
+<td align="right">1</td>
+<td align="left">8/29</td>
+<td align="left">
+Internet architecture
+</td>
+<td></td>
+</tr>
+
 
 <tr>
 <td align="right">2</td>
-<td align="left">8/28</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/2-rpc.pdf">
-        RPC
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">2</td>
-<td align="center">8/30</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/3-CS5450-InternetArch-013017-Final 2.pdf">
-        Internet architecture
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">3</td>
-<td align="left">9/4</td>
+<td align="left">9/3</td>
 <td align="left">Labor Day (no class)</td>
 <td></td>
 </tr>
 
 <tr>
-<td align="right">3</td>
-<td align="left">9/6</td>
+<td align="right">2</td>
+<td align="left">9/5</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/4-CS5450-LinkMAC-2-11-17 Version.pdf">
-        Framing, reliable transmission, sharing
-    </a>
+Framing, reliable transmission, sharing
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">9/10</td>
+<td align="left">
+IP
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">9/12</td>
+<td align="left">
+TCP
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">9/17</td>
+<td align="left">TCP</td>
+<td>Lab 1 assigned (TCP/IP)</td>
+</tr>
+
+<!--
+<tr>
+<td align="right">2</td>
+<td align="center">8/30</td>
+<td align="left">
+RPC
 </td>
 <td></td>
 </tr>
@@ -81,35 +98,6 @@ nav: lectures
 <td align="left">Web computing</td>
 <td></td>
 <td>Lab 1 assigned (Web server)</td>
-</tr>
-
-<tr>
-<td align="right">4</td>
-<td align="left">9/13</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/5-CS5450-IP.pdf">
-        IP
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">5</td>
-<td align="left">9/18</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/6-CS5450-TCP.pdf">
-    TCP
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">5</td>
-<td align="left">9/20</td>
-<td align="left">TCP</td>
-<td></td>
 </tr>
 
 <tr>
@@ -317,6 +305,8 @@ nav: lectures
 <td></td>
 <td>Lab 4 due</td>
 </tr>
+
+-->
 
 </tbody>
 </table>

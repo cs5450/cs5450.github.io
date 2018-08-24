@@ -79,7 +79,8 @@ TCP
 <td align="right">4</td>
 <td align="left">9/17</td>
 <td align="left">TCP</td>
-<td>Lab 1 assigned (TCP/IP)</td>
+<td></td>
+<td>Lab 1 assigned</td>
 </tr>
 
 <!--

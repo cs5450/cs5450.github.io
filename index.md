@@ -21,14 +21,14 @@ email: shmat@cs.cornell.edu
 
 Office hours:  Send an email in advance
 
-<!--
-#### [**Yunhao Zhang**](http://dolobyte.net) (TA)
-email: cs5450at17f@gmail.com.
 
-Office hours: Tue 13:30 - 15:30, Thu 18:00-20:00, through Skype account zhangyunh1995. *sorry for the inconvenience*
+#### [**Eugene Bagdasaryan**](http://ebagdasa.me) (TA)
+email: eugene@cs.cornell.edu
 
-**You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/3499408617**](https://cornell.zoom.us/j/3499408617)
--->
+Office hours: TBA
+
+<!-- **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/my/ebagdasa**](https://cornell.zoom.us/my/ebagdasa) -->
+
 
 ## Important notes:
 

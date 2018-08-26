@@ -12,7 +12,7 @@ The class Mon-Wed 1:55pm-3:10pm. Location: Bloomberg 161.
 
 ### Piazza group
 
-Please use [**Piazza**] for all interactions regarding the class: TBA
+Please use [**Piazza**]({{site.data.main.piazza}}) for all interactions regarding the class.
 
 ###  Course Staff
 

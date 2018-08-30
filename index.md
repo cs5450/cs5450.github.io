@@ -26,6 +26,7 @@ Office hours:  Send an email in advance
 email: eugene@cs.cornell.edu
 
 Office hours: 4-6PM Every Tuesday at Blm 367
+
 **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/873713898**](https://cornell.zoom.us/j/873713898)
 
 

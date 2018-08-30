@@ -23,20 +23,16 @@ nav: lectures
 <tr>
 <td align="right">1</td>
 <td align="left">8/27</td>
-<td align="left">
-Overview of the course and general information.
-    <br>
-Intro to distributed systems.
-</td>
+<td align="left">Overview of the course and general information.</td>
+<td>[**intro**]({{ site.url }}/lectures/fall2018/intro.pdf), [**intro part2**]({{ site.url }}/lectures/fall2018/ds-intro.pdf)</td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">1</td>
 <td align="left">8/29</td>
-<td align="left">
-Internet architecture
-</td>
+<td align="left">Internet architecture</td>
+<td>[**Internet Architecture**]({{ site.url }}/lectures/fall2018/internet-arch.pdf)</td>
 <td></td>
 </tr>
 
@@ -46,23 +42,22 @@ Internet architecture
 <td align="left">9/3</td>
 <td align="left">Labor Day (no class)</td>
 <td></td>
+<td></td>
 </tr>
 
 <tr>
 <td align="right">2</td>
 <td align="left">9/5</td>
-<td align="left">
-Framing, reliable transmission, sharing
-</td>
+<td align="left">Framing, reliable transmission, sharing</td>
+<td></td>
 <td></td>
 </tr>
 
 <tr>
 <td align="right">3</td>
 <td align="left">9/10</td>
-<td align="left">
-IP
-</td>
+<td align="left">IP</td>
+<td></td>
 <td></td>
 </tr>
 
@@ -72,6 +67,7 @@ IP
 <td align="left">
 TCP
 </td>
+<td></td>
 <td></td>
 </tr>
 

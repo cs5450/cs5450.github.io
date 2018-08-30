@@ -24,7 +24,7 @@ nav: lectures
 <td align="right">1</td>
 <td align="left">8/27</td>
 <td align="left">Overview of the course and general information.</td>
-<td>[**intro**]({{ site.url }}/lectures/fall2018/intro.pdf), [**intro part2**]({{ site.url }}/lectures/fall2018/ds-intro.pdf)</td>
+<td><a href="{{ site.url }}/lectures/fall2018/intro.pdf">slides</a>, <a href="{{ site.url }}/lectures/fall2018/ds-intro.pdf">slides part2</a></td>
 <td></td>
 </tr>
 
@@ -32,7 +32,7 @@ nav: lectures
 <td align="right">1</td>
 <td align="left">8/29</td>
 <td align="left">Internet architecture</td>
-<td>[**Internet Architecture**]({{ site.url }}/lectures/fall2018/internet-arch.pdf)</td>
+<td><a href="{{ site.url }}/lectures/fall2018/internet-arch.pdf">slides</a></td>
 <td></td>
 </tr>
 

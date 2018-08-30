@@ -25,9 +25,8 @@ Office hours:  Send an email in advance
 #### [**Eugene Bagdasaryan**](http://ebagdasa.me) (TA)
 email: eugene@cs.cornell.edu
 
-Office hours: TBA
-
-<!-- **You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/my/ebagdasa**](https://cornell.zoom.us/my/ebagdasa) -->
+Office hours: 4-6PM Every Tuesday at Blm 367
+**You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/873713898**](https://cornell.zoom.us/j/873713898)
 
 
 ## Important notes:

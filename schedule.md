@@ -48,7 +48,7 @@ nav: lectures
 <tr>
 <td align="right">2</td>
 <td align="left">9/5</td>
-<td align="left">Framing, reliable transmission, sharing</td>
+<td align="left">Framing, reliable transmission, carrier sharing</td>
 <td></td>
 <td></td>
 </tr>
@@ -56,7 +56,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">9/10</td>
-<td align="left">IP</td>
+<td align="left">Ethernet and 802.11</td>
 <td></td>
 <td></td>
 </tr>
@@ -65,7 +65,7 @@ nav: lectures
 <td align="right">3</td>
 <td align="left">9/12</td>
 <td align="left">
-TCP
+IP
 </td>
 <td></td>
 <td></td>
@@ -74,9 +74,29 @@ TCP
 <tr>
 <td align="right">4</td>
 <td align="left">9/17</td>
-<td align="left">TCP</td>
+<td align="left">
+TCP
+</td>
 <td></td>
 <td>Lab 1 assigned</td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">9/19</td>
+<td align="left">
+TCP
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">9/25</td>
+<td align="left">
+Routing
+</td>
+<td></td>
 </tr>
 
 <!--

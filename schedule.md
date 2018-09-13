@@ -49,7 +49,7 @@ nav: lectures
 <td align="right">2</td>
 <td align="left">9/5</td>
 <td align="left">Framing, reliable transmission, carrier sharing</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
 <td></td>
 </tr>
 

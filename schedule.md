@@ -57,7 +57,7 @@ nav: lectures
 <td align="right">3</td>
 <td align="left">9/10</td>
 <td align="left">Ethernet and 802.11</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -77,7 +77,7 @@ IP
 <td align="left">
 TCP
 </td>
-<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/fall2018/tcp.pdf">slides</a></td>
 <td>Lab 1 assigned</td>
 </tr>
 
@@ -87,7 +87,7 @@ TCP
 <td align="left">
 TCP
 </td>
-<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/fall2018/tcp.pdf">slides</a></td>
 </tr>
 
 <tr>

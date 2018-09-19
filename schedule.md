@@ -67,7 +67,7 @@ nav: lectures
 <td align="left">
 IP
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/ip.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -77,7 +77,7 @@ IP
 <td align="left">
 TCP
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
 <td>Lab 1 assigned</td>
 </tr>
 
@@ -87,7 +87,7 @@ TCP
 <td align="left">
 TCP
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/linklayer.pdf">slides</a></td>
 </tr>
 
 <tr>

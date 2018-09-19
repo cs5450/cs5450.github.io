@@ -93,11 +93,30 @@ TCP
 
 <tr>
 <td align="right">4</td>
-<td align="left">9/25</td>
+<td align="left">9/24</td>
 <td align="left">
 Routing
 </td>
 <td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">9/26</td>
+<td align="left">
+HTTP and Web
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">10/1</td>
+<td align="left">
+DNS
+</td>
 <td></td>
 </tr>
 
@@ -109,44 +128,6 @@ Routing
 RPC
 </td>
 <td></td>
-</tr>
-
-<tr>
-<td align="right">4</td>
-<td align="left">9/11</td>
-<td align="left">Web computing</td>
-<td></td>
-<td>Lab 1 assigned (Web server)</td>
-</tr>
-
-<tr>
-<td align="right">6</td>
-<td align="left">9/25</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/7-bgp.pdf">
-    Routing
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">6</td>
-<td align="left">9/27</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/8-dns.pdf">
-    DNS
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">7</td>
-<td align="left">10/2</td>
-<td align="left">DNS (continued)</td>
-<td></td>
-<td>Lab 1 is due</td>
 </tr>
 
 <tr>

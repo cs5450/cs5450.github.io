@@ -88,6 +88,7 @@ TCP
 TCP
 </td>
 <td><a href="{{ site.url }}/lectures/fall2018/tcp.pdf">slides</a></td>
+<td></td>
 </tr>
 
 <tr>
@@ -96,6 +97,7 @@ TCP
 <td align="left">
 Routing
 </td>
+<td></td>
 <td></td>
 </tr>
 

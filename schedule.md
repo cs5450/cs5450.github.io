@@ -92,7 +92,7 @@ TCP
 </tr>
 
 <tr>
-<td align="right">4</td>
+<td align="right">5</td>
 <td align="left">9/24</td>
 <td align="left">
 Routing
@@ -102,7 +102,7 @@ Routing
 </tr>
 
 <tr>
-<td align="right">4</td>
+<td align="right">5</td>
 <td align="left">9/26</td>
 <td align="left">
 HTTP and Web
@@ -112,7 +112,7 @@ HTTP and Web
 </tr>
 
 <tr>
-<td align="right">5</td>
+<td align="right">6</td>
 <td align="left">10/1</td>
 <td align="left">
 DNS

@@ -32,7 +32,19 @@ Office hours: 4-6PM Every Tuesday at Blm 367
 
 ## Important notes:
 
-None
+For the coming homework deadline I have updated the office hours:
+
+this week:
+
+1. Sep 25th - 4-6pm
+
+next week:
+
+1. Oct 1st - 4-5:30pm
+
+2. Oct 3rd - 4-5:30pm
+
+room 367.
 
 ### Academic Integrity
 

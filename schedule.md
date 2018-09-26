@@ -118,6 +118,7 @@ HTTP and Web
 DNS
 </td>
 <td></td>
+<td></td>
 </tr>
 
 <tr>
@@ -126,6 +127,7 @@ DNS
 <td align="left">
 Content delivery systems
 </td>
+<td></td>
 <td>Lab 1 due</td>
 </tr>
 
@@ -133,6 +135,7 @@ Content delivery systems
 <td align="right">7</td>
 <td align="left">10/8</td>
 <td align="left">Fall break (no class)</td>
+<td></td>
 <td></td>
 </tr>
 

@@ -120,41 +120,31 @@ DNS
 <td></td>
 </tr>
 
-<!--
 <tr>
-<td align="right">2</td>
-<td align="center">8/30</td>
+<td align="right">6</td>
+<td align="left">10/3</td>
 <td align="left">
-RPC
+Content delivery systems
 </td>
-<td></td>
+<td>Lab 1 due</td>
 </tr>
 
 <tr>
 <td align="right">7</td>
-<td align="left">10/4</td>
-<td align="left"><strong>MIDTERM #1</strong></td>
-<td></td>
-<td>Lab 2 assigned (TCP/IP)</td>
-</tr>
-
-<tr>
-<td align="right">8</td>
-<td align="left">10/9</td>
+<td align="left">10/8</td>
 <td align="left">Fall break (no class)</td>
 <td></td>
 </tr>
 
 <tr>
-<td align="right">8</td>
-<td align="left">10/11</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/9-cdn.pdf">
-    Content delivery systems
-    </a>
-</td>
+<td align="right">7</td>
+<td align="left">10/10</td>
+<td align="left"><strong>MIDTERM #1</strong></td>
 <td></td>
+<td>Lab 2 assigned</td>
 </tr>
+
+<!--
 
 <tr>
 <td align="right">9</td>
@@ -163,6 +153,15 @@ RPC
     <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/10-p2p.pdf">
     Peer-to-peer systems
     </a>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td align="center">8/30</td>
+<td align="left">
+RPC
 </td>
 <td></td>
 </tr>

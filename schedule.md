@@ -97,7 +97,7 @@ TCP
 <td align="left">
 Routing
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/bgp.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -117,6 +117,7 @@ HTTP and Web
 <td align="left">
 DNS
 </td>
+<td><a href="{{ site.url }}/lectures/fall2018/dns.pdf">slides</a></td>
 <td></td>
 </tr>
 

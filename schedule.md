@@ -107,7 +107,7 @@ Routing
 <td align="left">
 HTTP and Web
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/http.pdf">slides</a></td>
 <td></td>
 </tr>
 

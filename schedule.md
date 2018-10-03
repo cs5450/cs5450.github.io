@@ -119,7 +119,6 @@ DNS
 </td>
 <td><a href="{{ site.url }}/lectures/fall2018/dns.pdf">slides</a></td>
 <td></td>
-<td></td>
 </tr>
 
 <tr>
@@ -128,7 +127,7 @@ DNS
 <td align="left">
 Content delivery systems
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/cdn.pdf">slides</a></td>
 <td>Lab 1 due</td>
 </tr>
 

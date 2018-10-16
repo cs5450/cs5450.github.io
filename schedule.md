@@ -153,6 +153,7 @@ Content delivery systems
 <td align="left">
 RPC
 </td>
+<td><a href="{{ site.url }}/lectures/fall2018/rpc.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -162,6 +163,7 @@ RPC
 <td align="left">
     Peer-to-peer systems
 </td>
+<td></td>
 <td></td>
 </tr>
 

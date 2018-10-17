@@ -163,7 +163,7 @@ RPC
 <td align="left">
     Peer-to-peer systems
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/p2p.pdf">slides</a></td>
 <td></td>
 </tr>
 

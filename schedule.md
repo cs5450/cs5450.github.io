@@ -167,6 +167,24 @@ RPC
 <td></td>
 </tr>
 
+<tr>
+<td align="right">9</td>
+<td align="left">10/22</td>
+<td align="left">
+        MapReduce
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">10/24</td>
+<td align="left">
+        Spark
+</td>
+<td></td>
+</tr>
+
 <!--
 
 <tr>
@@ -198,28 +216,6 @@ RPC
 <td align="left">Virtualization (cont'd)</td>
 <td></td>
 <td>Lab 3 assigned (P2P)</td>
-</tr>
-
-<tr>
-<td align="right">11</td>
-<td align="left">10/30</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/13-mapreduce.pdf">
-        MapReduce
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">11</td>
-<td align="left">11/1</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/14-spark.pdf">
-        Spark
-    </a>
-</td>
-<td></td>
 </tr>
 
 <tr>

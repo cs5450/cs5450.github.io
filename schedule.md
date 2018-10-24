@@ -173,6 +173,7 @@ RPC
 <td align="left">
         MapReduce
 </td>
+<td><a href="{{ site.url }}/lectures/fall2018/mapreduce.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -182,6 +183,7 @@ RPC
 <td align="left">
         Spark
 </td>
+<td><a href="{{ site.url }}/lectures/fall2018/spark.pdf">slides</a></td>
 <td></td>
 </tr>
 

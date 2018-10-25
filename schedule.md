@@ -187,30 +187,35 @@ RPC
 <td></td>
 </tr>
 
-<!--
-
-<tr>
-<td align="right">9</td>
-<td align="left">10/18</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/11-virtual.pdf">
-        Virtualization
-    </a>
-</td>
-<td></td>
-</tr>
-
 <tr>
 <td align="right">10</td>
-<td align="left">10/23</td>
+<td align="left">10/29</td>
 <td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/12-vmsecurity.pdf">
-        Security in virtualized environments
-    </a>
+    TensorFlow
 </td>
 <td></td>
 <td>Lab 2 is due</td>
 </tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">10/31</td>
+<td align="left">
+        Virtualization
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td align="left">11/5</td>
+<td align="left">
+        Security in virtualized environments
+</td>
+<td></td>
+</tr>
+
+<!--
 
 <tr>
 <td align="right">10</td>

@@ -204,7 +204,7 @@ RPC
         Virtualization
 </td>
 <td></td>
-<td>Lab 3 assigned (P2P)</td>
+<td>Lab 3 assigned</td>
 </tr>
 
 <tr>

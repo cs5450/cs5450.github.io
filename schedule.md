@@ -214,6 +214,7 @@ RPC
         Security in virtualized environments
 </td>
 <td></td>
+<td></td>
 </tr>
 
 <tr>
@@ -222,6 +223,7 @@ RPC
 <td align="left">
         Federated learning
 </td>
+<td></td>
 <td></td>
 </tr>
 

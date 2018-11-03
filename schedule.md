@@ -204,6 +204,7 @@ RPC
         Virtualization
 </td>
 <td></td>
+<td>Lab 3 assigned (P2P)</td>
 </tr>
 
 <tr>
@@ -215,15 +216,16 @@ RPC
 <td></td>
 </tr>
 
-<!--
-
 <tr>
-<td align="right">10</td>
-<td align="left">10/25</td>
-<td align="left">Virtualization (cont'd)</td>
+<td align="right">11</td>
+<td align="left">11/7</td>
+<td align="left">
+        Federated learning
+</td>
 <td></td>
-<td>Lab 3 assigned (P2P)</td>
 </tr>
+
+<!--
 
 <tr>
 <td align="right">12</td>

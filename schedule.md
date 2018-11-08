@@ -203,7 +203,7 @@ RPC
 <td align="left">
         Virtualization
 </td>
-<td><a href="{{ site.url }}/lectures/fall2018/virt.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/fall2018/virtual.pdf">slides</a></td>
 <td>Lab 3 assigned</td>
 </tr>
 
@@ -211,9 +211,9 @@ RPC
 <td align="right">11</td>
 <td align="left">11/5</td>
 <td align="left">
-        Virtualization
+        Security in virtualized environments
 </td>
-<td><a href="{{ site.url }}/lectures/fall2018/virt.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/fall2018/security_virt.pdf">slides</a></td>
 <td></td>
 </tr>
 

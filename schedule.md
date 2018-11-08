@@ -193,7 +193,7 @@ RPC
 <td align="left">
     TensorFlow
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/tensorflow.pdf">slides</a></td>
 <td>Lab 2 is due</td>
 </tr>
 
@@ -203,7 +203,7 @@ RPC
 <td align="left">
         Virtualization
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/virt.pdf">slides</a></td>
 <td>Lab 3 assigned</td>
 </tr>
 
@@ -211,9 +211,9 @@ RPC
 <td align="right">11</td>
 <td align="left">11/5</td>
 <td align="left">
-        Security in virtualized environments
+        Virtualization
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/virt.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -223,7 +223,7 @@ RPC
 <td align="left">
         Federated learning
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/fedlearn.pdf">slides</a></td>
 <td></td>
 </tr>
 

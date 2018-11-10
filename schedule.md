@@ -227,6 +227,56 @@ RPC
 <td></td>
 </tr>
 
+<tr>
+<td align="right">12</td>
+<td align="left">11/12</td>
+<td align="left">
+State machine replication
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">11/14</td>
+<td align="left">
+Byzantine fault tolerance
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">11/19</td>
+<td align="left">
+Consensus
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">11/21</td>
+<td align="left">
+Thanksgiving (no class).
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">11/26</td>
+<td align="left">
+Amazon Dynamo.
+</td>
+<td></td>
+<td></td>
+</tr>
+
 <!--
 
 <tr>

@@ -261,7 +261,7 @@ Consensus
 <td align="right">13</td>
 <td align="left">11/21</td>
 <td align="left">
-Thanksgiving (no class).
+Thanksgiving (no class)
 </td>
 <td></td>
 <td></td>
@@ -271,7 +271,7 @@ Thanksgiving (no class).
 <td align="right">14</td>
 <td align="left">11/26</td>
 <td align="left">
-Amazon Dynamo.
+Amazon Dynamo
 </td>
 <td></td>
 <td></td>
@@ -291,17 +291,6 @@ Amazon Dynamo.
 </tr>
 
 <tr>
-<td align="right">12</td>
-<td align="left">11/8</td>
-<td align="left">
-    <a href="https://pages.github.coecis.cornell.edu/cs5450/website/lectures/18-consensus.pdf">
-        Consensus
-    </a>
-</td>
-<td></td>
-</tr>
-
-<tr>
 <td align="right">13</td>
 <td align="left">11/13</td>
 <td align="left">
@@ -314,13 +303,6 @@ Amazon Dynamo.
 </tr>
 
 <tr>
-<td align="right">13</td>
-<td align="left">11/15</td>
-<td align="left">Consensus (cont'd)</td>
-<td></td>
-</tr>
-
-<tr>
 <td align="right">14</td>
 <td align="left">11/20</td>
 <td align="left">
@@ -330,13 +312,6 @@ Amazon Dynamo.
 </td>
 <td></td>
 <td>Lab 4 assigned (Firebase)</td>
-</tr>
-
-<tr>
-<td align="right">14</td>
-<td align="left">11/22</td>
-<td align="left">No class (Thanksgiving)</td>
-<td></td>
 </tr>
 
 <tr>

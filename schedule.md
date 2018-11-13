@@ -233,7 +233,7 @@ RPC
 <td align="left">
 State machine replication
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/smr.pdf">slides</a></td>
 <td></td>
 </tr>
 

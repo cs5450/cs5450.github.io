@@ -241,7 +241,7 @@ State machine replication
 <td align="right">12</td>
 <td align="left">11/14</td>
 <td align="left">
-Byzantine fault tolerance
+Consensus
 </td>
 <td></td>
 <td></td>
@@ -251,7 +251,7 @@ Byzantine fault tolerance
 <td align="right">13</td>
 <td align="left">11/19</td>
 <td align="left">
-Consensus
+Amazon Dynamo
 </td>
 <td></td>
 <td></td>
@@ -271,8 +271,26 @@ Thanksgiving (no class)
 <td align="right">14</td>
 <td align="left">11/26</td>
 <td align="left">
-Amazon Dynamo
+TBD
 </td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">11/28</td>
+<td align="left">
+TBD
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">15</td>
+<td align="left">12/3</td>
+<td align="left"><strong>MIDTERM #2</strong></td>
 <td></td>
 <td></td>
 </tr>
@@ -322,13 +340,6 @@ Amazon Dynamo
         Mobile OS
     </a>
 </td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">15</td>
-<td align="left">11/29</td>
-<td align="left"><strong>MIDTERM #2</strong></td>
 <td></td>
 </tr>
 

@@ -243,7 +243,7 @@ State machine replication
 <td align="left">
 Consensus
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/consensus.pdf">slides</a></td>
 <td></td>
 </tr>
 

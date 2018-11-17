@@ -271,7 +271,7 @@ Thanksgiving (no class)
 <td align="right">14</td>
 <td align="left">11/26</td>
 <td align="left">
-TBD
+Zookeeper
 </td>
 <td></td>
 <td></td>

@@ -253,7 +253,7 @@ Consensus
 <td align="left">
 Amazon Dynamo
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/dynamo.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -273,7 +273,7 @@ Thanksgiving (no class)
 <td align="left">
 Zookeeper
 </td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fall2018/zookeeper.pdf">slides</a></td>
 <td></td>
 </tr>
 

@@ -12,7 +12,7 @@ Please use Git to work on your projects.
 
 |      Name                 |           Topic                              |                Due Date            |
 | :-----------------------: | :------------------------------------------  | :--------------------------------- |
-| [**Lab 1**]               | Network protocol                           | {{ site.data.main.lab1_deadline }}    |
-| [**Lab 2**]               | TBD                                        | {{ site.data.main.lab2_deadline }}    |
-| [**Lab 3**]               | Peer-to-peer                               | {{ site.data.main.lab3_deadline }}    |
-| [**Lab 4**]               | Mobile                                     | {{ site.data.main.lab4_deadline }}    |
+| [**Lab 1**]               | Go-Back-n                                    | {{ site.data.main.lab1_deadline }}    |
+| [**Lab 2**]               | Peer-to-Peer                                 | {{ site.data.main.lab2_deadline }}    |
+| [**Lab 3**]               | MapReduce                                    | {{ site.data.main.lab3_deadline }}    |
+| [**Lab 4**]               | Consensus protocol                           | {{ site.data.main.lab4_deadline }}    |

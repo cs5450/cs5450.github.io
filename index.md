@@ -21,12 +21,12 @@ email: shmat@cs.cornell.edu
 
 Office hours:  Send an email in advance
 
-#### [**Jialing Pei**]() (TA)
+#### [**Jialing Pei**](https://github.com/peijialing) (TA)
 email: jp2475@cornell.edu
 
 Office hours: TBD
 
-#### [**Eugene Bagdasaryan**](http://ebagdasa.me) (TA)
+#### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (TA)
 email: eugene@cs.cornell.edu
 
 Office hours: TBD

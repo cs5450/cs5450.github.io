@@ -24,12 +24,12 @@ Office hours:  Send an email in advance
 #### [**Jialing Pei**](https://github.com/peijialing) (TA)
 email: jp2475@cornell.edu
 
-Office hours: TBD
+Office hours: Thursdays 10am-11am, Bloomberg 367
 
 #### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (TA)
 email: eugene@cs.cornell.edu
 
-Office hours: Tuesdays 3-4pm, Bloomber 367
+Office hours: Tuesdays 3-4pm, Bloomberg 367
 
 **You can use Zoom.us to connect to the meeting remotely**(let me know in advance): [**https://cornell.zoom.us/j/873713898**](https://cornell.zoom.us/j/873713898)
 

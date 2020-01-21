@@ -29,9 +29,9 @@ Office hours: TBD
 #### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (TA)
 email: eugene@cs.cornell.edu
 
-Office hours: TBD
+Office hours: Tuesdays 3-4pm, Bloomber 367
 
-**You can use Zoom.us to connect to the meeting remotely:** [**https://cornell.zoom.us/j/873713898**](https://cornell.zoom.us/j/873713898)
+**You can use Zoom.us to connect to the meeting remotely**(let me know in advance): [**https://cornell.zoom.us/j/873713898**](https://cornell.zoom.us/j/873713898)
 
 
 ## Important notes:

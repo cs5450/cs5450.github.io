@@ -23,12 +23,42 @@ nav: lectures
 <tr>
 <td align="right">1</td>
 <td align="left">1/22</td>
-<td align="left">Overview of the course and general information.</td>
-<td>
-</td>
+<td align="left">Course overview.  Introduction to distributed systems.</td>
+<td></td>
+<td>Homework 1 released.</td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td align="left">1/27</td>
+<td align="left">Internet architecture and principles.</td>
+<td></td>
 <td></td>
 </tr>
 
+<tr>
+<td align="right">2</td>
+<td align="left">1/29</td>
+<td align="left">Framing.  Reliable transmission.  Ethernet.</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">2/3</td>
+<td align="left">IP.</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">2/5</td>
+<td align="left">TCP.</td>
+<td></td>
+<td></td>
+</tr>
 
 </tbody>
 </table>

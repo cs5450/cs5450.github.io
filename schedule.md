@@ -31,7 +31,7 @@ nav: lectures
 <tr>
 <td align="right">2</td>
 <td align="left">1/27</td>
-<td align="left">Internet architecture and principles.</td>
+<td align="left">Internet architecture and principles</td>
 <td></td>
 <td></td>
 </tr>
@@ -47,7 +47,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/3</td>
-<td align="left">IP.</td>
+<td align="left">IP</td>
 <td></td>
 <td></td>
 </tr>
@@ -55,7 +55,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/5</td>
-<td align="left">TCP.</td>
+<td align="left">TCP</td>
 <td></td>
 <td></td>
 </tr>

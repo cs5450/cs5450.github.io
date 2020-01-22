@@ -1,1 +1,1 @@
-Repo for Class website: https://pages.github.coecis.cornell.edu/cs5450/website/ 
+Repo for Class website: cs5450.github.io

@@ -26,7 +26,7 @@ email: jp2475@cornell.edu
 
 Office hours: Thursdays 10am-11am, Bloomberg 367
 
-#### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (TA)
+#### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (half-TA)
 email: eugene@cs.cornell.edu
 
 Office hours: Tuesdays 3-4pm, Bloomberg 367

@@ -24,7 +24,7 @@ nav: lectures
 <td align="right">1</td>
 <td align="left">1/22</td>
 <td align="left">Course overview.  Introduction to distributed systems.</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/intro.pdf">slides</a></td>
 <td>Homework 1 released.</td>
 </tr>
 

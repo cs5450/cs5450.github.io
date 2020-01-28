@@ -32,7 +32,7 @@ nav: lectures
 <td align="right">2</td>
 <td align="left">1/27</td>
 <td align="left">Internet architecture and principles</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/internet-arch.pdf">slides</a></td>
 <td></td>
 </tr>
 

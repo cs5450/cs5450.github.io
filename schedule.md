@@ -40,7 +40,7 @@ nav: lectures
 <td align="right">2</td>
 <td align="left">1/29</td>
 <td align="left">Framing.  Reliable transmission.  Ethernet.</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/linklayer.pdf">same slides</a></td>
 <td></td>
 </tr>
 
@@ -48,7 +48,7 @@ nav: lectures
 <td align="right">3</td>
 <td align="left">2/3</td>
 <td align="left">IP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/linklayer.pdf">slides</a></td><td></td>
 <td></td>
 </tr>
 

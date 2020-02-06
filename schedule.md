@@ -47,7 +47,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/3</td>
-<td align="left">IP</td>
+<td align="left">Linklayer. continue</td>
 <td><a href="{{ site.url }}/lectures/linklayer.pdf">slides</a></td><td></td>
 <td></td>
 </tr>
@@ -55,8 +55,8 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/5</td>
-<td align="left">TCP</td>
-<td></td>
+<td align="left">IP</td>
+<td><a href="{{ site.url }}/lectures/ip.pdf">slides</a></td><td></td>
 <td></td>
 </tr>
 

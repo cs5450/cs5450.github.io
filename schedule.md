@@ -48,7 +48,7 @@ nav: lectures
 <td align="right">3</td>
 <td align="left">2/3</td>
 <td align="left">Linklayer. continue</td>
-<td><a href="{{ site.url }}/lectures/linklayer.pdf">same slides</a></td><td></td>
+<td><a href="{{ site.url }}/lectures/linklayer.pdf">same slides</a></td>
 <td></td>
 </tr>
 
@@ -56,9 +56,39 @@ nav: lectures
 <td align="right">3</td>
 <td align="left">2/5</td>
 <td align="left">IP</td>
-<td><a href="{{ site.url }}/lectures/ip.pdf">slides</a></td><td></td>
+<td><a href="{{ site.url }}/lectures/ip.pdf">slides</a></td>
 <td></td>
 </tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">2/10</td>
+<td align="left">TBD</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">2/12</td>
+<td align="left">TBD</td>
+<td></td>
+<td></td>
+</tr>
+
+<!--- <tr>
+we can  copy format from here: 
+
+<tr>
+    <td align="right">WEEK</td>
+    <td align="left">DATE</td>
+    <td align="left">LECTURE</td>
+    <td>SLIDES</td>
+    <td>ANNOUNCEMENT</td>
+</tr>
+--->
+
+
 
 </tbody>
 </table>

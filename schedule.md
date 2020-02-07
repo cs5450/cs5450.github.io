@@ -47,7 +47,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/3</td>
-<td align="left">Linklayer. continue</td>
+<td align="left">Link layer (continued)</td>
 <td><a href="{{ site.url }}/lectures/linklayer.pdf">same slides</a></td>
 <td></td>
 </tr>
@@ -63,7 +63,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/10</td>
-<td align="left">TBD</td>
+<td align="left">TCP</td>
 <td></td>
 <td></td>
 </tr>
@@ -71,7 +71,55 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/12</td>
+<td align="left">BGP</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">2/17</td>
+<td align="left">DNS</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">2/19</td>
 <td align="left">TBD</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td align="left">2/24</td>
+<td align="left">No class (February break)</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td align="left">2/26</td>
+<td align="left">P2P systems</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">7</td>
+<td align="left">3/2</td>
+<td align="left">Content distribution networks</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">7</td>
+<td align="left">3/4</td>
+<td align="left"><b>Midterm #1</b></td>
 <td></td>
 <td></td>
 </tr>

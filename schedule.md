@@ -119,6 +119,14 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">3/4</td>
+<td align="left">TBD</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">8</td>
+<td align="left">3/9</td>
 <td align="left"><b>Midterm #1</b></td>
 <td></td>
 <td></td>

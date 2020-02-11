@@ -64,7 +64,7 @@ nav: lectures
 <td align="right">4</td>
 <td align="left">2/10</td>
 <td align="left">TCP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/tcp.pdf">slides</a></td>
 <td></td>
 </tr>
 

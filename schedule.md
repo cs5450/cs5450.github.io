@@ -72,7 +72,7 @@ nav: lectures
 <td align="right">4</td>
 <td align="left">2/12</td>
 <td align="left">BGP</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/bgp.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -87,7 +87,7 @@ nav: lectures
 <tr>
 <td align="right">5</td>
 <td align="left">2/19</td>
-<td align="left">TBD</td>
+<td align="left">RPC</td>
 <td></td>
 <td></td>
 </tr>

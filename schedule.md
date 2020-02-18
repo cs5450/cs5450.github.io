@@ -80,7 +80,7 @@ nav: lectures
 <td align="right">5</td>
 <td align="left">2/17</td>
 <td align="left">DNS</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/dns.pdf">slides</a></td>
 <td></td>
 </tr>
 

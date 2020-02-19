@@ -88,7 +88,7 @@ nav: lectures
 <td align="right">5</td>
 <td align="left">2/19</td>
 <td align="left">RPC</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/rpc.pdf">slides</a></td>
 <td></td>
 </tr>
 

@@ -119,7 +119,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">3/4</td>
-<td align="left">TBD</td>
+<td align="left">Anonymity networks</td>
 <td></td>
 <td></td>
 </tr>
@@ -143,7 +143,7 @@ nav: lectures
 <tr>
 <td align="right">9</td>
 <td align="left">3/16</td>
-<td align="left">Distributed file systems</td>
+<td align="left">State machine replication</td>
 <td></td>
 <td></td>
 </tr>
@@ -151,7 +151,7 @@ nav: lectures
 <tr>
 <td align="right">9</td>
 <td align="left">3/18</td>
-<td align="left">GFS and HDFS</td>
+<td align="left">Distributed file systems</td>
 <td></td>
 <td></td>
 </tr>
@@ -159,7 +159,7 @@ nav: lectures
 <tr>
 <td align="right">10</td>
 <td align="left">3/24</td>
-<td align="left">MapReduce and Spark</td>
+<td align="left">GFS and HDFS</td>
 <td></td>
 <td></td>
 </tr>

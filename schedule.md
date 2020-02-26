@@ -132,6 +132,46 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">8</td>
+<td align="left">3/11</td>
+<td align="left">Time in distributed systems. Global states and failure detection.</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">3/16</td>
+<td align="left">Distributed file systems</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">3/18</td>
+<td align="left">GFS and HDFS</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/24</td>
+<td align="left">MapReduce and Spark</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/26</td>
+<td align="left">BigTable, HBase, Spanner</td>
+<td></td>
+<td></td>
+</tr>
+
 <!--- <tr>
 we can  copy format from here: 
 

@@ -151,7 +151,7 @@ nav: lectures
 <tr>
 <td align="right">9</td>
 <td align="left">3/18</td>
-<td align="left">Distributed file systems</td>
+<td align="left">Intro to consensus</td>
 <td></td>
 <td></td>
 </tr>

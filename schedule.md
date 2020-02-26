@@ -172,6 +172,38 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">11</td>
+<td align="left">3/30</td>
+<td align="left">No class (spring break)</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td align="left">4/1</td>
+<td align="left">No class (spring break)</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">4/6</td>
+<td align="left">MapReduce</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">4/8</td>
+<td align="left">Spark</td>
+<td></td>
+<td></td>
+</tr>
+
 <!--- <tr>
 we can  copy format from here: 
 

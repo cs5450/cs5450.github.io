@@ -119,7 +119,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">3/4</td>
-<td align="left">TBD</td>
+<td align="left">Anonymity networks</td>
 <td></td>
 <td></td>
 </tr>
@@ -128,6 +128,78 @@ nav: lectures
 <td align="right">8</td>
 <td align="left">3/9</td>
 <td align="left"><b>Midterm #1</b></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">8</td>
+<td align="left">3/11</td>
+<td align="left">Time in distributed systems. Global states and failure detection.</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">3/16</td>
+<td align="left">State machine replication</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td align="left">3/18</td>
+<td align="left">Intro to consensus</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/24</td>
+<td align="left">GFS and HDFS</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/26</td>
+<td align="left">BigTable, HBase, Spanner</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td align="left">3/30</td>
+<td align="left">No class (spring break)</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td align="left">4/1</td>
+<td align="left">No class (spring break)</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">4/6</td>
+<td align="left">MapReduce</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">4/8</td>
+<td align="left">Spark</td>
 <td></td>
 <td></td>
 </tr>

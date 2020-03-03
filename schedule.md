@@ -104,7 +104,7 @@ nav: lectures
 <td align="right">6</td>
 <td align="left">2/26</td>
 <td align="left">P2P systems</td>
-<td></td>
+<td><td><a href="{{ site.url }}/lectures/p2p.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -112,7 +112,7 @@ nav: lectures
 <td align="right">7</td>
 <td align="left">3/2</td>
 <td align="left">Content distribution networks</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/cdn.pdf">slides</a></td>
 <td></td>
 </tr>
 

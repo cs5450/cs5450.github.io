@@ -120,7 +120,7 @@ nav: lectures
 <td align="right">7</td>
 <td align="left">3/4</td>
 <td align="left">Anonymity networks</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/anonnetworks.pdf">slides</a></td>
 <td></td>
 </tr>
 

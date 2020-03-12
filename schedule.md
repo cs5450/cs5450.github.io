@@ -136,7 +136,7 @@ nav: lectures
 <td align="right">8</td>
 <td align="left">3/11</td>
 <td align="left">Time in distributed systems. Global states and failure detection.</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/ds-basics.pdf">slides</a></td>
 <td></td>
 </tr>
 

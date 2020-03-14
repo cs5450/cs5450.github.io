@@ -140,10 +140,11 @@ nav: lectures
 <td></td>
 </tr>
 
+
 <tr>
 <td align="right">9</td>
 <td align="left">3/16</td>
-<td align="left">State machine replication</td>
+<td align="left">MapReduce</td>
 <td></td>
 <td></td>
 </tr>
@@ -151,23 +152,23 @@ nav: lectures
 <tr>
 <td align="right">9</td>
 <td align="left">3/18</td>
+<td align="left">Spark</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/23</td>
+<td align="left">State machine replication</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td align="left">3/25</td>
 <td align="left">Intro to consensus</td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">10</td>
-<td align="left">3/24</td>
-<td align="left">GFS and HDFS</td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">10</td>
-<td align="left">3/26</td>
-<td align="left">BigTable, HBase, Spanner</td>
 <td></td>
 <td></td>
 </tr>
@@ -191,7 +192,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/6</td>
-<td align="left">MapReduce</td>
+<td align="left">GFS and HDFS</td>
 <td></td>
 <td></td>
 </tr>
@@ -199,7 +200,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/8</td>
-<td align="left">Spark</td>
+<td align="left">BigTable, HBase, Spanner</td>
 <td></td>
 <td></td>
 </tr>

@@ -145,7 +145,7 @@ nav: lectures
 <td align="right">9</td>
 <td align="left">3/16</td>
 <td align="left">MapReduce</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/mapreduce.pdf">slides</a></td>
 <td></td>
 </tr>
 
@@ -153,7 +153,7 @@ nav: lectures
 <td align="right">9</td>
 <td align="left">3/18</td>
 <td align="left">Spark</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/spark.pdf">slides</a></td>
 <td></td>
 </tr>
 

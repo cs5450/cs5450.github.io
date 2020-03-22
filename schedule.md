@@ -161,7 +161,7 @@ nav: lectures
 <td align="right">10</td>
 <td align="left">3/23</td>
 <td align="left">State machine replication</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/smr.pdf">slides</a></td>
 <td></td>
 </tr>
 

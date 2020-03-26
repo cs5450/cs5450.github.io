@@ -169,7 +169,7 @@ nav: lectures
 <td align="right">10</td>
 <td align="left">3/25</td>
 <td align="left">Intro to consensus</td>
-<td><a href="{{ site.url }}/lectures/primary-backup.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/primary-backup.pdf">slides</a>,<a href="{{ site.url }}/lectures/sync-consensus.pdf">slides2</a></td>
 <td></td>
 </tr>
 

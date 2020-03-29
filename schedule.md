@@ -184,7 +184,7 @@ nav: lectures
 <tr>
 <td align="right">11</td>
 <td align="left">4/1</td>
-<td align="left">Vitaly's life lessons (optional)</td>
+<td align="left">Love in the time of coronavirus (optional)</td>
 <td></td>
 <td></td>
 </tr>

@@ -176,7 +176,7 @@ nav: lectures
 <tr>
 <td align="right">11</td>
 <td align="left">3/30</td>
-<td align="left">No class (spring break)</td>
+<td align="left">Paxos (optional)</td>
 <td></td>
 <td></td>
 </tr>
@@ -192,7 +192,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/6</td>
-<td align="left">GFS and HDFS</td>
+<td align="left">Dynamo</td>
 <td></td>
 <td></td>
 </tr>
@@ -200,7 +200,23 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/8</td>
-<td align="left">BigTable, HBase, Spanner</td>
+<td align="left">Zookeeper</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">4/13</td>
+<td align="left">GFS and HDFS</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">4/15</td>
+<td align="left">BigTable and Spanner</td>
 <td></td>
 <td></td>
 </tr>

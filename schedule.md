@@ -169,7 +169,7 @@ nav: lectures
 <td align="right">10</td>
 <td align="left">3/25</td>
 <td align="left">Intro to consensus</td>
-<td><a href="{{ site.url }}/lectures/primary-backup.pdf">slides</a>,<a href="{{ site.url }}/lectures/sync-consensus.pdf">slides2</a></td>
+<td><a href="{{ site.url }}/lectures/primary-backup.pdf">slides #1</a>, <a href="{{ site.url }}/lectures/sync-consensus.pdf">slides #2</a></td>
 <td></td>
 </tr>
 
@@ -184,7 +184,7 @@ nav: lectures
 <tr>
 <td align="right">11</td>
 <td align="left">4/1</td>
-<td align="left">No class (spring break)</td>
+<td align="left">Vitaly's life lessons (optional)</td>
 <td></td>
 <td></td>
 </tr>

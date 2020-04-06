@@ -177,7 +177,7 @@ nav: lectures
 <td align="right">11</td>
 <td align="left">3/30</td>
 <td align="left">Paxos (optional)</td>
-<td></td>
+<td>no slides</td>
 <td></td>
 </tr>
 
@@ -185,7 +185,7 @@ nav: lectures
 <td align="right">11</td>
 <td align="left">4/1</td>
 <td align="left">Facebook's distributed data store (optional)</td>
-<td></td>
+<td>no slides</td>
 <td></td>
 </tr>
 
@@ -193,7 +193,7 @@ nav: lectures
 <td align="right">12</td>
 <td align="left">4/6</td>
 <td align="left">Dynamo</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/dynamo.pdf">slides</a></td>
 <td></td>
 </tr>
 

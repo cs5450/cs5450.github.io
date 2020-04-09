@@ -192,7 +192,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/6</td>
-<td align="left">Dynamo</td>
+<td align="left">Amazon Dynamo</td>
 <td><a href="{{ site.url }}/lectures/dynamo.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -200,7 +200,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/8</td>
-<td align="left">GFS and HDFS</td>
+<td align="left">Google File System</td>
 <td><a href="{{ site.url }}/lectures/gfs.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -208,7 +208,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/13</td>
-<td align="left">Zookeeper</td>
+<td align="left">Google Bigtable</td>
 <td></td>
 <td></td>
 </tr>
@@ -216,7 +216,23 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/15</td>
-<td align="left">BigTable and Spanner</td>
+<td align="left">Distributed commit. Google Spanner.</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">4/20</td>
+<td align="left">Raft</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">4/22</td>
+<td align="left">Apache Zookeeper</td>
 <td></td>
 <td></td>
 </tr>

@@ -201,7 +201,7 @@ nav: lectures
 <td align="right">12</td>
 <td align="left">4/8</td>
 <td align="left">GFS and HDFS</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/gfs.pdf">slides</a></td>
 <td></td>
 </tr>
 

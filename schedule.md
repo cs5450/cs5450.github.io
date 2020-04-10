@@ -208,7 +208,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/13</td>
-<td align="left">Google Bigtable</td>
+<td align="left">Raft</td>
 <td></td>
 <td></td>
 </tr>
@@ -216,7 +216,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/15</td>
-<td align="left">Distributed commit. Google Spanner.</td>
+<td align="left">Google Bigtable</td>
 <td></td>
 <td></td>
 </tr>
@@ -224,7 +224,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/20</td>
-<td align="left">Raft</td>
+<td align="left">Google Spanner</td>
 <td></td>
 <td></td>
 </tr>

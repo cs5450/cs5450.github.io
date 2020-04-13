@@ -209,7 +209,7 @@ nav: lectures
 <td align="right">13</td>
 <td align="left">4/13</td>
 <td align="left">Raft</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/raft.pdf">slides</a></td>
 <td></td>
 </tr>
 

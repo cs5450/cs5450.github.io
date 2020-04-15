@@ -39,7 +39,7 @@ nav: lectures
 <tr>
 <td align="right">2</td>
 <td align="left">1/29</td>
-<td align="left">Framing.  Reliable transmission.  Ethernet.</td>
+<td align="left">Link layer: reliable transmission, Ethernet, 802.11.</td>
 <td><a href="{{ site.url }}/lectures/linklayer.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -111,7 +111,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">3/2</td>
-<td align="left">Content distribution networks</td>
+<td align="left">CDNs</td>
 <td><a href="{{ site.url }}/lectures/cdn.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -135,7 +135,7 @@ nav: lectures
 <tr>
 <td align="right">8</td>
 <td align="left">3/11</td>
-<td align="left">Time in distributed systems. Global states and failure detection.</td>
+<td align="left">Time in distributed systems.</td>
 <td><a href="{{ site.url }}/lectures/ds-basics.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -184,7 +184,7 @@ nav: lectures
 <tr>
 <td align="right">11</td>
 <td align="left">4/1</td>
-<td align="left">Facebook's distributed data store (optional)</td>
+<td align="left">TAO (optional)</td>
 <td>no slides</td>
 <td></td>
 </tr>
@@ -192,7 +192,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/6</td>
-<td align="left">Amazon Dynamo</td>
+<td align="left">Dynamo</td>
 <td><a href="{{ site.url }}/lectures/dynamo.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -200,7 +200,7 @@ nav: lectures
 <tr>
 <td align="right">12</td>
 <td align="left">4/8</td>
-<td align="left">Google File System</td>
+<td align="left">GFS</td>
 <td><a href="{{ site.url }}/lectures/gfs.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -216,7 +216,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/15</td>
-<td align="left">Google Bigtable</td>
+<td align="left">Chubby and Bigtable</td>
 <td></td>
 <td></td>
 </tr>
@@ -224,7 +224,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/20</td>
-<td align="left">Google Spanner</td>
+<td align="left">Spanner</td>
 <td></td>
 <td></td>
 </tr>
@@ -232,7 +232,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/22</td>
-<td align="left">Apache Zookeeper</td>
+<td align="left">Zookeeper</td>
 <td></td>
 <td></td>
 </tr>

@@ -217,7 +217,7 @@ nav: lectures
 <td align="right">13</td>
 <td align="left">4/15</td>
 <td align="left">Chubby and Bigtable</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/bigtable.pdf">slides</a></td>
 <td></td>
 </tr>
 

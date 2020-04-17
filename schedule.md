@@ -232,23 +232,26 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/22</td>
+<td align="left">Zanzibar</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">15</td>
+<td align="left">4/27</td>
 <td align="left">Zookeeper</td>
 <td></td>
 <td></td>
 </tr>
 
-<!--- <tr>
-we can  copy format from here: 
-
 <tr>
-    <td align="right">WEEK</td>
-    <td align="left">DATE</td>
-    <td align="left">LECTURE</td>
-    <td>SLIDES</td>
-    <td>ANNOUNCEMENT</td>
+<td align="right">15</td>
+<td align="left">4/29</td>
+<td align="left">Federated learning</td>
+<td></td>
+<td></td>
 </tr>
---->
-
 
 
 </tbody>

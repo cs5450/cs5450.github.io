@@ -224,7 +224,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/20</td>
-<td align="left">Spanner</td>
+<td align="left">Distributed commit</td>
 <td></td>
 <td></td>
 </tr>
@@ -232,7 +232,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/22</td>
-<td align="left">Zanzibar</td>
+<td align="left">Spanner and Zanzibar</td>
 <td></td>
 <td></td>
 </tr>

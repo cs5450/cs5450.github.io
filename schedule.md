@@ -225,7 +225,7 @@ nav: lectures
 <td align="right">14</td>
 <td align="left">4/20</td>
 <td align="left">Distributed commit</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/distcommit.pdf">slides</a></td>
 <td></td>
 </tr>
 

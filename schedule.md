@@ -232,7 +232,7 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/22</td>
-<td align="left">Spanner and Zanzibar</td>
+<td align="left">Spanner</td>
 <td><a href="{{ site.url }}/lectures/spanner.pdf">slides</a></td>
 <td></td>
 </tr>
@@ -240,7 +240,7 @@ nav: lectures
 <tr>
 <td align="right">15</td>
 <td align="left">4/27</td>
-<td align="left">Zookeeper</td>
+<td align="left">Zanzibar</td>
 <td></td>
 <td></td>
 </tr>
@@ -248,7 +248,7 @@ nav: lectures
 <tr>
 <td align="right">15</td>
 <td align="left">4/29</td>
-<td align="left">Federated learning</td>
+<td align="left">Zookeeper</td>
 <td></td>
 <td></td>
 </tr>

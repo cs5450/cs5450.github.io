@@ -249,7 +249,7 @@ nav: lectures
 <td align="right">15</td>
 <td align="left">4/29</td>
 <td align="left">Zookeeper</td>
-<td></td>
+<td><td><td><a href="{{ site.url }}/lectures/zookeeper.pdf">slides</a></td>
 <td></td>
 </tr>
 

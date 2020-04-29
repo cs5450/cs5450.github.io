@@ -241,7 +241,7 @@ nav: lectures
 <td align="right">15</td>
 <td align="left">4/27</td>
 <td align="left">Zanzibar</td>
-<td></td>
+<td>no slides</td>
 <td></td>
 </tr>
 
@@ -249,7 +249,7 @@ nav: lectures
 <td align="right">15</td>
 <td align="left">4/29</td>
 <td align="left">Zookeeper</td>
-<td><td><td><a href="{{ site.url }}/lectures/zookeeper.pdf">slides</a></td>
+<td><a href="{{ site.url }}/lectures/zookeeper.pdf">slides</a></td>
 <td></td>
 </tr>
 

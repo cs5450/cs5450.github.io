@@ -253,6 +253,13 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">16</td>
+<td align="left">5/4</td>
+<td align="left">Federated learning</td>
+<td></td>
+<td></td>
+</tr>
 
 </tbody>
 </table>

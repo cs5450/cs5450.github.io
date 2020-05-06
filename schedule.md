@@ -257,7 +257,7 @@ nav: lectures
 <td align="right">16</td>
 <td align="left">5/4</td>
 <td align="left">Federated learning</td>
-<td></td>
+<td><a href="{{ site.url }}/lectures/fedlearn.pdf">slides</a></td>
 <td></td>
 </tr>
 

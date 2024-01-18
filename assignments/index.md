@@ -5,8 +5,8 @@ nav: assignments
 ---
 
 ## Assignments
-
-Assignments are available on CMS.  Please use Git to work on your projects.
+Assignments are available on Canvas.
+<!-- Assignments are available on Canvas.  Please use Git to work on your projects. -->
 
 ### Lab Schedule
 

@@ -11,3 +11,4 @@ _site/
 *.blg
 *.log
 *.lock
+# run "bundle exec jekyll serve" to view website locally

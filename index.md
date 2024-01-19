@@ -19,7 +19,7 @@ Please use [**Slack**]({{site.data.main.slack}}) for all interactions regarding 
 #### [**Vitaly Shmatikov**](http://www.cs.cornell.edu/~shmat/) (Instructor)  
 email: shmat@cs.cornell.edu
 
-Office hours:  Send an email in advance
+Office hours: message on Slack
 
 #### [**Tingwei Zhang**](https://ztingwei.com/) (TA)
 email: tz362@cornell.edu

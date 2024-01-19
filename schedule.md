@@ -24,6 +24,104 @@ nav: lectures
 <td align="right">1</td>
 <td align="left">1/23</td>
 <td align="left">Course overview.  Introduction to distributed systems.</td>
+<td>slides</td>
+<td>Homework 1 released.</td>
+</tr>
+
+<tr>
+<td align="right">1</td>
+<td align="left">1/25</td>
+<td align="left">Internet architecture and principles</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td align="left">1/30</td>
+<td align="left">Link layer: reliable transmission, Ethernet, 802.11.</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td align="left">2/1</td>
+<td align="left">IP</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">2/6</td>
+<td align="left">TCP</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td align="left">2/8</td>
+<td align="left">BGP</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">2/13</td>
+<td align="left">RPC</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td align="left">2/15</td>
+<td align="left">P2P systems</td>
+<td>slides</td>
+<td><b>project #1 due on 2/18</b></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">2/20</td>
+<td align="left"><b>Midterm #1</b></td>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+
+
+<!-- ---
+layout: default
+title: Lectures
+nav: lectures
+---
+
+## Lectures
+
+<h3 id="toc_2">Lecture Schedule (may be updated as needed)</h3>
+<br>
+<table>
+<thead>
+<tr>
+<th align="right">Week</th>
+<th align="left">Date</th>
+<th align="left">Topic</th>
+<th>Readings</th>
+<th>Assignments</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td align="right">1</td>
+<td align="left">1/23</td>
+<td align="left">Course overview.  Introduction to distributed systems.</td>
 <td><a href="{{ site.url }}/lectures/intro.pdf">slides</a></td>
 <td>Homework 1 released.</td>
 </tr>
@@ -172,14 +270,6 @@ nav: lectures
 <td></td>
 </tr>
 
-<!-- <tr>
-<td align="right">11</td>
-<td align="left">4/1</td>
-<td align="left">TAO (optional)</td>
-<td>no slides</td>
-<td></td>
-</tr> -->
-
 <tr>
 <td align="right">12</td>
 <td align="left">4/9</td>
@@ -261,4 +351,4 @@ nav: lectures
 </tr>
 
 </tbody>
-</table>
+</table> -->

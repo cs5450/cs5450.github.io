@@ -26,12 +26,17 @@ email: tz362@cornell.edu
 
 Office hours: TBD
 
+Link: [**https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09**](https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09)
+
 <!-- #### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (half-TA)
 email: eugene@cs.cornell.edu -->
 
 <!-- Office hours: Tuesdays 3-4pm, Bloomberg 367 -->
 
-**You can use Zoom.us to connect to the meeting remotely**(let me know in advance): [**https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09**](https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09)
+<!-- #### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (half-TA)
+email: eugene@cs.cornell.edu -->
+
+<!-- Office hours: Tuesdays 3-4pm, Bloomberg 367 -->
 
 ## Important notes:
 

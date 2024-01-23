@@ -24,7 +24,7 @@ Office hours: message on Slack
 #### [**Tingwei Zhang**](https://ztingwei.com/) (TA)
 email: tz362@cornell.edu
 
-Office hours: TBD
+Office hours: Fri 9-10am
 
 Link: [**https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09**](https://cornell.zoom.us/j/91206169537?pwd=eTQ0QWhRZ0VYQlpBSVhacVBWcm8wQT09)
 

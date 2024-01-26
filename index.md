@@ -6,7 +6,7 @@ nav: Home
 
 ## Welcome to CS 5450
 
-Welcome to CS 5450: Networked and Distributed Computing at Cornell Tech. This course introduces students to the design and implementation of networked and distributed systems.  Topics include the basics of networking (including Internet architecture, TCP/IP, Wi-Fi, and routing), distributed protocols, foundations of mobile and Web computing, virtualization, cloud computing, reliability, fault tolerance, and security in distributed systems, and introduction to performance evaluation.  Course labs, projects, and exercises include a significant implementation component and require working knowledge of C/C++.
+This course introduces students to the design and implementation of networked and distributed systems. Topics include the basics of networking (including Internet architecture, TCP/IP, Wi-Fi, and routing), distributed protocols, foundations of cloud computing, reliability, fault tolerance, and security in distributed systems, and introduction to performance evaluation. Course labs and projects include a significant implementation component and require working knowledge of C/C++.
 
 The class Tues&Thurs 11:40am-12:55pm. Location: Bloomberg 131.
 

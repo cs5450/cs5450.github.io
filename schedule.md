@@ -47,7 +47,7 @@ nav: lectures
 <tr>
 <td align="right">2</td>
 <td align="left">2/1</td>
-<td align="left">IP</td>
+<td align="left">IP: Internet address management</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -55,7 +55,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/6</td>
-<td align="left">BGP</td>
+<td align="left">BGP: inter-domain routing</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -63,7 +63,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/8</td>
-<td align="left">TCP</td>
+<td align="left">TCP: reliable end-to-end transmission</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -71,7 +71,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/13</td>
-<td align="left">RPC</td>
+<td align="left">RPC: remote procedure calls</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -79,7 +79,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/15</td>
-<td align="left">P2P systems</td>
+<td align="left">Peer-to-peer systems</td>
 <td>slides</td>
 <td><b>project #1 due on 2/18</b></td>
 </tr>

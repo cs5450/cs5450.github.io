@@ -55,7 +55,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/6</td>
-<td align="left">TCP</td>
+<td align="left">BGP</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -63,7 +63,7 @@ nav: lectures
 <tr>
 <td align="right">3</td>
 <td align="left">2/8</td>
-<td align="left">BGP</td>
+<td align="left">TCP</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -89,6 +89,38 @@ nav: lectures
 <td align="left">2/20</td>
 <td align="left"><b>Midterm #1</b></td>
 <td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td align="left">2/22</td>
+<td align="left">Time in distributed systems</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td align="left">2/29</td>
+<td align="left">DNS</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">7</td>
+<td align="left">3/5</td>
+<td align="left">CDNs</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">7</td>
+<td align="left">3/7</td>
+<td align="left">MapReduce</td>
+<td>slides</td>
 <td></td>
 </tr>
 

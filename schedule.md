@@ -71,7 +71,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/13</td>
-<td align="left">RPC: remote procedure calls</td>
+<td align="left">Peer-to-peer systems</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -79,7 +79,7 @@ nav: lectures
 <tr>
 <td align="right">4</td>
 <td align="left">2/15</td>
-<td align="left">Peer-to-peer systems</td>
+<td align="left">RPC: remote procedure calls</td>
 <td>slides</td>
 <td><b>project #1 due on 2/18</b></td>
 </tr>
@@ -95,7 +95,7 @@ nav: lectures
 <tr>
 <td align="right">5</td>
 <td align="left">2/22</td>
-<td align="left">Time in distributed systems</td>
+<td align="left">Anonymity networks</td>
 <td></td>
 <td></td>
 </tr>
@@ -120,6 +120,14 @@ nav: lectures
 <td align="right">7</td>
 <td align="left">3/7</td>
 <td align="left">MapReduce</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">8</td>
+<td align="left">3/12</td>
+<td align="left">Spark</td>
 <td>slides</td>
 <td></td>
 </tr>

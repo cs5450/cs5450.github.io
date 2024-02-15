@@ -95,7 +95,7 @@ nav: lectures
 <tr>
 <td align="right">5</td>
 <td align="left">2/22</td>
-<td align="left">Anonymity networks</td>
+<td align="left">Circumventing Internet censorship</td>
 <td></td>
 <td></td>
 </tr>
@@ -103,7 +103,7 @@ nav: lectures
 <tr>
 <td align="right">6</td>
 <td align="left">2/29</td>
-<td align="left">DNS</td>
+<td align="left">DNS: Domain Name System</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -111,7 +111,7 @@ nav: lectures
 <tr>
 <td align="right">7</td>
 <td align="left">3/5</td>
-<td align="left">CDNs</td>
+<td align="left">CDNs: content distribution</td>
 <td>slides</td>
 <td></td>
 </tr>

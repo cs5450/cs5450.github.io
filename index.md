@@ -26,7 +26,7 @@ email: tz362@cornell.edu
 
 Office hours: Fri 9-10am
 
-Link: [**https://cornell.zoom.us/j/95724870916?pwd=eUVMU1ZlTVNGdWtBWjQwWERPWm12QT09**](https://cornell.zoom.us/j/95724870916?pwd=eUVMU1ZlTVNGdWtBWjQwWERPWm12QT09)
+Link: [**https://cornell.zoom.us/j/95296651947?pwd=WGV2eDBJcnkwbU5YVnhpZkxseTB4UT09**](https://cornell.zoom.us/j/95296651947?pwd=WGV2eDBJcnkwbU5YVnhpZkxseTB4UT09)
 
 <!-- #### [**Eugene Bagdasaryan**](https://ebagdasa.github.io) (half-TA)
 email: eugene@cs.cornell.edu -->

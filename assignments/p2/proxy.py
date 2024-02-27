@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-The proxy program for CS5450  - Tingwei.
+The proxy program for CS5450  -Tingwei.
 """
 
 import sys
@@ -42,10 +42,10 @@ class ClientHandler(Thread):
                     continue
                 if s[0] == 'chatLog':
                     chatLog = s[1]
-                    print chatLog
+                    print(chatLog)
                     wait_chat_log = False
                 else:
-                    print 'WRONG MESSAGE:', s
+                    print( 'WRONG MESSAGE:', s)
             else:
                 try:
                     data = self.sock.recv(1024)
@@ -60,7 +60,7 @@ class ClientHandler(Thread):
 
     def send(self, s):
         if self.valid:
-            self.sock.send(str(s) + '\n')
+            self.sock.send((str(s) + '\n').encode('utf-8'))
 
     def close(self):
         try:

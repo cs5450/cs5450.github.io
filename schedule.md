@@ -193,7 +193,7 @@ nav: lectures
 <td align="left">4/16</td>
 <td align="left">GFS</td>
 <td>slides</td>
-<td></td>
+<td><b>project #3 due</b></td>
 </tr>
 
 <tr>

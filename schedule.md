@@ -215,7 +215,7 @@ nav: lectures
 <tr>
 <td align="right">13</td>
 <td align="left">4/25</td>
-<td align="left">Distributed commit</td>
+<td align="left">Distributed systems for machine learning</td>
 <td>slides</td>
 <td></td>
 </tr>
@@ -223,6 +223,14 @@ nav: lectures
 <tr>
 <td align="right">14</td>
 <td align="left">4/30</td>
+<td align="left">Distributed commit</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">5/1</td>
 <td align="left">Spanner</td>
 <td>slides</td>
 <td></td>

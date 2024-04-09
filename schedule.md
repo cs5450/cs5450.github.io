@@ -188,6 +188,46 @@ nav: lectures
 <td></td>
 </tr>
 
+<tr>
+<td align="right">12</td>
+<td align="left">4/16</td>
+<td align="left">GFS</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td align="left">4/18</td>
+<td align="left">Chubby and BigTable</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">4/23</td>
+<td align="left">TBD</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td align="left">4/25</td>
+<td align="left">Distributed commit</td>
+<td>slides</td>
+<td></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td align="left">4/30</td>
+<td align="left">Spanner</td>
+<td>slides</td>
+<td></td>
+</tr>
+
 </tbody>
 </table>
 
@@ -219,46 +259,6 @@ nav: lectures
 <td align="left">3/14</td>
 <td align="left">State machine replication</td>
 <td><a href="{{ site.url }}/lectures/smr.pdf">slides</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">9</td>
-<td align="left">3/19</td>
-<td align="left">Intro to consensus</td>
-<td><a href="{{ site.url }}/lectures/primary-backup.pdf">slides #1</a>, <a href="{{ site.url }}/lectures/sync-consensus.pdf">slides #2</a></td>
-<td><b>project #2 due</b></td>
-</tr>
-
-<tr>
-<td align="right">9</td>
-<td align="left">3/21</td>
-<td align="left">Paxos (optional)</td>
-<td>no slides</td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">10</td>
-<td align="left">3/26</td>
-<td align="left">Anonymity networks</td>
-<td><a href="{{ site.url }}/lectures/anonnetworks.pdf">slides</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">10</td>
-<td align="left">3/28</td>
-<td align="left">Federated learning</td>
-<td><a href="{{ site.url }}/lectures/fedlearn.pdf">slides</a></td>
-<td></td>
-</tr>
-
-<tr>
-<td align="right">12</td>
-<td align="left">4/9</td>
-<td align="left">Dynamo</td>
-<td><a href="{{ site.url }}/lectures/dynamo.pdf">slides</a></td>
 <td></td>
 </tr>
 
